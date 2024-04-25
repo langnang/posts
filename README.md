@@ -8,3 +8,4 @@
 - [templates](./46.templates/README.md)
 - [softwares](./47.softwares/README.md)
 - [frameworks](./48.frameworks/README.md)
+- [applications](./xx.applications/README.md)
