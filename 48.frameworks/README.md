@@ -24,7 +24,7 @@
 |laravel-v8|35.1MB|1165|7109|
 |[laravel8-modules](./laravel8-modules.md)|35.5MB|1221|7293|
 |lumen-v8|27.8MB|854|5479|
-|[laravel8-modules](./lumen8-modules.md)|28.4MB|885|5620|
+|[lumen8-modules](./lumen8-modules.md)|28.4MB|885|5620|
 |thinkphp-v6|3.17MB|154|698|
 |symfony-v5|6.79MB|282|1520|
 
