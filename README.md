@@ -1,10 +1,10 @@
 # docs
 
-- [simple](./41.simple/)
-- [packages](./42.packages/)
-- [projects](./43.projects/)
-- [extensions](./44.extensions/)
-- [examples](./45.examples/)
-- [templates](./46.templates/)
+- [simple](./41.simple/README.md)
+- [packages](./42.packages/README.md)
+- [projects](./43.projects/README.md)
+- [extensions](./44.extensions/README.md)
+- [examples](./45.examples/README.md)
+- [templates](./46.templates/README.md)
 - [softwares](./47.softwares/README.md)
-- [frameworks](./48.frameworks/)
+- [frameworks](./48.frameworks/README.md)
