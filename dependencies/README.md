@@ -9,6 +9,8 @@
 ### axios
 
 ```html
+<!-- UNPKG -->
+<script src="https://www.unpkg.com/axios"></script>
 ```
 
 ### boostrap
