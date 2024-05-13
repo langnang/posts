@@ -1,7 +1,7 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+  <data class="u-url" href="{{ " /" | relative_url }}"></data>
 
-  <div class="wrapper">
+  <div class="container">
 
     <div class="footer-col-wrapper">
       <div class="footer-col">
@@ -12,16 +12,16 @@
             </svg><span>Subscribe</span>
           </a>
         </p>
-      {%- if site.author %}
+        {%- if site.author %}
         <ul class="contact-list">
           {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
+          <li class="p-name">{{ site.author.name | escape }}</li>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
           {%- endif %}
         </ul>
-      {%- endif %}
+        {%- endif %}
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
@@ -35,3 +35,6 @@
   </div>
 
 </footer>
+
+<script src="https://www.unpkg.com/axios@1.6.8/dist/axios.min.js"></script>
+<script src="https://www.unpkg.com/jquery@3.7.1/dist/jquery.min.js"></script>
