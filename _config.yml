@@ -30,9 +30,10 @@ twitter_username: langnang
 github_username: langnang
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-readme-index
 # Exclude from processing.
 # The following items will not be processed, by default.
