@@ -1,3 +1,6 @@
+---
+layout: default
+---
 - [Applications](./applications/README.md): 应用
 - [Awesome](./awesome/README.md): 资源列表
 - [CheatSheet](./cheatsheet/README.md): 速查表
