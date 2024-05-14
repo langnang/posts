@@ -1,5 +1,9 @@
 ---
-github: 
+layout: default
+
+reprint:
+    url:
+    title:
 ---
 
 Awesome Series @ Planet Jekyll
