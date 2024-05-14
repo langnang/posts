@@ -3,15 +3,11 @@ created: 2024-05-09T14:48:11 (UTC +08:00)
 tags: []
 source: https://overapi.com/css
 author: OverAPI
+layout: cheatsheet
 ---
 
 # CSS Cheat Sheet | OverAPI.com
 
-> ## Excerpt
->
-> OverAPI.com is a site collecting all the cheatsheets,all!
-
----
 
 ## Resource
 

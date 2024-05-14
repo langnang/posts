@@ -3,13 +3,10 @@ created: 2024-05-09T14:49:38 (UTC +08:00)
 tags: []
 source: https://overapi.com/git
 author: OverAPI
+layout: cheatsheet
 ---
 
 # Git Cheat Sheet | OverAPI.com
-
-> ## Excerpt
->
-> OverAPI.com is a site collecting all the cheatsheets,all!
 
 ---
 
@@ -17,200 +14,278 @@ author: OverAPI
 
 ### From existing directory
 
-- cd project\_dir
-- git init
-- git add .
+```bash
+cd project_dir
+git init
+git add .
+```
 
 ### From other repository
 
-- git clone existing\_dir new\_dir
-- git clone git://github.com/user/repo.git
-- git clone https://github.com/user/repo.git
+```bash
+git clone existing\_dir new\_dir
+git clone git://github.com/user/repo.git
+git clone https://github.com/user/repo.git
+```
 
 ## Local Changes
 
 ### Changed in working directory
 
-- git status
+```
+git status
+```
 
 ### Tracked file changes
 
-- git diff
+```
+git diff
+```
 
 ### Add changed files
 
-- git add file1 file2 file3
+```
+git add file1 file2 file3
+```
 
 ### Remove file
 
-- git rm file
-- git rm dir/ -r
-- (recursive under directory)
+```
+git rm file
+git rm dir/ -r
+(recursive under directory)
+```
 
 ### See files ready for commit
 
-- git diff --cached
+```
+git diff --cached
+```
 
 ### Commit changes
 
-- git commit
-- git commit -m "My message"
-- git commit -a -m "My Message"
-- (tracked files only, auto add)
+```
+git commit
+git commit -m "My message"
+git commit -a -m "My Message"
+(tracked files only, auto add)
+```
 
 ### Change last commit
 
-- git commit --amend
+```
+git commit --amend
+```
 
 ### Revert changes to file
 
-- git checkout -- file
+```
+git checkout -- file
+```
 
 ### Revert changes (new commit)
 
-- git revert HEAD
+```
+git revert HEAD
+```
 
 ### Return to last committed state
 
-- git reset --hard HEAD
+```
+git reset --hard HEAD
+```
 
 ## History
 
 ### Short Format
 
-- git log --pretty=-short
+```
+git log --pretty=-short
+```
 
 ### Show file commits
 
-- git log file
+```
+git log file
+```
 
 ### Show directory commits
 
-- git log dir/
+```
+git log dir/
+```
 
 ### Who changed file
 
-- git blame file
+```
+git blame file
+```
 
 ## Merge/Rebase
 
 ### Merge branch into current
 
-- git merge branch
+```
+git merge branch
+```
 
 ### Rebase into branch
 
-- git rebase branch
-- git rebase master branch
+```
+git rebase branch
+git rebase master branch
+```
 
 ### Abort rebase
 
-- git rebase --abort
+```
+git rebase --abort
+```
 
 ### Merge tool to solve conflicts
 
-- git mergetool
+```
+git mergetool
+```
 
 ### To view the merge conflicts
 
-- git diff
-- complete conflict diff
-- git diff --base $file
-- against base file
-- git diff --ours $file
-- against your changes
-- git diff --theirs $file
-- against other changes
+```
+git diff
+complete conflict diff
+git diff --base $file
+against base file
+git diff --ours $file
+against your changes
+git diff --theirs $file
+against other changes
+```
 
 ### To discard conflicting patch
 
-- git reset --hard
-- git rebase --skip
+```
+git reset --hard
+git rebase --skip
+```
 
 ### After resolving conflicts
 
-- git add $conflicting\_file
-- do for all resolved files
-- git rebase --continue
+```
+git add $conflicting_file
+do for all resolved files
+git rebase --continue
+```
 
 ## Remote Update / Publish
 
 ### List remotes
 
-- git remote -v
+```
+git remote -v
+```
 
 ### Show information
 
-- git remote show remote
+```
+git remote show remote
+```
 
 ### Add remote
 
-- git remote add path/url
+```
+git remote add path/url
+```
 
 ### Fetch changes
 
-- git fetch remote
+```
+git fetch remote
+```
 
 ### Fetch + merge
 
-- git pull remote branch
+```
+git pull remote branch
+```
 
 ### Publish local to remote
 
-- git push remote branch
+```
+git push remote branch
+```
 
 ### Delete remote branch
 
-- git push remote :branch
+```
+git push remote :branch
+```
 
 ### Publish tags
 
-- git push origin/upstream --tags
+```
+git push origin/upstream --tags
+```
 
 ## Branching/Tagging
 
 ### Switch to branch
 
-- git checkout branch
+```
+git checkout branch
+```
 
 ### Create new branch
 
-- git branch new
+```
+git branch new
+```
 
 ### Create branch from existing
 
-- git branch new existing
+```
+git branch new existing
+```
 
 ### Delete branch
 
-- git branch -d branch
+```
+git branch -d branch
+```
 
 ### Tag current commit
 
-- git tag tagname
+```
+git tag tagname
+```
 
 ## Useful Commands
 
 ### Finding Regressions
 
-- git bisect start
-- to start
-- git bisect good $id
-- $id is the last working version
-- git bisect bad $id
-- $id is a broken version
-- git bisect bad/good
-- to mark it as bad or good
-- git bisect visualize
-- to launch gitk and mark it
-- git bisect reset
-- once you're done
+```
+git bisect start
+to start
+git bisect good $id
+$id is the last working version
+git bisect bad $id
+$id is a broken version
+git bisect bad/good
+to mark it as bad or good
+git bisect visualize
+to launch gitk and mark it
+git bisect reset
+once you're done
+```
 
 ### Check for Errors and Cleanup Repository
 
-- git fsck
-- git gc --prune
+```
+git fsck
+git gc --prune
+```
 
 ### Search Working Directory for foo()
 
-- git grep "foo()"
+```
+git grep "foo()"
+```

@@ -1,4 +1,7 @@
 *
 !.gitignore
+!cheatsheet.html
 !default.html
+!fluid.html
 !icon.html
+!question.html
