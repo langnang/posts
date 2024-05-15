@@ -2,10 +2,8 @@
 layout: fluid
 ---
 
-<div class="container-fluid" id="app">
-  <div class="row">
-    <h1 v-text="articleTitle"></h1>
-  </div>
+<div class="container-fluid" id="app" data-wrapper="cheatsheet">
+  <h1 class="row" v-text="articleTitle"></h1>
   <div class="row" data-masonry='{ "itemSelector": ".col-3"}'>
     <div class="col-3 my-1 px-1" v-for="item in articleText" :key="item">
       <div class="card">

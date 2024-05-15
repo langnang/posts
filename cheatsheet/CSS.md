@@ -8,7 +8,6 @@ layout: cheatsheet
 
 # CSS Cheat Sheet | OverAPI.com
 
-
 ## Resource
 
 ### Download
@@ -76,7 +75,7 @@ layout: cheatsheet
 - [\[_attribute_\]](https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors "Selects all elements with a target attribute")
 - [\[_attribute_\=_value_\]](https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors "Selects all elements with target=")
 - [\[_attribute_~=_value_\]](https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors "Selects all elements with a title attribute containing the word ")
-- [\[_attribute_|=_value_\]](https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors "Selects all elements with a lang attribute value starting with ")
+- [\[_attribute_\|=_value_\]](https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors "Selects all elements with a lang attribute value starting with ")
 - [_element1_~_element2_](https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors "Selects every <ul> element that are preceded by a <p> element")
 - [\[_attribute_^=_value_\]](https://developer.mozilla.org/en-US/docs/CSS/Attribute_selectors "Selects every <a> element whose src attribute value begins with ")
 - [\[_attribute_$=_value_\]](http://www.w3schools.com/cssref/sel_attr_end.asp "Selects every <a> element whose src attribute value ends with ")
