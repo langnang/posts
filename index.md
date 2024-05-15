@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Home
+created_at: 2024-05-15 13:45:58
 ---
 
 <!-- - [Applications](./applications/): 应用
@@ -99,6 +101,32 @@ layout: default
                         <div class="media-body">
                             <h3 class="card-title mt-0">Question</h3>
                             <p class="card-text">试题</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col p-2">
+            <a class="card" href="./dependencies/">
+                <div class="card-body p-3">
+                    <div class="media">
+                        <img src="holder.js/60x60" class="align-self-center mr-2" alt="...">
+                        <div class="media-body">
+                            <h3 class="card-title mt-0">Dependencies</h3>
+                            <p class="card-text">依赖</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col p-2">
+            <a class="card" href="./standards/">
+                <div class="card-body p-3">
+                    <div class="media">
+                        <img src="holder.js/60x60" class="align-self-center mr-2" alt="...">
+                        <div class="media-body">
+                            <h3 class="card-title mt-0">Standards</h3>
+                            <p class="card-text">标准规范</p>
                         </div>
                     </div>
                 </div>

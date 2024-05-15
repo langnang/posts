@@ -204,7 +204,7 @@ See the **Awesome Jekyll Plugins List** (github: [planetjekyll/awesome-jekyll-pl
 **Docs @ Liquid Wiki**
 
 - [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-    - Output (`{{ }}`)
+    - Output (`{\{ }\}`)
        - Advanced output: Filters • Standard Filters
     - Tags (`\{\% \%\}`)
        - Comments • Raw • If / Else • Case Statement • Cycle • For loops • Variable Assignment

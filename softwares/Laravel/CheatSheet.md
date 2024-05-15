@@ -2312,12 +2312,12 @@ View::creator('viewname', function($view){});
 
 ```
 // 输出内容，被转义过的
-{{ $var }}
+{\{ $var }}
 // 输出未转义内容
 {!! $var !!}
-{{-- Blade 注释，不会被输出到页面中 --}}
+{\{-- Blade 注释，不会被输出到页面中 --}}
 // 三元表达式的简写，以下相当于「isset($name) ? $name : 'Default'」
-{{ $name ?? 'Default' }}
+{\{ $name ?? 'Default' }}
 // 等同 echo json_encode($array);
 @json($array);
 // 禁用 HTML 实体双重编码
@@ -2327,7 +2327,7 @@ Blade::withoutDoubleEncoding();
 @endphp
 @csrf // CSRF 域
 @method('PUT') // HTML 表单伪造方法 _method
-// 服务容器注入，后调用 {{ $metrics->monthlyRevenue() }}
+// 服务容器注入，后调用 {\{ $metrics->monthlyRevenue() }}
 @inject('metrics', 'App\Services\MetricsService')
 ```
 
@@ -2451,11 +2451,11 @@ $loop->parent       // 嵌套循环中，父循环的循环变量
 ### JavaScript 代码
 
 ```
-// JS 框架，保留双大括号，以下会编译为 {{ name }}
-@{{ name }}
+// JS 框架，保留双大括号，以下会编译为 {\{ name }}
+@{\{ name }}
 // 大段 JavaScript 变量，verbatim 里模板引擎将不解析
 @verbatim
-        Hello, {{ javascriptVariableName }}.
+        Hello, {\{ javascriptVariableName }}.
 @endverbatim
 ```
 

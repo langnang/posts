@@ -15,16 +15,32 @@
     [data-wrapper="cheatsheet"] h2 {
       margin-top: .5rem;
     }
+
+    .markdown-body table {
+      display: table;
+    }
+  </style>
+  <style>
+    [data-wrapper="content"] li img {
+      width: 24px;
+    }
   </style>
 </head>
 
 <body>
   <div class="container-lg px-3 my-5 markdown-body">
-    {% if site.title and site.title != page.title %}
-    <h1><a href="{{ '/' | absolute_url }}">{{ site.title }}</a></h1>
+    {% if page.title and site.title and site.title != page.title %}
+    <h1 class="d-flex justify-content-between">
+      <span>{{page.title}}</span>
+      <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+    </h1>
+    {% else if site.title and site.title != page.title %}
+    <h1 class="">
+      <a href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+    </h1>
     {% endif %}
 
-    <section class="pt-1" role="content" style="min-height: calc(100vh - 252px);">
+    <section class="pt-1" data-wrapper="content" style="min-height: calc(100vh - 252px);">
       {{ content }}
     </section>
 
@@ -42,6 +58,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
   <script>anchors.add();</script>
   <script src="https://www.unpkg.com/holderjs@2.9.9/holder.min.js"></script>
+  <script>
+  </script>
 </body>
 
 </html>

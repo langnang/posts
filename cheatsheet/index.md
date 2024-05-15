@@ -1,4 +1,6 @@
-# CheatSheet
+---
+title: CheatSheet
+---
 
 - [CSS](./CSS.md)
 - [Git](./Git.md)
@@ -15,30 +17,24 @@
 
  -->
 
-- [OverAPI](https://overapi.com/)
-    : Collecting All Cheat Sheets
-- [Cheatography](https://cheatography.com/)
-    : Cheat Sheets For Every Occasion
-- [CheatRepo](https://cheatrepo.com/)
-    : Create cheat sheets online.
-- [JavaScript Cheat Sheets](https://cheatsheets-js.com/)
-    : a web application that provides a quick reference guide to the syntax, methods, and properties of JavaScript.
-- [CheatCheetah](https://www.cheatcheetah.com/)
-    : Best Free Cheatsheets
-- [Cheat Sheet](https://cheat-sheets.org/)
-    : All Cheat Sheets in one page
-- [QuickRef.ME](https://quickref.me/)
-    : Quick Reference Cheat Sheet
-- [Cheatsheets | Codecademy](https://www.codecademy.com/resources/cheatsheets/all)
-    :
+- [OverAPI](https://overapi.com/): Collecting All Cheat Sheets
+- [Cheatography](https://cheatography.com/): Cheat Sheets For Every Occasion
+- [CheatRepo](https://cheatrepo.com/): Create cheat sheets online.
+- [JavaScript Cheat Sheets](https://cheatsheets-js.com/): a web application that provides a quick reference guide to the syntax, methods, and properties of JavaScript.
+- [CheatCheetah](https://www.cheatcheetah.com/): Best Free Cheatsheets
+- [Cheat Sheet](https://cheat-sheets.org/): All Cheat Sheets in one page
+- [QuickRef.ME](https://quickref.me/): Quick Reference Cheat Sheet
+- [Cheatsheets \| Codecademy](https://www.codecademy.com/resources/cheatsheets/all):
 
 [**cheatsheet · GitHub Topics**](https://github.com/topics/cheatsheet)
+
 <!-- 
 - ![](https://img.shields.io/github/stars/?style=flat)
     [](https://github.com/)
       : 
 
  -->
+
 - ![](https://img.shields.io/github/stars/trimstray/the-book-of-secret-knowledge?style=flat)
     [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
       : A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.

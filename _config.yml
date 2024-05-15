@@ -20,6 +20,11 @@
 
 title: Docs
 email: langnang.chen@outlook.com
+
+baseStorageUrl: https://cdn.jsdelivr.net/gh/langnang/storage
+baseFaviconUrl: https://cdn.jsdelivr.net/gh/langnang/storage/img/favicon
+baseLogoUrl: https://cdn.jsdelivr.net/gh/langnang/storage/img/logo
+
 # description: >- # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
@@ -38,6 +43,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-readme-index
   - jekyll-relative-links
+  - github-pages
+  - jemoji
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -69,3 +76,6 @@ relative_links:
 include:
   - SUMMARY.md
   - README.md
+
+emoji:
+  src: "/assets/images/emoji"

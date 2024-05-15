@@ -1,3 +1,19 @@
+---
+title: Standards
+---
+
+## Composer
+
+```json
+// composer.json
+{}
+```
+
+## EditorConfig
+
+```ini
+# /.editorconfig
+
 # EditorConfig is awesome: https://EditorConfig.org
 
 # top-most EditorConfig file
@@ -20,3 +36,22 @@ indent_size = 2
 
 [docker-compose.yml]
 indent_size = 4
+```
+
+## Jekyll
+
+```yml
+# _config.yml
+```
+
+## Node
+
+```json
+// package.json
+```
+
+## RubyGems
+
+```yml
+# .Gemfile
+```
