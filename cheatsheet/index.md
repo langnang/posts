@@ -9,8 +9,28 @@
 
 ## References
 
-- [OverAPI.com](https://overapi.com/)
+<!-- 
+- []()
+    : 
+
+ -->
+
+- [OverAPI](https://overapi.com/)
     : Collecting All Cheat Sheets
+- [Cheatography](https://cheatography.com/)
+    : Cheat Sheets For Every Occasion
+- [CheatRepo](https://cheatrepo.com/)
+    : Create cheat sheets online.
+- [JavaScript Cheat Sheets](https://cheatsheets-js.com/)
+    : a web application that provides a quick reference guide to the syntax, methods, and properties of JavaScript.
+- [CheatCheetah](https://www.cheatcheetah.com/)
+    : Best Free Cheatsheets
+- [Cheat Sheet](https://cheat-sheets.org/)
+    : All Cheat Sheets in one page
+- [QuickRef.ME](https://quickref.me/)
+    : Quick Reference Cheat Sheet
+- [Cheatsheets | Codecademy](https://www.codecademy.com/resources/cheatsheets/all)
+    :
 
 [**cheatsheet · GitHub Topics**](https://github.com/topics/cheatsheet)
 <!-- 
