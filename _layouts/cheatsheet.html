@@ -3,9 +3,11 @@ layout: fluid
 ---
 
 <div class="container-fluid" id="app" data-wrapper="cheatsheet">
-  <h1 class="row" v-text="articleTitle"></h1>
-  <div class="row" data-masonry='{ "itemSelector": ".col-3"}'>
-    <div class="col-3 my-1 px-1" v-for="item in articleText" :key="item">
+  <div class="row row-cols-1">
+    <div class="col px-2" v-html="articlePre"></div>
+  </div>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4" data-masonry='{ "itemSelector": ".col"}'>
+    <div class="col my-1 px-1" v-for="item in articleText" :key="item">
       <div class="card">
         <div class="card">
           <div class="card-body px-2 py-2" v-html="'<h2'+item">
@@ -150,6 +152,9 @@ layout: fluid
       },
       articleText() {
         return this.article.data.html.split("<h2").slice(1)
+      },
+      articlePre() {
+        return this.article.data.html.split("<h2")[0]
       },
       articleTitle() {
         return this.article.data.html.split("</h1")[0].split(">")[1]

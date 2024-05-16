@@ -13,8 +13,8 @@ layout: default
       </div>
     </form>
   </div>
-  <div class="row">
-    <div class="col-2 my-1 px-1" v-for="item in tableCurrentData" :key="item.slug">
+  <div class="row row-cols-2 row-cols-sm-4 row-cols-md-6">
+    <div class="col my-1 px-1" v-for="item in tableCurrentData" :key="item.slug">
       <div class="card">
         <div class="card">
           <img :data-src="'https://cdn.jsdelivr.net/gh/langnang/storage'+item.relativePath" class="card-img-top lazyload" alt="..." style="height: 4rem;">

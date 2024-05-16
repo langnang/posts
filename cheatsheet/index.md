@@ -8,6 +8,7 @@ title: CheatSheet
 - [JavaScript](./JavaScript.md)
 - [jQuery](./jQuery.md)
 - [PHP](./PHP.md)
+- [Shield](./Shield.md)
 
 ## References
 

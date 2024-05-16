@@ -14,7 +14,7 @@ created_at: 2024-05-15 13:45:58
 - [Emoji](./emoji.md) -->
 
 <div class="container">
-    <div class="row row-cols-3" style="margin-top: calc(50vh - 126px - 173px);">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div class="col p-2">
             <a class="card" href="./applications/">
                 <div class="card-body p-3">
