@@ -1,5 +1,6 @@
-# Guide
-
+---
+title: Guide
+---
 
 - [emoji](./emoji.md)
 - [SVG](./svg.md)

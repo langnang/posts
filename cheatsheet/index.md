@@ -1,5 +1,6 @@
 ---
 title: CheatSheet
+_data: cheatsheet_list
 ---
 
 - [CSS](./CSS.md)

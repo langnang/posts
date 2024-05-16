@@ -12,7 +12,11 @@ created_at: 2024-05-15 13:45:58
 - [SVG](./svg.md)
 - [ICO](./ico.md)
 - [Emoji](./emoji.md) -->
-
+<style>
+    .media>img{
+        display:none;
+    }
+</style>
 <div class="container">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
         <div class="col p-2">
@@ -93,7 +97,7 @@ created_at: 2024-05-15 13:45:58
                 </div>
             </a>
         </div>
-        <div class="col p-2">
+        <div class="col p-2 d-none">
             <a class="card" href="./question/">
                 <div class="card-body p-3">
                     <div class="media">

@@ -1,0 +1,88 @@
+npm_packages:
+  - name: axios
+    description: Promise based HTTP client for the browser and node.js
+    homepage: https://axios-http.com/
+    storageIco:
+    ico: https://axios-http.com/assets/favicon.ico
+    github:
+      user: axios
+      repo: axios
+
+  - name: bootstrap
+    description: Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+    homepage: https://www.bootcss.com/
+    storageIco:
+    ico: https://www.bootcss.com/assets/favicons/favicon.ico
+    github:
+      user: twbs
+      repo: bootstrap
+
+  - name: bootstrap-icons
+    description: Official open source SVG icon library for Bootstrap with over 2,000 icons.
+    homepage: https://icons.getbootstrap.com/
+    storageIco:
+    ico: https://icons.getbootstrap.com/assets/img/favicons/favicon.ico
+    github:
+      user: twbs
+      repo: icons
+
+  - name: jquery
+    description: a fast, small, and feature-rich JavaScript library.
+    homepage: https://jquery.com/
+    storageIco:
+    ico: https://jquery.com/favicon.ico
+    github:
+      user: jquery
+      repo: jquery
+
+  - name: masonry-layout
+    description: Cascading grid layout library
+    homepage: https://masonry.desandro.com/
+    storageIco:
+    ico: https://masonry.desandro.com/favicon.ico
+    github:
+      user: desandro
+      repo: masonry
+
+  - name: react
+    description: a JavaScript library for creating user interfaces.
+    homepage: https://react.docschina.org/
+    storageIco:
+    ico: https://react.docschina.org/favicon.ico
+    github:
+      user: facebook
+      repo: react
+
+  - name: simple-icons
+    description: Over 3100 Free SVG icons for popular brands.
+    homepage: https://simpleicons.org/
+    storageIco:
+    ico: https://simpleicons.org/images/favicon.ico
+    github:
+      user: simple-icons
+      repo: simple-icons
+
+  - name: vue
+    description: a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+    homepage: https://cn.vuejs.org/
+    storageIco: vuejs.ico
+    ico:
+    github:
+      user: vuejs
+      repo: vue
+
+#   - name:
+#     description:
+#     homepage:
+#     storageIco:
+#     ico:
+#     github:
+#       user:
+#       repo:
+composer_packages:
+  - name: laravel/laravel
+  - name: laravel/lumen
+
+gem_packages:
+  - name: jekyll
+pypi_packages:
