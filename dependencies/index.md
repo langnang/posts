@@ -120,11 +120,6 @@ pypi_cdns:
   {% for package in npm_packages %}
     {% if package.name %}
       <li>
-        {% if package.github_user and package.github_repo %}
-          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
-            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
-          </a>
-        {% endif %}
         {% for cdn in page.npm_cdns %}
           <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
@@ -134,6 +129,11 @@ pypi_cdns:
             {% endif %}
           </a>
         {% endfor %}
+        {% if package.github_user and package.github_repo %}
+          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
+            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
+          </a>
+        {% endif %}
         {% if package.storageIco or package.ico and package.homepage %}
           <a target="_blank" href="{{package.homepage}}">
             {% if package.storageIco %}
@@ -182,11 +182,6 @@ composer dump-autoload
   {% for package in composer_packages %}
     {% if package.name %}
       <li>
-        {% if package.github_user and package.github_repo %}
-          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
-            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
-          </a>
-        {% endif %}
         {% for cdn in page.composer_cdns %}
           <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
@@ -196,6 +191,11 @@ composer dump-autoload
             {% endif %}
           </a>
         {% endfor %}
+        {% if package.github_user and package.github_repo %}
+          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
+            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
+          </a>
+        {% endif %}
         {% if package.storageIco or package.ico and package.homepage %}
           <a target="_blank" href="{{package.homepage}}">
             {% if package.storageIco %}
@@ -247,11 +247,6 @@ gem install {package}
   {% for package in ruby_packages %}
     {% if package.name %}
       <li>
-        {% if package.github_user and package.github_repo %}
-          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
-            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
-          </a>
-        {% endif %}
         {% for cdn in page.ruby_cnds %}
           <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
@@ -261,6 +256,11 @@ gem install {package}
             {% endif %}
           </a>
         {% endfor %}
+        {% if package.github_user and package.github_repo %}
+          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
+            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
+          </a>
+        {% endif %}
         {% if package.storageIco or package.ico and package.homepage %}
           <a target="_blank" href="{{package.homepage}}">
             {% if package.storageIco %}
@@ -306,11 +306,6 @@ pip install {package}
   {% for package in pypi_packages %}
     {% if package.name %}
       <li>
-        {% if package.github_user and package.github_repo %}
-          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
-            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
-          </a>
-        {% endif %}
         {% for cdn in page.pypi_cdns %}
           <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
@@ -320,6 +315,11 @@ pip install {package}
             {% endif %}
           </a>
         {% endfor %}
+        {% if package.github_user and package.github_repo %}
+          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
+            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
+          </a>
+        {% endif %}
         {% if package.storageIco or package.ico and package.homepage %}
           <a target="_blank" href="{{package.homepage}}">
             {% if package.storageIco %}

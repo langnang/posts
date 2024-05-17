@@ -1,669 +1,231 @@
 ---
 title: Interview
 ---
-
 ## 前端系列
 
 ### HTML
 
-1. 简述一下你对 HTML 语义化的理解？
-
-2. Label 的作用是什么？是怎么用的？
-
-3. iframe 框架有哪些优缺点？
-
-4. HTML 与 XHTML 二者有什么区别，你觉得应该使用哪一个并说出理由。
-
-5. HTML5 的 form 如何关闭自动完成功能？
-
-6. title 与 h1 的区别、b 与 strong 的区别、i 与 em 的区别？
-
-7. 请描述下 SEO 中的 TDK？
-
-8. 每个 HTML 文件头里都有个很重要的东西，Doctype，知道这是干什么的么？
-
-9. 简述一下 src 与 href 的区别。
-
-10. 严格模式与混杂模式
-
-11. 对于 WEB 标准以及 W3C 的理解与认识问题
-
-12. 列举 IE 与其他浏览器不一样的特性？
-
-13. 前端页面有哪三层构成，分别是什么？作用是什么？
-
-14. 网页验证码是干嘛的，是为了解决什么安全问题？
-
-15. 为什么用多个域名存储网站资源更有效？
-
-16. 页面可见性（Page Visibility）API 可以有哪些用途？
-
-17. Quirks(怪癖）模式是什么？它和 Standards（标准）模式有什么区别
-
-18. div+css 的布局较 table 布局有什么优点？
-
-19. 你能描述一下渐进增强和优雅降级之间的不同吗?
-
-20. 请谈一下你对网页标准和标准制定机构重要性的理解。
-
-21. 知道什么是微格式吗？谈谈理解。在前端构建中应该考虑微格式吗？
-
-22. html 常见兼容性问题？
-
-23. 对 WEB 标准以及 W3C 的理解与认识
-
-24. 如何在页面上实现一个圆形的可点击区域？
-
-25. 前端需要注意哪些 SEO
-
-26. html5 有哪些新特性、移除了那些元素？
-
-27. HTML5 的离线储存怎么使用，工作原理能不能解释一下？
-
-28. 浏览器是怎么对 HTML5 的离线储存资源进行管理和加载的呢
-
-29. HTML 全局属性(global attribute)有哪些
-
-30. Canvas 和 SVG 有什么区别？
-
-31. HTML5 为什么只需要写 <! DOCTYPE HTML> ？
-
-32. meta viewport 原理是什么？
-
-33. 对 web 标准、可用性、可访问性的理解
-
-34. HTML5 引入什么新的表单属性？
-
-35. 新的 HTML5 文档类型和字符集是？
-
-36. HTML5 Canvas 元素有什么用？
-
-37. HTML5 存储类型有什么区别？
-
-38. iframe 的作用
-
-39. 为什么最好把 CSS 的 \<link> 标签放在 \<head>\</head> 之间？为什么最好把 JS 的 \<script> 标签恰好放在 \</body> 之前，有例外情况吗？
-
-40. 什么是渐进式渲染（progressive rendering）？
-
-41. DOM 和 BOM 有什么区别
-
-42. img 上 title 与 alt
-
-43. 一个iframe，内嵌了一个A页面，iframe的宽高不停变化，如何让A页面的宽高实时自适应这个iframe的宽高大小。请说出至少3种方法，越难越好
-
-44. DOM Tree是如何构建的？
-
-45. 100*100的 canvas 占多少内存？
-
-46. noscript 标签的作用
-
-47. DOCTYPE 的作用是什么？
-
-48. 标准模式与兼容模式各有什么区别？
-
-49. HTML5 为什么只需要写 \<!DOCTYPE HTML>，而不需要引入 DTD？
-
-50. SGML 、 HTML 、XML 和 XHTML 的区别？
-
-51. DTD 介绍
-
-52. 行内元素定义
-
-53. 块级元素定义
-
-54. 行内元素与块级元素的区别？
-
-55. HTML5 元素的分类
-
-56. 空元素定义
-
-57. link 标签定义
-
-58. 页面导入样式时，使用 link 和 @import 有什么区别？
-
-59. async 和 defer 的作用是什么？有什么区别？（浏览器解析过程）
-
-60. 什么是文档的预解析？（浏览器解析过程）
-
-61. CSS 如何阻塞文档解析？（浏览器解析过程）
-
-62. 渲染页面时常见哪些不良现象？（浏览器渲染过程）
-
-63. 如何优化关键渲染路径？（浏览器渲染过程）
-
-64. 什么是重绘和回流？（浏览器绘制过程）
-
-65. 如何减少回流？（浏览器绘制过程）
-
-66. 为什么操作 DOM 慢？（浏览器绘制过程）
-
-67. DOMContentLoaded 事件和 Load 事件的区别？
-
-68. HTML5 有哪些新特性、移除了那些元素？
-
-69. 如何处理 HTML5 新标签的浏览器兼容问题？
-
-70. 简述一下你对 HTML 语义化的理解？
-
-71. b 与 strong 的区别和 i 与 em 的区别？
-
-72. 前端需要注意哪些 SEO ？
-
-73. HTML5 的离线储存怎么使用，工作原理能不能解释一下？
-
-74. 浏览器是怎么对 HTML5 的离线储存资源进行管理和加载的呢？
-
-75. 常见的浏览器端的存储技术有哪些？
-
-76. 请描述一下 cookies，sessionStorage 和 localStorage 的区别？
-
-77. iframe 有那些缺点？
-
-78. Label 的作用是什么？是怎么用的？
-
-79. HTML5 的 form 的自动完成功能是什么？
-
-80. 如何实现浏览器内多个标签页之间的通信?
-
-81. webSocket 如何兼容低版本浏览器？
-
-82. 页面可见性（Page Visibility API） 可以有哪些用途？
-
-83. 如何在页面上实现一个圆形的可点击区域？
-
-84. 实现不使用 border 画出 1 px 高的线，在不同浏览器的标准模式与怪异模式下都能保持一致的效
-
-85. title 与 h1 的区别？
-
-86. \<img> 的 title 和 alt 有什么区别？
-
-87. Canvas 和 SVG 有什么区别？
-
-88. 网页验证码是干嘛的，是为了解决什么安全问题？
-
-89. 渐进增强和优雅降级的定义
-
-90. attribute 和 property 的区别是什么？
-
-91. 对 web 标准、可用性、可访问性的理解
-
-92. IE 各版本和 Chrome 可以并行下载多少个资源？
-
-93. Flash、Ajax 各自的优缺点，在使用中如何取舍？
-
-94. 怎么重构页面？
-
-95. 浏览器架构
-
-96. 常用的 meta 标签
-
-97. css reset 和 normalize.css 有什么区别？
-
-98. 用于预格式化文本的标签是？
-
-99. DHTML 是什么？
-
-100. head 标签中必不少的是？
-
-101. HTML5 新增的表单元素有？
-
-102. 在 HTML5 中，哪个方法用于获得用户的当前位置？
-
-103. 文档的不同注释方式？
-
-104. disabled 和 readonly 的区别？
-
-105. 主流浏览器内核私有属性 css 前缀？
-
-106. 前端性能优化？
-
-107. Chrome 中的 Waterfall ？
-
-108. 扫描二维码登录网页是什么原理，前后两个事件是如何联系的？
-
-109. Html 规范中为什么要求引用资源不加协议头http或者https？
-
-110. Data URI scheme 是什么 ？
-
-111. Data URI scheme 的语法
-
-112. Data URI scheme 的优缺点
-
-113. 你有使用过MediaRecorder吗？说说它的运用场景有哪些？
-
-114. H5的哪些特性需要https支持呢？
-
-115. 你知道短链接的生成原理吗？
-
-116. HTML5拖拽事件的顺序是什么？
-
-117. 为什么我们要使用web workers？
-
-118. 使用svg画一个微信的logo
-
-119. 如何在不同的端口间共享cookie？
+{% if site.data.interview.html_questions %}
+{% assign html_questions = site.data.interview.html_questions | slice:0,10 %}
+<ul>
+  {% for question in html_questions  %}
+  <li>{{question.title}}</li>
+  {% endfor %}
+</ul>
+{% endif %}
 
 <a class="alert alert-primary small text-center d-block py-1" role="alert" href="./html/">阅读更多</a>
 
 ### CSS
 
 1. 实现不使用 border 画出 1px 高的线，在不同浏览器的标准模式与怪异模式下都能保持一致的效果。
-
 2. 介绍一下标准的 CSS 的盒子模型？低版本 IE 的盒子模型有什么不同的？
-
 3. CSS 隐藏元素的几种方法（至少说出三种）
-
 4. CSS 清除浮动的几种方法（至少两种）
-
 5. 页面导入样式时，使用 link 和@import 有什么区别？
-
 6. 伪元素和伪类的区别？
-
 7. CSS 选择符有哪些？哪些属性可以继承？优先级算法如何计算？ CSS3 新增伪类有那些？
-
 8. 行内元素和块级元素的具体区别是什么？行内元素的 padding 和 margin 可设置吗？
-
 9. 什么是外边距重叠？重叠的结果是什么？
-
 10. rgba()和 opacity 的透明效果有什么不同？
-
 11. css 中可以让文字在垂直和水平方向上重叠的两个属性是什么？
-
 12. px 和 em 的区别。
-
 13. 如何垂直居中一个元素？
-
 14. BFC
-
 15. 用纯 CSS 创建一个三角形的原理是什么？
-
 16. Sass、LESS 是什么？大家为什么要使用他们？
-
 17. display:none 与 visibility:hidden 的区别是什么？
-
 18. 移动端 1px 问题的解决办法
-
 19. 哪些 css 属性可以继承？
-
 20. 几种常见的 CSS 布局
-
 21. li 与 li 之间有看不见的空白间隔是什么原因引起的？有什么解决办法？
-
 22. 设置元素浮动后，该元素的 display 值是多少？
-
 23. 怎么让 Chrome 支持小于 12px 的文字？
-
 24. display:inline-block 什么时候会显示间隙？
-
 25. png、jpg、gif 这些图片格式解释一下，分别什么时候用？，webp 呢
-
 26. style 标签写在 body 后与 body 前有什么区别？
-
 27. 超链接访问过后 hover 样式就不出现的问题是什么？如何解决？
-
 28. 什么是 Css Hack？ie6, 7, 8 的 hack 分别是什么？
-
 29. 重置（resetting）CSS 和 标准化（normalizing）CSS 的区别是什么？你会选择哪种方式，为什么？
-
 30. css sprite 是什么, 有什么优缺点
-
 31. 什么是 FOUC? 如何避免
-
 32. css3 有哪些新特性
-
 33. display 有哪些值？说明他们的作用
-
 34. display:inline-block 什么时候不会显示间隙？(携程)
-
 35. PNG, GIF, JPG 的区别及如何选
-
 36. 行内元素 float:left 后是否变为块级元素？
-
 37. 在网页中的应该使用奇数还是偶数的字体？为什么呢？
-
 38. CSS 合并方法
-
 39. 列出你所知道可以改变页面布局的属性
-
 40. CSS 在性能优化方面的实践
-
 41. CSS3 动画（简单动画的实现，如旋转等）
-
 42. base64 的原理及优缺点
-
 43. stylus/sass/less 区别
-
 44. position 的值， relative 和 absolute 分别是相对于谁进行定位的？
-
 45. 对偏移、卷曲、可视的理解
-
 46. 精灵图和 base64 如何选择？
-
 47. 如果设计中使用了非标准的字体，你该如何去实现？
-
 48. 知道 css 有个 content 属性吗？有什么作用？有什么应用？
-
 49. CSS 选择器的优先级是如何计算的？
-
 50. 请阐述 Float 定位的工作原理。
-
 51. 请阐述 z-index 属性，并说明如何形成层叠上下文（stacking context）
-
 52. 如何解决不同浏览器的样式兼容性问题？
-
 53. 如何为功能受限的浏览器提供页面？ 使用什么样的技术和流程？
-
 54. 有什么不同的方式可以隐藏内容（使其仅适用于屏幕阅读器）？
-
 55. 除了 screen ，你还能说出一个 @media 属性的例子吗？
-
 56. 编写高效的 CSS 应该注意什么？
-
 57. 使用 CSS 预处理的优缺点分别是什么？
-
 58. 对于你使用过的 CSS 预处理，说说喜欢和不喜欢的地方？
-
 59. 解释浏览器如何确定哪些元素与 CSS 选择器匹配。
-
 60. 说说你对盒模型的理解，以及如何告知浏览器使用不同的盒模型渲染布局。
-
 61. * { box-sizing: border-box; } 会产生怎样的效果？
-
 62. relative 、 fixed 、 absolute 和 static 四种定位有什么区别？
-
 63. 你使用过哪些现有的 CSS 框架？你是如何改进它们的？
-
 64. 你了解 CSS Flex 和 Grid 吗？
-
 65. 响应式设计与自适应设计有何不同？
-
 66. 你有没有使用过视网膜分辨率的图形？当中使用什么技术？
-
 67. 什么情况下，用 translate() 而不用绝对定位？什么时候，情况相反。
-
 68. 一边固定宽度一边宽度自适应
-
 69. display:none、visibile:hidden、opacity:0 的区别
-
 70. 文本超出部分显示省略号
-
 71. 利用伪元素画三角
-
 72. 过渡与动画的区别是什么
-
 73. 去除 inline-block 元素间间距的方法
-
 74. 为什么要初始化 CSS 样式
-
 75. 行内元素和块级元素有哪些
-
 76. 设备像素比
-
 77. ::bofore 和 :after 中双冒号和单冒号有什么区别？
-
 78. 说下 CSS3 中一些样式的兼容，分别指兼容哪些浏览器
-
 79. 有哪些手段可以优化 CSS, 提高性能
-
 80. 怎么样实现边框 0.  5 个像素？
-
 81. transform translate transition 的区别
-
 82. 请解释一下 CSS3 的 Flexbox（弹性盒布局模型）, 以及适用场景？
-
 83. 用纯 CSS 创建一个三角形的原理是什么？
-
 84. 一个满屏 品 字布局 如何设计?
-
 85. 全屏滚动的原理是什么？用到了 CSS 的那些属性？
-
 86. 什么是响应式设计？响应式设计的基本原理是什么？如何兼容低版本的 IE？
-
 87. 如何修改 chrome 记住密码后自动填充表单的黄色背景？
-
 88. 用 css 分别实现某个 div 元素上下居中和左右居中
-
 89. 你对 line-height 是如何理解的？
-
 90. 让页面里的字体变清晰，变细用 CSS 怎么做？
-
 91. font-style 属性可以让它赋值为“oblique” oblique 是什么意思？
-
 92. position:fixed; 在 android 下无效怎么处理？
-
 93. 如果需要手动写动画，你认为最小时间间隔是多久，为什么？
-
 94. overflow: scroll 时不能平滑滚动的问题怎么处理？
-
 95. 有一个高度自适应的 div，里面有两个 div，一个高度 100px，希望另一个填满剩下的高度。
-
 96. postcss 的作用
-
 97. 自定义字体的使用场景
-
 98. 如何美化 CheckBox
-
 99. float 和 display:inline-block 的区别是什么？
-
 100. rem 布局字体太大怎么处理?
-
 101. 标准模式与怪异模式的区别
-
 102. css reset 与 css sprites
-
 103. IE6 遇到什么 bug？解决办法是？
-
 104. 介绍css3中position:sticky（网易）
-
 105. 使用css实现一个持续的动画效果
-
 106. CSS 优先级算法如何计算？
-
 107. 关于伪类 LVHA 的解释?
-
 108. CSS3 新增伪类有那些？
-
 109. 如何居中 div？
-
 110. display 有哪些值？说明他们的作用。
-
 111. position 的值 relative 和 absolute 定位原点是？
-
 112. CSS3 有哪些新特性？（根据项目回答）
-
 113. 请解释一下 CSS3 的 Flex box（弹性盒布局模型），以及适用场景？
-
 114. 用纯 CSS 创建一个三角形的原理是什么？
-
 115. 一个满屏品字布局如何设计?
-
 116. CSS 多列等高如何实现？
-
 117. 经常遇到的浏览器的兼容性有哪些？原因，解决方法是什么，常用 hack 的技巧？
-
 118. li 与 li 之间有看不见的空白间隔是什么原因引起的？有什么解决办法？
-
 119. 为什么要初始化 CSS 样式？
-
 120. 什么是包含块，对于包含块的理解?
-
 121. CSS 里的 visibility 属性有个 collapse 属性值是干嘛用的？在不同浏览器下以后什么区别？
-
 122. width:auto 和 width:100%的区别
-
 123. 绝对定位元素与非绝对定位元素的百分比计算的区别
-
 124. 简单介绍使用图片 base64 编码的优点和缺点。
-
 125. 'display'、'position'和'float'的相互关系？
-
 126. margin 重叠问题的理解。
-
 127. 对 BFC 规范（块级格式化上下文：block formatting context）的理解？
-
 128. IFC 是什么？
-
 129. 请解释一下为什么需要清除浮动？清除浮动的方式
-
 130. 使用 clear 属性清除浮动的原理？
-
 131. zoom:1 的清除浮动原理?
-
 132. 移动端的布局用过媒体查询吗？
-
 133. 使用 CSS 预处理器吗？喜欢哪个？
-
 134. CSS 优化、提高性能的方法有哪些？
-
 135. 浏览器是怎样解析 CSS 选择器的？
-
 136. 在网页中应该使用奇数还是偶数的字体？为什么呢？
-
 137. margin 和 padding 分别适合什么场景使用？
-
 138. 抽离样式模块怎么写，说出思路，有无实践经验？[阿里航旅的面试题]
-
 139. 简单说一下 css3 的 all 属性。
-
 140. 为什么不建议使用统配符初始化 css 样式。
-
 141. absolute 的 containingblock（包含块）计算方式跟正常流有什么不同？
-
 142. 对于 hasLayout 的理解？
-
 143. 元素竖向的百分比设定是相对于容器的高度吗？
-
 144. 全屏滚动的原理是什么？用到了 CSS 的哪些属性？（待深入实践）
-
 145. 什么是响应式设计？响应式设计的基本原理是什么？如何兼容低版本的 IE？（待深入了解）
-
 146. 视差滚动效果，如何给每页做不同的动画？（回到顶部，向下滑动要再次出现，和只出现一次分别怎么
-
 147. 如何修改 chrome 记住密码后自动填充表单的黄色背景？
-
 148. 怎么让 Chrome 支持小于 12px 的文字？
-
 149. 让页面里的字体变清晰，变细用 CSS 怎么做？
-
 150. font-style 属性中 italic 和 oblique 的区别？
-
 151. 设备像素、css 像素、设备独立像素、dpr、ppi 之间的区别？
-
 152. layout viewport、visual viewport 和 ideal viewport 的区别？
-
 153. position:fixed;在 android 下无效怎么处理？
-
 154. 如果需要手动写动画，你认为最小时间间隔是多久，为什么？（阿里）
-
 155. 如何让去除 inline-block 元素间间距？
-
 156. overflow:scroll 时不能平滑滚动的问题怎么处理？
-
 157. 有一个高度自适应的 div，里面有两个 div，一个高度 100px，希望另一个填满剩下的高度。
-
 158. png、jpg、gif 这些图片格式解释一下，分别什么时候用。有没有了解过 webp？
-
 159. 浏览器如何判断是否支持 webp 格式图片
-
 160. 什么是 Cookie 隔离？（或者说：请求资源的时候不要让它带 cookie 怎么做）
-
 161. style 标签写在 body 后与 body 前有什么区别？
-
 162. 什么是 CSS 预处理器/后处理器？
-
 163. 阐述一下 CSSSprites
-
 164. 使用 rem 布局的优缺点？
-
 165. 几种常见的 CSS 布局
-
 166. 画一条 0. 5px 的线
-
 167. transition 和 animation 的区别
-
 168. 什么是首选最小宽度？
-
 169. 为什么 height:100%会无效？
-
 170. min-width/max-width 和 min-height/max-height 属性间的覆盖规则？
-
 171. 内联盒模型基本概念
-
 172. 什么是幽灵空白节点？
-
 173. 什么是替换元素？
-
 174. 替换元素的计算规则？
-
 175. content 与替换元素的关系？
-
 176. margin:auto 的填充规则？
-
 177. margin 无效的情形
-
 178. border 的特殊性？
-
 179. 什么是基线和 x-height？
-
 180. line-height 的特殊性？
-
 181. vertical-align 的特殊性？
-
 182. overflow 的特殊性？
-
 183. 无依赖绝对定位是什么？
-
 184. absolute 与 overflow 的关系？
-
 185. clip 裁剪是什么？
-
 186. relative 的特殊性？
-
 187. 什么是层叠上下文？
-
 188. 什么是层叠水平？
-
 189. 元素的层叠顺序？
-
 190. 层叠准则？
-
 191. font-weight 的特殊性？
-
 192. text-indent 的特殊性？
-
 193. letter-spacing 与字符间距？
-
 194. word-spacing 与单词间距？
-
 195. white-space 与换行和空格的控制？
-
 196. 隐藏元素的 background-image 到底加不加载？
-
 197. 如何实现单行／多行文本溢出的省略（...）？
-
 198. 常见的元素隐藏方式？
-
 199. css 实现上下固定中间自适应布局？
-
 200. css 两栏布局的实现？
-
 201. css 三栏布局的实现？
-
 202. 实现一个宽高自适应的正方形
-
 203. 实现一个三角形
-
 204. 一个自适应矩形，水平垂直居中，且宽高比为 2:1
-
 205. 你知道 CSS 中不同属性设置为百分比%时对应的计算基准？
-
 206. ::before 和:after 中双冒号和单冒号有什么区别？解释一下这 2 个伪元素的作用。
-
 207. 伪类与伪元素的区别
-
 208. CSS 中哪些属性可以继承？
-
 209. png-8和png-24有什么区别？
 
 <a class="alert alert-primary small text-center d-block py-1" role="alert" href="./css/">阅读更多</a>
@@ -671,1383 +233,702 @@ title: Interview
 ### JavaScript
 
 1. document load 和 document ready 的区别
-
 2. JavaScript 中如何检测一个变量是一个 String 类型？
-
 3. 请用 js 去除字符串空格？
-
 4. js 是一门怎样的语言，它有什么特点
-
 5. == 和 === 的不同
-
 6. 怎样添加、移除、移动、复制、创建和查找节点？
-
 7. 事件委托是什么
-
 8. require 与 import 的区别
-
 9. javascript 对象的几种创建方式
-
 10. JavaScript 继承的方式和优缺点
-
 11. 什么是原型链？
-
 12. 复杂数据类型如何转变为字符串
-
 13. javascript 的 typeof 返回哪些数据类型
-
 14. 一次js请求一般情况下有哪些地方会有缓存处理？
-
 15. 列举 3 种强制类型转换和 2 种隐式类型转换
-
 16. 你对闭包的理解？优缺点？
-
 17. 如何判断 NaN
-
 18. new 一个对象的过程中发生了什么
-
 19. for in 和 for of的区别
-
 20. 如何判断 JS 变量的一个类型（至少三种方式）
-
 21. for in、Object.keys 和 Object.getOwnPropertyNames 对属性遍历有什么区别？
-
 22. iframe 跨域通信和不跨域通信
-
 23. H5 与 Native 如何交互
-
 24. 如何判断一个对象是否为数组
-
 25. <script> 标签的 defer 和 asnyc 属性的作用以及二者的区别？
-
 26. Object.prototype.toString.call() 和 instanceOf 和 Array.isArray() 区别好坏
-
 27. 什么是面向对象？
-
 28. 你对松散类型的理解
-
 29. JS 严格模式和正常模式的区别
-
 30. 移动端 click 事件、touch 事件、tap 事件的区别
-
 31. JS 单线程还是多线程，如何显示异步操作
-
 32. JavaScript 数组的函数 map/forEach/reduce/filter
-
 33. JS 块级作用域、变量提升
-
 34. null/undefined 的区别
-
 35. JS 哪些操作会造成内存泄露
-
 36. 重排与重绘的区别，什么情况下会触发？
-
 37. 观察者模式和发布订阅者模式
-
 38. jsonp 优缺点？
-
 39. 兼容各种浏览器版本的事件绑定
-
 40. typescript 遇到过什么坑
-
 41. this 和 apply 的应用
-
 42. split() join()的区别
-
 43. JavaScript 的数据类型
-
 44. 如何判断一个对象是否属于某个类？
-
 45. new 操作符具体干了什么呢?
-
 46. call()与apply()的作用与区别？
-
 47. sort 排序原理
-
 48. Zepto 的点透问题如何解决？
-
 49. 如何判断当前脚本运行在浏览器还是 node 环境中？
-
 50. 移动端最小触控区域是多大？
-
 51. 移动端的点击事件的有延迟，时间是多久，为什么会有？ 怎么解决这个延时？
-
 52. 解释 JavaScript 中的作用域与变量声明提升？
-
 53. Node. js 的适用场景？
-
 54. bind、call、apply 的区别
-
 55. 使用构造函数的注意点
-
 56. 如何获取浏览器版本信息
-
 57. 如何实现文件断点续传
-
 58. 数组的常用方法
-
 59. 字符串常用操作
-
 60. 作用域的概念及作用
-
 61. 作用域的分类
-
 62. js 属于哪种作用域
-
 63. 浮点数精度
-
 64. 自执行函数? 用于什么场景？好处?
-
 65. 多个页面之间如何进行通信
-
 66. css 动画和 js 动画的差异
-
 67. 如何做到修改 url 参数页面不刷新
-
 68. 数组方法 pop() push() unshift() shift()
-
 69. 事件绑定与普通事件有什么区别
-
 70. IE 和 DOM 事件流的区别
-
 71. IE 和标准下有哪些兼容性的写法
-
 72. 变量提升
-
 73. 如何阻止冒泡与默认行为
-
 74. js 中 this 闭包 作用域
-
 75. javascript 的本地对象，内置对象和宿主对象
-
 76. javascript 的同源策略
-
 77. 事件冒泡与事件捕获
-
 78. foo = foo||bar ，这行代码是什么意思？为什么要这样写？
-
 79. 复杂数据类型如何转变为字符串
-
 80. javascript 中 this 的指向问题
-
 81. call 与 apply 区别
-
 82. 正则表达式构造函数 var reg = new RegExp('xxx')与正则表达字面量 var reg = // 有什么不同？
-
 83. js 中 callee 与 caller 的作用
-
 84. 异步加载 js 的方法
-
 85. 去除数组重复成员的方法
-
 86. 去除字符串里面的重复字符
-
 87. 求数组的最大值
-
 88. JS 中 文档碎片的理解和使用
-
 89. 原型的作用 以及什么是原型
-
 90. javascript 里面的继承怎么实现，如何避免原型链上面的对象共享
-
 91. 简单介绍下 JS 的原型和原型链
-
 92. 说说你对作用域链的理解
-
 93. JavaScript 原型，原型链 ? 有什么特点？
-
 94. 请解释什么是事件代理
-
 95. offsetWidth/offsetHeight, clientWidth/clientHeight 与 scrollWidth/scrollHeight 的区别
-
 96. 谈谈你对 AMD、CMD 的理解
-
 97. web 开发中会话跟踪的方法有哪些
-
 98. 说几条写 JavaScript 的基本规范？
-
 99. JavaScript 有几种类型的值？你能画一下他们的内存图吗？
-
 100. eval 是做什么的？
-
 101. js 延迟加载的方式有哪些？
-
 102. attribute 和 property 的区别是什么？
-
 103. 什么是面向对象编程及面向过程编程，它们的异同和优缺点
-
 104. 谈一谈你理解的函数式编程？
-
 105. 对原生 Javascript 了解程度
-
 106. Js 动画与 CSS 动画区别及相应实现
-
 107. 快速的让一个数组乱序
-
 108. prototype 和__proto__的关系是什么？
-
 109. UIWebView 和 JavaScript 之间是怎么交互的?
-
 110. IE 与火狐的事件机制有什么区别？如何阻止冒泡
-
 111. 在 js 中哪些会被隐式转换为 false
-
 112. 列举浏览器对象模型 BOM 里常用的至少 4 个对象，并列举 window 对象的常用方法至少 5 个？
-
 113. class.forname 的作用? 为什么要用?
-
 114. 外部 JS 文件出现中文字符，会出现什么问题，怎么解决？
-
 115. 定时器 setInterval 有一个有名函数 fn1，setInterval（fn1, 500）与 setInterval（fn1(), 500）有什么区别？
-
 116. 自动分号
-
 117. 你用过 require. js吗？它有什么特性？
-
 118. 如何阻止事件冒泡和默认事件？
-
 119. 分别阐述 split(), slice(), splice(), join()？
-
 120. 事件、IE 与火狐的事件机制有什么区别？ 如何阻止冒泡？
-
 121. 内置函数(原生函数)
-
 122. 对象浅拷贝和深拷贝有什么区别
-
 123. JS 怎么实现一个类。怎么实例化这个类
-
 124. 如何编写高性能的 Javascript？
-
 125. 数组和对象有哪些原生方法，列举一下？
-
 126. documen.write 和 innerHTML 的区别?
-
 127. 让你自己设计实现一个 requireJS，你会怎么做？
-
 128. requireJS 的核心原理是什么？（如何动态加载的？如何避免多次加载的？如何缓存的？）
-
 129. Javascript 中，有一个函数，执行时对象查找时，永远不会去查找原型，这个函数是？
-
 130. 原型继承
-
 131. 用原生 JavaScript 的实现过什么功能吗？
-
 132. javascript 代码中的"use strict"; 是什么意思 ? 使用它区别是什么？
-
 133. 简述创建函数的几种方式
-
 134. window.location.search() 返回的是什么？
-
 135. window.location.hash  返回的是什么？
-
 136. window.location.reload() 作用？
-
 137. 为什么不能定义 1px 左右的 div 容器？
-
 138. BOM 对象有哪些，列举 window 对象？
-
 139. 简述 readonly 与 disabled 的区别
-
 140. 为什么扩展 javascript 内置对象不是好的做法？
-
 141. 什么是三元表达式？“三元”表示什么意思？
-
 142. 我们给一个 dom 同时绑定两个点击事件，一个用捕获，一个用冒泡，你来说下会执行几次事件，然后会先执行冒泡还是捕获
-
 143. 简述一下 Handlebars 的基本用法？
-
 144. 简述一下 Handlerbars 的对模板的基本处理流程， 如何编译的？如何缓存的？
-
 145. 前端 templating(Mustache, underscore, handlebars)是干嘛的, 怎么用?
-
 146. 知道什么是 webkit 么? 知道怎么用浏览器的各种工具来调试和 debug 代码么?
-
 147. 如何测试前端代码? 知道 BDD, TDD, Unit Test 么? 知道怎么测试你的前端工程么(mocha, sinon, jasmin, qUnit..)?
-
 148. JavaScript 的循环语句有哪些？
-
 149. 作用域-编译期执行期以及全局局部作用域问题
-
 150. 如何添加 html 元素的事件，有几种方法？请列举
-
 151. 列举浏览器对象模型 BOM 里常用的至少 4 个对象，并列举 window 对象的常用方法至少 5 个
-
 152. 事件绑定的方式
-
 153. 事件循环
-
 154. 事件模型
-
 155. 如何自定义事件
-
 156. target 和 currentTarget 区别
-
 157. prototype 和__proto__的关系是什么
-
 158. 什么是原型属性？
-
 159. 什么是原型对象？
-
 160. 使用 let、var 和 const 创建变量有什么区别
-
 161. JSON 的了解
-
 162. 事件代理怎么实现？
-
 163. 什么是属性搜索原则？
-
 164. 如何避免重绘或者重排？
-
 165. 说下函数式编程的理解
-
 166. forEach，map和filter的区别（哔哩哔哩）
-
 167. delete 数组的 item，数组的 length 是否会 -1
-
 168. 给出 ['1', '3', '10'].map(parseInt) 执行结果
-
 169. 执行上下文
-
 170. 怎样理解setTimeout 执行误差
-
 171. 数组降维
-
 172. 为什么for循环嵌套顺序会影响性能？
-
 173. 轮播图实现原理
-
 174. 如何设计一个轮播图组件
-
 175. script 引入方式
-
 176. 数组中的forEach和map的区别
-
 177. for in和for of的区别
-
 178. typeof 与 instanceof 区别
-
 179. 微任务和宏任务
-
 180. JavaScript 中 undefined 和 not defined 的区别
-
 181. 在JavaScript中创建一个真正的private方法有什么缺点？
-
 182. JavaScript怎么清空数组？
-
 183. 怎么判断一个object是否是数组(array)？
-
 184. 什么是 undefined x 1 ？
-
 185. 两种函数声明有什么区别？
-
 186. 什么是跨域？跨域请求资源的方法有哪些？
-
 187. 谈谈垃圾回收机制方式及内存管理
-
 188. 内存管理
-
 189. 开发过程中遇到的内存泄露情况，如何解决的？
-
 190. IE与标准浏览器对事件处理的区别？
-
 191. delete用法
-
 192. 如何删除一个cookie
-
 193. 用正则把yya yyb yyc变成yya5 yyb6 yyc7？
-
 194. 怎么判断两个json对象的内容相等？
-
 195. 获取一个月有多少天
-
 196. 关于函数的 length 属性
-
 197. 数组中字符串键值的处理
-
 198. 什么是链表？
-
 199. 链表的基本特征
-
 200. 如何查找一篇英文文章中出现频率最高的单词？
-
 201. 介绍 js 的基本数据类型。
-
 202. JavaScript 有几种类型的值？你能画一下他们的内存图吗？
-
 203. 什么是堆？什么是栈？它们之间有什么区别和联系？
-
 204. 内部属性 [[Class]] 是什么？
-
 205. 介绍 js 有哪些内置对象？
-
 206. undefined 与 undeclared 的区别？
-
 207. null 和 undefined 的区别？
-
 208. 如何获取安全的 undefined 值？
-
 209. 说几条写 JavaScript 的基本规范？
-
 210. JavaScript 原型，原型链？ 有什么特点？
-
 211. js 获取原型的方法？
-
 212. 在 js 中不同进制数字的表示方式
-
 213. js 中整数的安全范围是多少？
-
 214. typeof NaN 的结果是什么？
-
 215. isNaN 和 Number.isNaN 函数的区别？
-
 216. Array 构造函数只有一个参数值时的表现？
-
 217. 其他值到字符串的转换规则？
-
 218. 其他值到数字值的转换规则？
-
 219. 其他值到布尔类型的值的转换规则？
-
 220. {} 和 [] 的 valueOf 和 toString 的结果是什么？
-
 221. 什么是假值对象？
-
 222. ~ 操作符的作用？
-
 223. 解析字符串中的数字和将字符串强制类型转换为数字的返回结果都是数字，它们之间的区别是什么？
-
 224. \+ 操作符什么时候用于字符串的拼接？
-
 225. 什么情况下会发生布尔值的隐式强制类型转换？
-
 226. || 和 && 操作符的返回值？
-
 227. Symbol 值的强制类型转换？
-
 228. == 操作符的强制类型转换规则？
-
 229. 如何将字符串转化为数字，例如 '12.  3b'?
-
 230. 如何将浮点数点左边的数每三位添加一个逗号，如 12000000. 11 转化为『12, 000, 000. 11』?
-
 231. 常用正则表达式
-
 232. 生成随机数的各种方法？
-
 233. 如何实现数组的随机排序？
-
 234. javascript 创建对象的几种方式？
-
 235. JavaScript 继承的几种实现方式？
-
 236. 寄生式组合继承的实现？
-
 237. Javascript 的作用域链？
-
 238. 谈谈 This 对象的理解。
-
 239. eval 是做什么的？
-
 240. 什么是 DOM 和 BOM？
-
 241. 写一个通用的事件侦听器函数。
-
 242. 事件是什么？IE 与火狐的事件机制有什么区别？ 如何阻止冒泡？
-
 243. 三种事件模型是什么？
-
 244. 事件委托是什么？
-
 245. ["1", "2", "3"].map(parseInt) 答案是多少？
-
 246. 什么是闭包，为什么要用它？
-
 247. javascript 代码中的 "use strict"; 是什么意思 ? 使用它区别是什么？
-
 248. 如何判断一个对象是否属于某个类？
-
 249. instanceof 的作用？
-
 250. new 操作符具体干了什么呢？如何实现？
-
 251. Javascript 中，有一个函数，执行时对象查找时，永远不会去查找原型，这个函数是？
-
 252. 对于 JSON 的了解？
-
 253. `[].forEach.call($$("*"), function(a){a.style.outline="1px solid #"+(~~
-
 254. js 延迟加载的方式有哪些？
-
 255. Ajax 是什么? 如何创建一个 Ajax？
-
 256. 谈一谈浏览器的缓存机制？
-
 257. Ajax 解决浏览器缓存问题？
-
 258. 同步和异步的区别？
-
 259. 什么是浏览器的同源政策？
-
 260. 如何解决跨域问题？
-
 261. 服务器代理转发时，该如何处理 cookie？
-
 262. 简单谈一下 cookie ？
-
 263. 模块化开发怎么做？
-
 264. js 的几种模块规范？
-
 265. AMD 和 CMD 规范的区别？
-
 266. ES6 模块与 CommonJS 模块、AMD、CMD 的差异。
-
 267. requireJS 的核心原理是什么？（如何动态加载的？如何避免多次加载的？如何 缓存的？）
-
 268. JS 模块加载器的轮子怎么造，也就是如何实现一个模块加载器？
-
 269. ECMAScript6 怎么写 class，为什么会出现 class 这种东西?
-
 270. documen.write 和 innerHTML 的区别？
-
 271. DOM 操作——怎样添加、移除、移动、复制、创建和查找节点？
-
 272. innerHTML 与 outerHTML 的区别？
-
 273. .call() 和 .apply() 的区别？
-
 274. JavaScript 类数组对象的定义？
-
 275. 数组和对象有哪些原生方法，列举一下？
-
 276. 数组的 fill 方法？
-
 277. [, , , ] 的长度？
-
 278. JavaScript 中的作用域与变量声明提升？
-
 279. 如何编写高性能的 Javascript ？
-
 280. 简单介绍一下 V8 引擎的垃圾回收机制
-
 281. 哪些操作会造成内存泄漏？
-
 282. 需求：实现一个页面操作不会整页刷新的网站，并且能在浏览器前进、后退时正确响应。给出你的技术
-
 283. 如何判断当前脚本运行在浏览器还是 node 环境中？（阿里）
-
 284. 把 script 标签放在页面的最底部的 body 封闭之前和封闭之后有什么区别？浏览器会如何解析它
-
 285. 移动端的点击事件的有延迟，时间是多久，为什么会有？ 怎么解决这个延时？
-
 286. 什么是“前端路由”？什么时候适合使用“前端路由”？“前端路由”有哪些优点和缺点？
-
 287. 如何测试前端代码么？ 知道 BDD, TDD, Unit Test 么？ 知道怎么测试你的前端工程么
-
 288. 检测浏览器版本版本有哪些方式？
-
 289. 什么是 Polyfill ？
-
 290. 使用 JS 实现获取文件扩展名？
-
 291. 介绍一下 js 的节流与防抖？
-
 292. Object.is() 与原来的比较操作符 “===”、“==” 的区别？
-
 293. escape, encodeURI, encodeURIComponent 有什么区别？
-
 294. Unicode 和 UTF-8 之间的关系？
-
 295. js 的事件循环是什么？
-
 296. js 中的深浅拷贝实现？
-
 297. 手写 call、apply 及 bind 函数
-
 298. 函数柯里化的实现
-
 299. 为什么 0. 1 + 0. 2 != 0. 3？如何解决这个问题？
-
 300. 原码、反码和补码的介绍
-
 301. toPrecision 和 toFixed 和 Math.round 的区别？
-
 302. 什么是 XSS 攻击？如何防范 XSS 攻击？
-
 303. 什么是 CSP？
-
 304. 什么是 CSRF 攻击？如何防范 CSRF 攻击？
-
 305. 什么是 Samesite Cookie 属性？
-
 306. 什么是点击劫持？如何防范点击劫持？
-
 307. SQL 注入攻击？
-
 308. 什么是 MVVM？比之 MVC 有什么区别？什么又是 MVP ？
-
 309. 什么是 requestAnimationFrame ？
-
 310. 谈谈你对 webpack 的看法
-
 311. offsetWidth/offsetHeight, clientWidth/clientHeight 与 scrollWidth/scrollHeight 的区别？
-
 312. js 语句末尾分号是否可以省略？
-
 313. Object.assign()
-
 314. Math.ceil 和 Math.floor
-
 315. js for 循环注意点
-
 316. 一个列表，假设有 100000 个数据，这个该怎么办？
-
 317. 谈一谈你理解的函数式编程？
-
 318. 异步编程的实现方式？
-
 319. Js 动画与 CSS 动画区别及相应实现
-
 320. get 请求传参长度的误区
-
 321. URL 和 URI 的区别？
-
 322. get 和 post 请求在缓存方面的区别
-
 323. 图片的懒加载和预加载
-
 324. mouseover 和 mouseenter 的区别？
-
 325. js 拖拽功能的实现
-
 326. 为什么使用 setTimeout 实现 setInterval？怎么模拟？
-
 327. let 和 const 的注意点？
-
 328. 什么是 rest 参数？
-
 329. 什么是尾调用，使用尾调用有什么好处？
-
 330. Symbol 类型的注意点？
-
 331. Set 和 WeakSet 结构？
-
 332. Map 和 WeakMap 结构？
-
 333. 什么是 Proxy ？
-
 334. Reflect 对象创建目的？
-
 335. require 模块引入的查找方式？
-
 336. 什么是 Promise 对象，什么是 Promises/A+ 规范？
-
 337. 手写一个 Promise
-
 338. 如何检测浏览器所支持的最小字体大小？
-
 339. 怎么做 JS 代码 Error 统计？
-
 340. 单例模式模式是什么？
-
 341. 策略模式是什么？
-
 342. 代理模式是什么？
-
 343. 中介者模式是什么？
-
 344. 适配器模式是什么？
-
 345. 观察者模式和发布订阅模式有什么不同？
-
 346. 开发中常用的几种 Content-Type ？
-
 347. 如何封装一个 javascript 的类型判断函数？
-
 348. 如何判断一个对象是否为空对象？
-
 349. 使用闭包实现每隔一秒打印 1, 2, 3, 4
-
 350. 手写一个 jsonp
-
 351. 手写一个观察者模式？
-
 352. EventEmitter 实现
-
 353. 一道常被人轻视的前端 JS 面试题
-
 354. 如何确定页面的可用性时间，什么是 Performance API？
-
 355. js 中的命名规则
-
 356. js 中倒计时的纠偏实现？
-
 357. 进程间通信的方式？
-
 358. Js中prototype、[[prototype]]和__proto__的区别和用法
-
 359. 说下CommonJS、AMD、CMD三种规范
-
 360. 微信的JSSDK都有哪些内容？如何接入？
-
 361. H5页面在微信中如何禁止分享给好友和朋友圈？
-
 362. 什么是本地存储的有效期？
-
 363. ECMAScript 和 JavaScript 的关系
-
 364. ES6 与 ECMAScript 2015 的关系
-
 365. prototype、__proto__与constructor的关系
-
 366. setTimeout和setImmediate以及process.nextTick的区别
-
 367. JS运行机制（Event Loop）
-
 <a class="alert alert-primary small text-center d-block py-1" role="alert" href="./javascript/">阅读更多</a>
 
 ### ECMAScript
 
 1. ES6 都有什么 Iterator 遍历器
-
 2. ES6 中类的定义
-
 3. 谈谈你对 ES6 的理解
-
 4. 说说你对 promise 的了解
-
 5. 解构赋值及其原理
-
 6. Array.from() 与 Array.reduce()
-
 7. var let 在 for 循环中的区别
-
 8. Set 数据结构
-
 9. Class 的讲解
-
 10. 模板字符串
-
 11. 箭头函数需要注意的地方
-
 12. ES6 如何动态加载 import
-
 13. ECMAScript6 怎么写class么，为什么会出现class这种东西?
-
 14. 谈一谈你对ECMAScript6的了解？
-
 15. 箭头函数和普通函数有什么区别
-
 16. Promise 构造函数是同步执行还是异步执行，那么 then 方法呢？
-
 17. ES5/ES6 的继承除了写法以外还有什么区别？
-
 18. 对Promise的理解
-
 19. generator 原理
-
 20. 说说箭头函数的特点
-
 21. 请介绍Promise，异常捕获（网易）
-
 22. promise如何实现then处理（宝宝树）
-
 23. Promise. all并发限制
-
 24. 介绍下 Promise. all 使用、原理实现及错误处理
-
 25. 设计并实现 Promise. race()
-
 26. 模拟实现一个 Promise. finally
-
 27. 用Promise对象实现的 Ajax
-
 28. 简单实现async/await中的async函数
-
 29. setTimeout、Promise、Async/Await 的区别
-
 30. ES5构造函数用ES6的class改写
-
 31. 什么是Generator 函数
-
 32. 什么是yield 表达式
-
 33. ES6 引入Symbol的原因
-
 34. Promise.all（只要失败一个就不会走then）的解决方案
-
 35. Promise.race 用过吗
 
 ### Ajax
 
 1. Ajax 是什么? 如何创建一个 Ajax？
-
 2. 同步和异步的区别?
-
 3. 如何解决跨域问题?
-
 4. 页面编码和被请求的资源编码如果不一致如何处理？
-
 5. 创建 ajax 过程
-
 6. 阐述一下异步加载 JS
-
 7. 请解释一下 JavaScript 的同源策略
-
 8. GET 和 POST 的区别，何时使用 POST？
-
 9. ajax 的优点
-
 10. Ajax 的最大的特点是什么？
-
 11. ajax 的缺点
-
 12. ajax 请求的时候 get 和 post 方式的区别
-
 13. 解释 jsonp 的原理，以及为什么不是真正的 ajax, 以及优缺点
-
 14. 什么是 Ajax 和 JSON，它们的优缺点。
-
 15. 什么是 json，优缺点
-
 16. 一个页面从输入 URL 到页面加载显示完成，这个过程中都发生了什么？
-
 17. XML 和 JSON 的区别？
-
 18. ajax 请求时，如何解析 json 数据
-
 19. 同步加载、异步加载、延迟加载、预加载的区别
-
 20. eval 是做什么的？
-
 21. AMD 和 CMD 规范的区别
-
 22. HTTP 状态码
-
 23. 栈和队列的区别?
-
 24. ajax 加载的页面，跳转到另外一个页面再跳转回来，内容相同，如何节约读取请求?
-
 25. Ajax 实现的原理
-
 26. ajax 如何实现，readyState 的五种状态的含义？
-
 27. 什么是RESTful？
-
 28. Ajax 和 Fetch 区别
-
 29. ajax是同步还是异步？
 
 ### Vue
 
 1. vue 中的性能优化
-
 2. vue 的实例生命周期
-
 3. vue 的双向数据绑定的原理
-
 4. 为什么要替换 Object.defineProperty？（Proxy 相比于 defineProperty 的优势）
-
 5. 什么是 Proxy？
-
 6. 为什么避免 v-if 和 v-for 用在一起
-
 7. 组件的设计原则
-
 8. vue slot是做什么的?
-
 9. 对于 Vue 是一套渐进式框架的理解
-
 10. vue.js 的两个核心是什么？
-
 11. 请问 v-if 和 v-show 有什么区别
-
 12. Vue常用的修饰符及使用的场景
-
 13. v-on 可以监听多个方法吗？
-
 14. vue 中 key 值的作用
-
 15. vue-cli 工程升级 vue 版本
-
 16. vue 事件中如何使用 event 对象？
-
 17. $nextTick 的使用
-
 18. vue 组件中 data 为什么必须是函数
-
 19. v-for 与 v-if 的优先级
-
 20. vue 中子组件调用父组件的方法
-
 21. vue 中父组件调用子组件的方法
-
 22. vue 中 keep-alive 组件的作用
-
 23. vue 中如何编写可复用的组件？
-
 24. 什么是 vue 生命周期和生命周期钩子函数？
-
 25. vue 生命周期钩子函数有哪些？
-
 26. vue 如何监听键盘事件中的按键？
-
 27. vue 更新数组时触发视图更新的方法
-
 28. vue 中对象更改检测的注意事项
-
 29. 解决非工程化项目初始化页面闪动问题
-
 30. v-for 产生的列表，实现 active 的切换
-
 31. v-model 语法糖的组件中的使用
-
 32. 十个常用的自定义过滤器
-
 33. vue 等单页面应用及其优缺点
-
 34. 什么是 vue 的计算属性？
-
 35. vue 父组件如何向子组件中传递数据？
-
 36. vue 弹窗后如何禁止滚动条滚动？
-
 37. vue怎么实现页面的权限控制
-
 38. $route和$router的区别
-
 39. watch的作用是什么
-
 40. 计算属性的缓存和方法调用的区别
-
 41. vue的双向绑定的原理，和angular的对比
-
 42. vue 如何优化首屏加载速度？
-
 43. vue 打包命令是什么？
-
 44. vue 打包后会生成哪些文件？
-
 45. 如何配置 vue 打包生成文件的路径？
-
 46. vue 的服务器端渲染
-
 47. vue 开发命令 npm run dev 输入后的执行过程
-
 48. 什么是 Virtual DOM？
-
 49. 响应式系统的基本原理
-
 50. vue.js 全局运行机制
-
 51. 如何编译 template 模板？
-
 52. diff 算法
-
 53. 批量异步更新策略及 nextTick 原理？
-
 54. vue 中如何实现 proxy 代理？
-
 55. vue 中如何实现 tab 切换功能？
-
 56. vue 中如何利用 keep-alive 标签实现某个组件缓存功能？
-
 57. vue 中实现切换页面时为左滑出效果
-
 58. vue 中央事件总线的使用
-
 59. vue 的渲染机制
-
 60. vue 在什么情况下在数据发生改变的时候不会触发视图更新
-
 61. vue 的优点是什么？
-
 62. vue 如何实现按需加载配合 webpack 设置
-
 63. 如何让 CSS 只在当前组件中起作用
-
 64. 指令 v-el 的作用是什么?
-
 65. vue-loader 是什么？使用它的用途有哪些？
-
 66. vue和angular的优缺点以及适用场合?
-
 67. 你们vue项目是打包了一个js文件，一个css文件，还是有多个文件？
-
 68. vue遇到的坑，如何解决的？
-
 69. vuex 工作原理详解
-
 70. vuex 是什么？怎么使用？哪种功能场景使用它？
-
 71. vuex 有哪几种属性？
-
 72. 不用 Vuex 会带来什么问题？
-
 73. vue-router 如何响应 路由参数 的变化？
-
 74. 完整的 vue-router 导航解析流程
-
 75. vue-router 有哪几种导航钩子（ 导航守卫 ）？
-
 76. vue-router 的几种实例方法以及参数传递
-
 77. 怎么定义 vue-router 的动态路由？怎么获取传过来的动态参数？
-
 78. vue-router 如何定义嵌套路由？
-
 79. <router-link></router-link> 组件及其属性
-
 80. vue-router 实现路由懒加载（ 动态加载路由 ）
-
 81. vue-router 路由的两种模式
-
 82. history 路由模式与后台的配合
-
 83. vue路由实现原理? 或 vue-router原理?
-
 84. 什么是 MVVM？
-
 85. MVC、MVP 与 MVVM 模式
-
 86. 常见的实现 MVVM 几种方式
-
 87. 解释下 Object.defineProperty()方法
-
 88. 实现一个自己的 MVVM（原理剖析）
-
 89. 递归组件的使用
-
 90. Obj.keys()与 Obj.defineProperty
-
 91. 发布-订阅模式
-
 92. 实现 MVVM 的思路分析
-
 93. mvvm 和 mvc 区别？它和其它框架（jquery）的区别是什么？哪些场景适合？
-
 94. 构建的 vue-cli 工程都到了哪些技术，它们的作用分别是什么？
-
 95. vue-cli 工程常用的 npm 命令有哪些？
-
 96. 请说出 vue-cli 工程中每个文件夹和文件的用处
-
 97. config 文件夹 下 index.js 的对于工程 开发环境 和 生产环境 的配置
-
 98. 请你详细介绍一些 package.json 里面的配置
-
 99. vue-cli 中常用到的加载器
-
 100. vue.cli 中怎样使用自定义的组件？有遇到过哪些问题吗？
-
 101. vue-cli 提供的几种脚手架模板
-
 102. vue-cli 开发环境使用全局常量
-
 103. vue-cli 生产环境使用全局常量
-
 104. vue-cli 中自定义指令的使用
-
 105. vue 是如何对数组方法进行变异的？例如 push、pop、splice 等方法
-
 106. vue 组件之间的通信种类
-
 107. vue 是如何对数组方法进行变异的？例如 push、pop、splice 等方法
-
 108. 谈一谈 nextTick 的原理
-
 109. vue 中的 computed 是如何实现的
-
 110. vue 如何优化首页的加载速度？vue 首页白屏是什么问题引起的？如何解决呢？
-
 111. vue 的父组件和子组件生命周期钩子执行顺序是什么
-
 112. 在 Vue 中，子组件为何不可以修改父组件传递的 Prop，如果修改了，Vue 是如何监控到属性的修改并给出警告的。
-
 113. 实现通信方式
-
 114. 说说Vue的MVVM实现原理
-
 115. axios的特点有哪些？
-
 116. axios有哪些常用方法？
-
 117. 说下你了解的axios相关配置属性？
-
 118. vue.use是干什么的？原理是什么？
-
 119. new Vue() 发生了什么？
-
 120. 请说一下响应式数据的理解？
-
 121. vue如何检测数组变化？
-
 122. vue.set 方法是如何实现的？
-
 123. vue中模板编译原理？
-
 124. vue3. x响应式数据原理
-
 125. vue3. x中Proxy只会代理对象的第一层，那么Vue3又是怎样处理这个问题的呢？
-
 126. vue3. x中监测数组的时候可能触发多次get/set，那么如何防止触发多次呢？
-
 127. vue2.  x中如何监测数组变化
-
 128. 说一下Computed和Watch
-
 129. vue2.  x和Vue3. x渲染器的diff算法分别说一下
-
 130. SSR了解吗？
-
 131. 组件中写 name选项有哪些好处及作用？
-
 132. vue 的生命周期是什么？
-
 133. vue 的各个生命阶段是什么？
-
 134. vue 组件间的参数传递方式？
-
 135. computed 和 watch 的差异？
-
 136. vue-router 中的导航钩子函数
-
 137. $route 和 $router 的区别？
-
 138. vue 常用的修饰符？
-
 139. vue 中 key 值的作用？
-
 140. computed 和 watch 区别？
-
 141. keep-alive 组件有什么作用？
-
 142. vue 中 mixin 和 mixins 区别？
-
 143. vue 双向数据绑定原理？
-
 144. Object.defineProperty 介绍？
-
 145. 使用 Object.defineProperty() 来进行数据劫持有什么缺点？
-
 146. 什么是 Virtual DOM？为什么 Virtual DOM 比原生 DOM 快？
-
 147. 如何比较两个 DOM 树的差异？
-
 148. v-model的实现原理
-
 149. 说下vue 中的h函数
-
 150. Vue.prototype、Vue.component和Vue.use的区别
-
 151. 如何将axios异步请求同步化处理？
-
 152. vue组件里的定时器要怎么销毁？
-
 153. ＜template＞＜/template＞有什么用？
-
 154. vue组件会在什么时候下被销毁？
-
 155. vue组件里写的原生addEventListeners监听事件，要手动去销毁吗？为什么？
-
 156. 说说你对Object.defineProperty的理解
-
 157. 在组件中怎么访问到根实例？
-
 158. vue中什么是递归组件？举个例子说明下？
-
 159. 使用vue写一个tab切换
-
 160. vue3带来的新特性/亮点
-
 161. 在compositionAPI中如何使用生命周期函数？
-
 162. vue3如何通过ref属性获取界面上的元素?
-
 163. 说说你对keep-alive的理解是什么？
-
 164. 怎么缓存当前的组件？
-
 165. 缓存后如何获取数据？（缓存后怎么更新？）
-
 166. v3（Vue2）到 v4（Vue3）Vue Router 的变化？
-
 167. 对象新增属性为什么不更新？
-
 168. Vue的数据为什么频繁变化但只会更新一次
-
 169. vue computed和watch的区别【网易,京东,拼多多】
-
 170. v-if和v-show的区别【百度,网易,腾讯,字节,美团,快手,拼多多】
-
 171. vue常用指令【京东】
-
 172. vue父子组件挂载顺序？【百度】
-
 173. v-model的作用【滴滴】
-
 174. v-for和v-if放在一起用好吗【网易】
-
 175. vue组件样式污染【腾讯】
-
 176. Vue如何给一个对象添加新的属性【腾讯,美团,快手】
-
 177. vue的keep-alive组件【字节,京东,拼多多】
-
 178. process.nextTick和Vue.nextTick【字节】
-
 179. vue组件watch中deep和immediate的作用【美团】
-
 180. slot【滴滴,京东,快手】
-
 181. vue如何实现自定义指令【京东】
-
 182. Vue.use方法的使用【京东】
-
 183. vue和react的区别【阿里,美团,京东,拼多多】
-
 184. vue父子组件通信，兄弟组件通信【百度,字节,美团,滴滴,京东,网易,拼多多】
-
 185. vue的eventbus的实现【字节,滴滴,京东,拼多多】
-
 186. React、Vue和JQuery的选型【阿里,拼多多】
-
 187. vue和jquery的区别【字节,美团,京东,网易】
-
 188. computed和watch的区别【快手,京东,阿里,腾讯,滴滴】
-
 189. computed和method的区别【快手】
-
 190. vue组件的生命周期【阿里,腾讯,京东,网易,拼多多】
-
 191. vue组件data为什么是函数【网易,美团,滴滴】
-
 192. vue组件data用箭头函数行不行？【快手】
-
 193. vue响应式原理【阿里,美团,滴滴】
-
 194. vue的compile过程【阿里】
-
 195. vue的computed和watch的实现原理【阿里,美团】
-
 196. vue的模板渲染【百度】
-
 197. vue数据双向绑定原理【网易,百度,阿里,腾讯,美团,滴滴,快手,拼多多】
-
 198. vue怎么检测到数组的变化【腾讯,拼多多】
-
 199. Vue的diff算法【百度,腾讯,滴滴】
-
 200. vue nextTick【腾讯,快手】
-
 201. Vue的数据为什么频繁变化但只会更新一次【阿里】
-
 202. vue异步渲染、nextTick【京东】
-
 203. 为什么Vue是渐进式框架【京东】
-
 204. vue框架原理【阿里,字节,网易】
-
 205. vue-router中的路由守卫有哪些【京东】
-
 206. vue-router原理以及两种模式区别【网易,百度,字节,美团,快手,拼多多】
-
 207. vue-router用法【快手,拼多多】
-
 208. Vue3和Vue2的区别【腾讯,网易,拼多多】
-
 209. vuex的使用【字节,网易,快手,拼多多】
-
 210. Vuex工作机制【阿里,京东】
-
 211. 说说你对虚拟 DOM 的理解？
 
 ### React
 
 1. 当你调用 setState 的时候，发生了什么事？
-
 2. React 项目用过什么脚手架（本题是开放性题目）
-
 3. 功能组件( Functional Component )与类组件( Class Component )如何选择？
-
 4. React 中 keys 的作用是什么？
-
 5. React 优势
-
 6. React 很多个 setState 为什么是执行完再 render
-
 7. react diff 原理（常考，大厂必考）
-
 8. react 生命周期函数
-
 9. shouldComponentUpdate 是做什么的？（react 性能优化是哪个周期函数？）
-
 10. 为什么虚拟 dom 会提高性能?(必考)
-
 11. React 中 refs 的作用是什么？
-
 12. setState 和 replaceState 的区别
-
 13. redux 有什么缺点
-
 14. 简述 flux 思想
-
 15. 了解 redux 么，说一下 redux 吧
-
 16. React 中有三种构建组件的方式
-
 17. react 组件的划分业务组件技术组件？
-
 18. 描述事件在 React 中的处理方式
-
 19. 应该在 React 组件的何处发起 Ajax 请求
-
 20. (在构造函数中)调用 super(props) 的目的是什么
-
 21. 除了在构造函数中绑定 this，还有其它方式吗
-
 22. 为什么建议传递给 setState 的参数是一个 callback 而不是一个对象
-
 23. 何为高阶组件(higher order component)
-
 24. 何为受控组件(controlled component)
-
 25. 在 React 当中 Element 和 Component 有何区别？
-
 26. (组件的)状态(state)和属性(props)之间有何区别
-
 27. 展示组件(Presentational component)和容器组件(Container component)之间有何区别？
-
 28. 类组件(Class component)和 函数式组件(Functional component)之间有何区别？
-
 29. createElement 和 cloneElement 有什么区别？
-
 30. React实现一个防抖的模糊查询输入框
-
 31. React 和 Vue 的 diff 时间复杂度从 O(n^3) 优化到 O(n) ，那么 O(n^3) 和 O(n) 是如何计算出来的？
-
 32. React 中 setState 什么时候是同步的，什么时候是异步的？
-
 33. react-router里的 <Link> 标签和 <a> 标签有什么区别（滴滴）
-
 34. react-router怎么实现路由切换（滴滴）
-
 35. React组件事件代理的原理（网易）
-
 36. RN的原理，为什么可以同时在安卓和IOS端运行（寺库）
-
 37. 比较一下React与Vue
-
 38. 受控组件与非受控组件
-
 39. reactjs主要方法
-
 40. React.cloneElement()解析
-
 41. JSX 的本质是什么，它和 JS 之间到底是什么关系？
-
 42. 为什么要用 JSX？不用会有什么后果？
-
 43. JSX 背后的功能模块是什么，这个功能模块都做了哪些事情？
 
 ### TypeScript
@@ -2055,675 +936,348 @@ title: Interview
 ### jQuery
 
 1. 说下 jQuery/Zepto 中的 on 方法有哪些参数，分别代表什么意思？
-
 2. 谈一下 Jquery 中的 bind(), live(), delegate(), on()的区别？
-
 3. jQuery 的队列是如何实现的？队列可以用在哪些地方？
-
 4. jquery.extend 与 jquery.fn.extend 的区别？
-
 5. jQuery 的属性拷贝(extend)的实现原理是什么，如何实现深拷贝？
-
 6. jquery 中如何将数组转化为 json 字符串，然后再转化回来？
-
 7. jQuery.fn 的 init 方法返回的 this 指的是什么对象？为什么要返回 this？
-
 8. jQuery 与 jQuery UI、jQuery Mobile 区别？
-
 9. jQuery 的 slideUp 动画 ，如果目标元素是被外部事件驱动, 当鼠标快速地连续触发外部元素事件, 动画会滞后的反复执行，该如何处理呢?
-
 10. 你觉得 jQuery 源码有哪些写的好的地方
-
 11. 你觉得 zepto 源码有哪些写的好的地方
-
 12. jQuery 的实现原理和核心？
-
 13. 是否知道自定义事件？ jQuery 里的 fire 函数是什么意思，什么时候用？
-
 14. jQuery 通过哪个方法和 Sizzle 选择器结合的？
-
 15. jQuery 一个对象可以同时绑定多个事件，这是如何实现的？
-
 16. 针对 jQuery 的优化方法？
-
 17. jQuery UI 如何自定义组件？
-
 18. jQuery 和 Zepto 的区别？ 各自的使用场景？
-
 19. jQuery 对象的特点
-
 20. Zepto 的点透问题如何解决？
-
 21. 一个 div，有几种方式得到这个 div 的 jQuery 对象？
-
 22. jQuery 框架中$.ajax()的常用参数有哪些？写一个 post 请求并带有发送数据和返回数据的样例
-
 23. jQuery 的优点
-
 24. Jquery 如何获取子元素
-
 25. jQuery 库中的 $() 是什么？
-
 26. 如何找到所有 HTML select 标签的选中项？
-
 27. $(this) 和 this 关键字在 jQuery 中有何不同？
-
 28. jquery怎么移除标签onclick属性？
-
 29. jquery中addClass, removeClass, toggleClass的使用。
-
 30. JQuery有几种选择器?
-
 31. jQuery中的Delegate()函数有什么作用？
-
 32. 如何用jQuery禁用浏览器的前进后退按钮？
-
 33. jquery中$.get()提交和$.post()提交有区别吗？
 
 ### NodeJs
 
 1. 为什么用 Nodejs, 它有哪些缺点？
-
 2. NodeJS 的工作原理
-
 3. Node 的应用场景
-
 4. 如何用 NodeJS 搭建中间层？
-
 5. 什么是 error-first callback ？
-
 6. 如何避免回调函数嵌套？
-
 7. Node 程序如何监听 80 端口？
-
 8. 什么是事件循环（event loop）？
-
 9. 使用什么工具检查代码风格？
-
 10. 操作错误和程序错误的区别是什么？
-
 11. 为什么 npmshrinkwarp 非常有用？
-
 12. 什么是 stub？说出他的用途？举个使用场景？
-
 13. 什么是测试金字塔？在做 HTTP API 的时候要怎么实现？
-
 14. 你最熟悉的 Node 框架是什么？为什么？
-
 15. 你最喜欢的 HTTP 框架，并说明原因？
-
 16. 对 Node 的优点和缺点提出了自己的看法
-
 17. 需求：实现一个页面操作不会整页刷新的网站，并且能在浏览器前进、后退时正确响应。给出你的技术实现方案？
-
 18. (如果会用 node)知道 route, middleware, cluster, nodemon, pm2, server-side rendering 么?
-
 19. 解释一下 Backbone 的 MVC 实现方式？
-
 20. 什么是“前端路由”? 什么时候适合使用“前端路由”? “前端路由”有哪些优点和缺点?
-
 21. 对 Node 的优点和缺点提出了自己的看法？
-
 22. 使用过的koa2中间件（阿里）
-
 23. master挂了的话pm2怎么处理（阿里）
-
 24. node文件查找优先级（宝宝树）
 
 ### 网络&安全防护
 
 1. Http 状态码，Http2 是什么
-
 2. http1. 1 时如何复用 tcp 连接（网易）
-
 3. Http 请求的整个过程
-
 4. http 缓存配置怎么设置
-
 5. 常见的浏览器端的存储技术有哪些， 以及它们的优缺点和使用场景？
-
 6. 在 HTTP 响应 Header 中，set-cookie 选项有哪些，分别代表什么含义？
-
 7. 何为跨域？ 跨域请求数据有几种方式？图片/脚本 等资源有什么跨域问题。如何解决？跨域请求时如何携带 cookie
-
 8. 简要描述 HTTPS 的安全机制，以及在 web 服务工程实践中需要注意的问题。描述 http2 和 https 的关系
-
 9. 什么是点击劫持？如何防范？
-
 10. 什么是 CSRF, 怎么造成的，有什么防御方法？
-
 11. 请简述如何在 HTML 中开启和关闭 DNS 预读取?
-
 12. 什么是回源？域名回源的含义是什么？
-
 13. https 实现原理
-
 14. HTML5 的离线储存怎么使用，工作原理能不能解释一下
-
 15. XSS
-
 16. CSRF cookie 问题？
-
 17. CDN 原理
-
 18. 如何启动浏览器硬件加速，小 Hack
-
 19. 什么是 Cookie 隔离？（或者说：请求资源的时候不要让它带 cookie 怎么做）
-
 20. 三次握手
-
 21. 四次挥手
-
 22. 线程与进程的区别
-
 23. WEB 应用从服务器主动推送 Data 到客户端有那些方式？
-
 24. HTTP 的几种请求方法用途
-
 25. 常见 web 安全及防护原理
-
 26. 为什么要有同源限制？
-
 27. 域名发散和域名收敛是什么？
-
 28. 什么是 HTTPS，做什么用的呢？如何开启 HTTPS？
-
 29. TCP 和 UDP 的区别
-
 30. Web Worker 和 webSocket
-
 31. 为什么 HTTPS 安全
-
 32. sql 注入原理
-
 33. XSS 原理及防范
-
 34. XSS 防范方法
-
 35. XSS 与 CSRF 有什么区别吗？
-
 36. CSRF 的防御
-
 37. 请你谈谈 Cookie 的弊端？
-
 38. HTTP 协议中，header 信息里面，怎么控制页面失效时间（last-modified, cache-control, Expires 分别代表什么）
-
 39. 本地存储（Local Storage ）和 cookies（储存在用户本地终端上的数据）之间的区别是什么？
-
 40. Accept 和 Content-Type
-
 41. http 协议缓存机制
-
 42. 如何处理不让别人盗用你的图片，访问你的服务器资源
-
 43. Http 与 Https 的区别
-
 44. 什么是 Http 协议无状态协议? 怎么解决 Http 协议无状态协议?
-
 45. 常用的 HTTP 方法有哪些
-
 46. 一次完整的 HTTP 请求所经历的 7 个步骤
-
 47. webSocket 如何兼容低版本浏览器？
-
 48. 介绍 SSL 和 TLS（寺库）
-
 49. 说说网络的五层模型（寺库）
-
 50. cookie 和 token 都存放在 header 中，为什么不会劫持 token？
-
 51. v8 有了解过吗？讲讲了解过 v8 的那几个模块和部分，比如解释一下 v8 的 hidden class
-
 52. 前端如何实现即时通讯？
-
 53. Http 状态码 301 和 302 的应用场景分别是什么
-
 54. 接口如何防刷
-
 55. 为什么 HTTP1. 1 不能实现多路复用
-
 56. HTTPS 握手过程中，客户端如何验证证书的合法性
-
 57. 介绍 HTTPS 握手过程
-
 58. 简单讲解一下 http2 的多路复用
-
 59. HTTP2.  0 的多路复用和 HTTP1.  X 中的长连接复用区别
-
 60. 单工、半双工和全双工的区别
-
 61. 长连接与短连接
-
 62. 应用层--HTTP 协议
-
 63. 应用层--HTTP/2 协议
-
 64. 应用层--HTTPS 协议
-
 65. 应用层--DNS 协议
-
 66. 传输层--多路复用与多路分解
-
 67. 传输层--UDP 协议
-
 68. 传输层--TCP 协议
-
 69. 网络层
-
 70. 数据链路层
-
 71. 物理层
-
 72. TLS/SSL 中什么一定要用三个随机数，来生成"会话密钥"？
-
 73. SSL 连接断开后如何恢复？
-
 74. RSA 算法的安全性保障？
-
 75. DNS 为什么使用 UDP 协议作为传输层协议？
-
 76. 当你在浏览器中输入 Google.com 并且按下回车之后发生了什么？
-
 77. 谈谈 CDN 服务？
-
 78. 什么是正向代理和反向代理？
-
 79. 负载平衡的两种实现方式？
-
 80. http 请求方法 options 方法有什么用？
-
 81. http1. 1 和 http1. 0 之间有哪些区别？
-
 82. 网站域名加 www 与不加 www 的区别？
-
 83. 即时通讯的实现，短轮询、长轮询、SSE 和 WebSocket 间的区别？
-
 84. 怎么实现多个网站之间共享登录状态
-
 85. token相对cookie的优势
-
 86. JWT是什么
-
 87. Cookie、Session、Token、JWT对比与总结
-
 88. http中的301、302、307、308有什么区别？
-
 89. 说说你对短连接的理解，它有什么应用场景呢？
-
 90. 列举你所了解的计算机存储设备类型？
-
 91. web安全:平行越权和垂直越权
 
 ### 浏览器
 
 1. 常见的浏览器内核有哪些？
-
 2. 如何实现浏览器内多个标签页之间的通信?
-
 3. 浏览器的渲染过程
-
 4. 为何会出现浏览器兼容问题
-
 5. 跨标签页的通讯方式有哪些（哔哩哔哩）
-
 6. 请求时浏览器缓存 from memory cache 和 from disk cache 的依据是什么，哪些数据什么时候存放在 Memory Cache 和 Disk Cache中？
-
 7. 浏览器如何解析css选择器？
-
 8. 浏览器是如何渲染UI的？
-
 9. 浏览器的主要组成部分是什么？
-
 10. 浏览器性能问题-使用 Webpack 优化项目
-
 11. 怎样选择合适的缓存策略
-
 12. 说说浏览器缓存机制
-
 13. 你对浏览器的理解？
-
 14. 介绍一下你对浏览器内核的理解？
-
 15. 常见的浏览器内核比较
-
 16. 常见浏览器所用内核
-
 17. 浏览器的渲染原理？
-
 18. 渲染过程中遇到 JS 文件怎么处理？（浏览器解析过程）
-
 19. 说说你对Service worker的理解
-
 20. 说说你对Web Worker的理解
-
 21. 永久性重定向（301）和临时性重定向（302）对 SEO 有什么影响
-
 22. 浏览器 Eventloop 和 Node 中的有什么区别
-
 23. 事件循环（event loop）以及异步执行顺序（setTimeout、promise和async/await）
-
 24. 列举 IE 与其他浏览器不一样的特性？
 
 ### 兼容性问题
 
 1. HTML 对象获取问题
-
 2. const 问题
-
 3. event.x 与 event.y 问题
-
 4. window.location.href 问题
-
 5. frame 问题
-
 6. 模态和非模态窗口问题
-
 7. firefox 与 IE 的父元素(parentElement)的区别
-
 8. document.formName.item("itemName") 问题
-
 9. 集合类对象问题
-
 10. 自定义属性问题
-
 11. input.type 属性问题
-
 12. event.srcElement 问题
-
 13. 关于高度问题
-
 14. 事件委托方法
-
 15. document.form.item 问题
-
 16. cursor:hand VS cursor:pointer
-
 17. innerText 在 IE 中能正常工作，但在 FireFox 中却不行.
-
 18. CSS 透明度的设置
-
 19. css 中的 width 和 padding
-
 20. FF 和 IE BOX 模型解释不一致导致相差 2px
-
 21. IE5 和 IE6 的 BOX 解释不一致
-
 22. ul 和 ol 列表缩进问题
-
 23. 元素水平居中问题
-
 24. 变量名与某 HTML 对象 id 相同的问题
-
 25. margin 加倍的问题
-
 26. IE 与宽度和高度的问题
-
 27. 页面的最小宽度
-
 28. DIV 浮动 IE 文本产生 3 象素的 bug
-
 29. IE 捉迷藏的问题
-
 30. 高度不适应
-
 31. IE6 绝对定位的问题
-
 32. IE6 下图片下有空隙产生
-
 33. 对齐文本与文本输入框
-
 34. LI 中内容超过长度后以省略号显示
-
 35. 捕获事件
-
 36. IE6 默认的 div 高度
-
 37. 禁止选取网页内容
-
 38. css 滤镜的问题
-
 39. td 高度的问题
-
 40. div 嵌套 p 时，出现空白行
-
 41. IE6-7 图片下面有空隙的问题
-
 42. IE6 双倍边距的问题
-
 43. IE6 width 为奇数，右边多出 1px 的问题
-
 44. IE6 两个层之间 3px 的问题
-
 45. IE6 子元素绝对定位的问题
-
 46. 显示手型 cursor:hand
-
 47. IE6-7 line-height 失效的问题
-
 48. td 自动换行的问题
-
 49. 子容器浮动后，父容器扩展问题
-
 50. 透明 png 图片会带背景色
-
 51. list-style-position 默认值的问题
-
 52. list-style-image 准确定位的问题
-
 53. ul 标签默认值的问题
-
 54. IE 中 li 指定高度后，出现排版错误
-
 55. ul 或 li 浮动后，显示在 div 外
-
 56. ul 浮动后，margin 变大
-
 57. li 浮动后，margin 变大
-
 58. 嵌套使用 ul、li 的问题
-
 59. IE6-7 li 底部有 3px 的问题
-
 60. IE6 垂直列表间隙的问题
-
 61. IE6 列表背景颜色失效的问题
-
 62. IE6-7 列表背景颜色失效的问题
-
 63. 列表不能换行的问题
-
 64. li 中的内容以省略号显示
-
 65. 超链接访问过后 hover 样式不出现的问题
-
 66. 禁用中文输入法的问题
-
 67. 除去滚动条的问题
-
 68. 让层显示在 FLASH 之上
-
 69. 去除链接虚线边框的问题
-
 70. IE6 背景闪烁的问题
-
 71. 出现重复文字的问题
-
 72. ff、chrome 绝对定位无效
-
 73. 子容器宽度大于父容器宽度时，内容超出
-
 74. float 的 div 闭合的问题
-
 75. 单选框、复选框与后面的文字对不齐
-
 76. 如何禁止保存或拷贝图像（IOS）
-
 77. 模拟按钮 hover 效果
-
 78. 屏幕旋转的事件和样式事件
-
 79. audio 元素和 video 元素在 ios 和 andriod 中无法自动播放
-
 80. 摇一摇功能
-
 81. 手机拍照和上传图片
-
 82. 消除 transition 闪屏
-
 83. android 上去掉语音输入按钮
-
 84. 移动端 HTML5 audio autoplay 失效问题
-
 85. 不同浏览器的标签默认外补丁 margin 和内补丁 padding 不同
-
 86. 块属性标签 float 之后，又有横向的 margin 值，在 IE6 中显示会比设置的大（IE6 双边距 bug）
-
 87. 设置较小的高度标签（一般小于 10px），在 IE6，IE7，遨游中超出自己设置的高度
-
 88. 行内标签设置 display:block; 后又采用 float 布局，再设置横向 margin 值时，在 IE6 中显示会比设置的大（IE6 双边距 bug）
-
 89. 图片默认有间距
-
 90. 标签最低高度设置 min-height 不兼容
-
 91. 透明度兼容设置
-
 92. Box Model 的 bug
-
 93. IE6 中的列表 li 楼梯状 bug
-
 94. li 空白间距
-
 95. overflow：auto; 和 position:relative 的碰撞
-
 96. 浮动层的错位
-
 97. IE6 克隆文本的 bug
-
 98. IE 的图片缩放
-
 99. IE6 下 png 图片的透明 bug
-
 100. <iframe> 透明背景 bug
-
 101. 禁用 IE 默认的垂直滚动条
-
 102. 默认的内外边距不同
-
 103. 水平居中的问题
-
 104. 垂直居中的问题
-
 105. &nbsp; 显示的大小不一致
-
 106. 边框重叠说明
-
 107. 设置 td padding 的说明
-
 108. ul 设置的说明
-
 109. 使一个层垂直居中于浏览器中
-
 110. 触发 layout
-
 111. 设置滚动条颜色 只对 ie 系列有效 在 html 中 而不是设置 body
-
 112. 集合类对象问题
-
 113. window.event
-
 114. HTML 对象的 id 作为对象名的问题
-
 115. 用 idName 字符串取得对象的问题
-
 116. 取得元素的属性
-
 117. 在 FF 中没有 parentElement，parement.children 而用 parentNode，parentNode.childNodes
-
 118. body 对象
-
 119. url encoding
-
 120. nodeName 和 tagName 问题
-
 121. 元素属性
-
 122. document.getElementsByName() 和 document.all[name] 的问题
-
 123. 调用子框架或者其它框架中的元素的问题
-
 124. 对象宽高赋值问题
-
 125. FORM 标签
-
 126. 属性选择器(这个不能算是兼容, 是隐藏 css 的一个 bug)
-
 127. 为什么 FF 下文本无法撑开容器的高度
-
 128. IE 和 FireFox 对空格的尺寸解释不同，FireFox 为 4px, IE 为 8px;
-
 129. 条件注释
-
 130. 强制渲染
-
 131. js 兼容文件
-
 132. 浏览器识别符
-
 133. 添加到主屏后的标题（IOS）
-
 134. 启用 WebApp
-
 135. 百度禁止转码
-
 136. 设置状态栏的背景颜色（IOS）
-
 137. 移动端手机号码识别（IOS）
-
 138. 移动端邮箱识别（Android）
-
 139. 添加智能 App
-
 140. IOS Web app 启动动画
-
 141. 添加到主屏后的 APP 图标
-
 142. 优先使用最新版本 IE 和 Chrome
-
 143. viewport 模板
-
 144. 移动端如何定义字体 font-family
-
 145. 移动端字体单位 font-size 选择 px 还是 rem
-
 146. 移动端 touch 事件(区分 webkit 和 winphone)
-
 147. 移动端 click 屏幕产生 200-300 ms 的延迟响应
-
 148. 什么是 Retina
-
 149. ios 系统中元素被触摸时产生的半透明灰色遮罩怎么去掉
-
 150. 部分 android 系统中元素被点击时产生的边框怎么去掉
-
 151. winphone 系统 a、input 标签被点击时产生的半透明灰色背景怎么去掉
-
 152. webkit 表单元素的默认外观怎么重置
-
 153. webkit 表单输入框 placeholder 的颜色值能改变么
-
 154. webkit 表单输入框 placeholder 的文字能换行么
-
 155. 关闭 iOS 输入自动修正
-
 156. 禁止文本缩放
-
 157. 移动端如何清除输入框内阴影
-
 158. 快速回弹滚动
-
 159. 移动端禁止选中内容
-
 160. 移动端取消 touch 高亮效果
 
 ### 性能优化
@@ -2735,217 +1289,111 @@ title: Interview
 ### 其它未归类
 
 1. 谈谈你对 webpack 的看法（webpack 的特点）
-
 2. 最具有挑战性的项目
-
 3. webpack plugin/loader 的区别
-
 4. 熟悉哪些前端框架并应用于实际项目？ 阅读过哪些前端框架源码并学到哪些？
-
 5. 写过哪些前端组件
-
 6. 前端组件化的理解
-
 7. 有没有写过框架
-
 8. 网站性能优化
-
 9. React/Vue/小程序 的语法的这些好处，坏处
-
 10. Webpack 的代码分割，异步加载资源文件
-
 11. Node Proxy 代理服务, 如何把请求指向本地
-
 12. 如何对网站文件和资源优化
-
 13. 从零写一个 npm 安装包
-
 14. 平时如何管理你的项目？
-
 15. Webpack 中如何配置 Babel
-
 16. promise 和 await/async 的区别是什么？
-
 17. 怎么提高首屏加载速度
-
 18. 模块化开发怎么做？
-
 19. 调试工具的使用
-
 20. 用过哪些设计模式？
-
 21. 简述 gulp 是什么？
-
 22. 列举前端优化策略
-
 23. 首屏、白屏时间如何计算？
-
 24. 如何利用 webpack 把代码上传服务器以及转码测试？
-
 25. 项目上线流程是怎样的？
-
 26. 工程化怎么管理的?
-
 27. webpack 和 gulp 对比 webpack 打包文件太大怎么办?
-
 28. 不想让别人盗用你的图片，访问你的服务器资源该怎么处理？
-
 29. webpack 怎么引入第三方的库？
-
 30. 如果线上出现 bug git 怎么操作？
-
 31. 用过 Nginx 吗？都用过哪些？
-
 32. 混合开发桥接 api 是怎么调用的，需要引入类库嘛? 调用的对象是什么?
-
 33. 说一下你对支付，推送（远程，本地）的理解
-
 34. 后台管理项目，菜单权限如何控制的？
-
 35. 如何调用原生的接口？
-
 36. 微信支付怎么做？说说流程
-
 37. 混合开发的注意点
-
 38. 说说你对手机平台的安装包后缀的理解
-
 39. 谈谈你对 Socket 编程的理解，及实现原理，Socket 之间是怎么通讯的
-
 40. WEB 应用从服务器主动推送 Data 到客户端有哪些方式?
-
 41. 你们原来公司如何发送的新消息推送？
-
 42. webpack 用法
-
 43. 项目开发经历了哪几个阶段
-
 44. WEB 应用从服务器主动推送 Data 到客户端有那些方式？
-
 45. 模块化怎么做？
-
 46. 简述一下你对 web 性能优化的方案
-
 47. 移动端性能优化
-
 48. 请简要描述 web 前端性能需要考虑哪方面，你的优化思路是什么？
-
 49. 业界常用的优化 WEB 页面加载速度的方法（可以分别从页面元素展现，请求连接，css, js, 服务器等方面介绍）
-
 50. 什么是响应式设计？
-
 51. 前端异常监控
-
 52. Ascii、GBK、UTF、Unicode
-
 53. 页面大量图片，如何优化加载，优化用户体验
-
 54. 渲染优化
-
 55. 什么是“前端路由"? 什么时候适合使用“前端路由"? “前端路由"有哪些优点和缺点?
-
 56. 前端项目监控怎么做的
-
 57. 前后端分离的项目如何seo
-
 58. 怎么判断页面是否加载完成？
-
 59. 垃圾回收 新生代算法，老生代算法
-
 60. 介绍MVP怎么组织（宝宝树）
-
 61. 如何实现骨架屏，说说你的思路
-
 62. 如何在 H5 和小程序项目中计算白屏时间和首屏时间，说说你的思路
-
 63. 前端项目如何找出性能瓶颈（阿里）
-
 64. 介绍下 npm 模块安装机制，为什么输入 npm install 就可以自动安装对应的模块？
-
 65. 观察者和订阅-发布的区别，各自用在哪里（网易）
-
 66. 文件上传如何做断点续传（网易）
-
 67. npm2和npm3 有什么区别(宝宝树)
-
 68. 移动端如何设计一个比较友好的Header组件？(携程)
-
 69. 说说你对前端架构师的理解
-
 70. 你如何对需求原型进行理解和拆分
-
 71. 说说你对功能性需求的理解
-
 72. 说说你对非功能性需求的理解
-
 73. 你针对产品提出哪些交互和改进意见
-
 74. 你如何理解用户痛点
-
 75. 说说你在项目中使用过的UML 图
-
 76. 你如何考虑组件化
-
 77. 你如何考虑服务化
-
 78. 你如何进行领域建模
-
 79. 你如何划分领域边界
-
 80. 说说你项目中的领域建模
-
 81. 说说概要设计
-
 82. 你使用过哪些设计模式，请介绍一下分别使用场景以及它们自身
-
 83. 说说常用开源框架中设计模式使用分析
-
 84. 说说你对设计原则的理解23种设计模式的设计理念
-
 85. 设计模式之间的异同，例如策略模式与状态模式的区别
-
 86. 设计模式之间的结合，例如策略模式 + 简单工厂模式的实践
-
 87. 设计模式的性能，例如单例模式哪种性能更好。
-
 88. 你系统中的前后端分离是如何做的
-
 89. 说说你的开发流程
-
 90. 你和团队是如何沟通的
-
 91. 你如何进行代码评审
-
 92. 说说你对技术与业务的理解
-
 93. 说说你在项目中经常遇到的 Exception
-
 94. 说说你在项目中遇到感觉最难 Bug，怎么解决的
-
 95. 说说你在项目中遇到印象最深，最困难的地方，是怎么解决的
-
 96. 你觉得你们项目还有哪些不足的地方
-
 97. 你是否遇到过 CPU 100%，如何排查与解决
-
 98. 你是否遇到过 内存 OOM，如何排查与解决
-
 99. 说说你对敏捷开发的实践
-
 100. 说说你对开发运维的实践
-
 101. 介绍下工作中的一个对自己最有价值的项目，以及在这个过程中的角色
-
 102. 为什么通常在发送数据埋点请求的时候使用的是 1x1 像素的透明 gif 图片？
-
 103. 在前后端分离项目里，请说说前端传递的token的流程？
-
 104. 你觉得新开发一个网站最困难的是哪些部分？
-
 105. 前端打包工具rollup、webpack、vite的区别
-
 106. 如何实现快速冷启动？
-
 107. npm打包时需要注意哪些？如何利用webpack来更好的构建？
 
 ## 服务端系列
@@ -3003,7 +1451,6 @@ Huffman 树
 常见面试智力题总结 - 1.  时针与分针夹角度数问题？ - 2.   用3升，5升杯子怎么量出4升水？ - 3.  四个药罐中有一个浑浊的药罐，浑浊的每片药片都比其他三个干净的药罐多一克，如何只用一次天平找出浑浊的药罐？ - 4.  四张卡片，卡片正面是数字，反面是字母。现在桌上四张卡片，状态为 a 1 b 2 现在我想要证明 a 的反面必然是 1 ，我只能翻两张牌，我翻哪两张？ - 5.  赛马问题，25 匹马，5 个赛道，最少几次能选出最快的三匹马？ - 6.  五队夫妇参加聚会，每个人不能和自己的配偶握手，只能最多和他人握手一次。A问了其他人，发现每个人的握手次数都不同，那么A的配偶握手了几次？ - 7.  你只能带行走 60 公里的油，只能在起始点加油，如何穿过 80 公里的沙漠？ - 8.  烧一根不均匀的绳要用一个小时，如何用它来判断一个小时十五分钟？ - 9.  有7克、2克砝码各一个，天平一只，如何只用这些物品三次将140克的盐分成50、90克各一份？ - 10.  有一辆火车以每小时15公里的速度离开洛杉矶直奔纽约，另一辆火车以第 小时20公里的速度从纽约开往洛杉矶。如果有一只鸟，以外30公里每小时的速度和 两辆火车现时启动，从洛杉矶出发，碰到另辆车后返回，依次在两辆火车来回的飞行，直道两面辆火车相遇，请问，这只小鸟飞行了多长距离？ - 11.  你有两个罐子，50个红色弹球，50个蓝色弹球，随机选出一个罐子，随机选取出一个弹球放入罐子，怎么给红色弹球最大的选中机会？在你的计划中，得到红球的准确几率是多少？ - 12.   假设你有8个球，其中一个略微重一些，但是找出这个球的惟一方法是将两个球放在天平上对比。最少要称多少次才能找出这个较重的球？ - 13.  在房里有三盏灯，房外有三个开关，在房外看不见房内的情况，你只能进门一次，你用什么方法来区分那个开关控制那一盏灯？ - 14.  他们都各自买了两对黑袜和两对白袜，八对袜子的布质、大小完全相同，而每对袜子都有一张商标纸连着。两位盲人不小心将八对袜子混在一起。他们每人怎样才能取回黑袜和白袜各两对呢？ - 15.  有三筐水果，一筐装的全是苹果，第二筐装的全是橘子，第三筐是橘子与苹果混在一起。筐上的标签都是骗人的，（就是说筐上的标签都是错的）你的任务是拿出其中一筐，从里面只拿一只水果，然后正确写出三筐水果的标签。 - 16.  一个班级60%喜欢足球，70%喜欢篮球，80%喜欢排球，问即三种球都喜欢占比有多少？ - 17.  五只鸡五天能下五个蛋，一百天下一百个蛋需要多少只鸡？
 剑指 offer 思路总结
 题目
-
 1. 二维数组中的查找
 2. 替换空格
 3. 从尾到头打印链表
@@ -3079,14 +1526,11 @@ Huffman 树
 <a class="alert alert-primary small text-center d-block py-1" role="alert" href="./leetcode/">阅读更多</a>
 
 ## References
-
 <!--
 - [![]({{site.storageUrl.favicon}}/github.ico)]({{site.siteUrl.github}}/user/repo)
     ![](https://img.shields.io/github/stars/?style=flat)
       user/repo:
-
  -->
-
 * [![]({{site.storageUrl.favicon}}/github.ico)]({{site.siteUrl.github}}/0voice/interview_internal_reference)
     ![](https://img.shields.io/github/stars/0voice/interview_internal_reference?style=flat)
     `0voice/interview_internal_reference`:
@@ -3145,9 +1589,7 @@ Huffman 树
     ![](https://img.shields.io/github/stars/yisainan/web-interview?style=flat)
     `yisainan/web-interview`:
         我是齐丶先丶森，收集整理全网面试题及面试技巧，旨在帮助前端工程师们找到一份好工作！
-
 [**interview · GitHub Topics**](https://github.com/topics/interview)
-
 * [![]({{site.storageUrl.favicon}}/github.ico)]({{site.siteUrl.github}}/jwasham/coding-interview-university)
     ![](https://img.shields.io/github/stars/jwasham/coding-interview-university?style=flat)
         jwasham/coding-interview-university:
