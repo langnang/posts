@@ -2,3 +2,4 @@ name,description,storageIco,ico,homepage,github_user,github_repo
 laravel/laravel,The skeleton application for the Laravel framework.,,,,laravel,laravel
 laravel/lumen,The Laravel Lumen Framework.,,,,laravel,lumen
 owner888/phpspider,The PHPSpider Framework.,gitbook.ico,,https://doc.phpspider.org/,owner888,phpspider
+symfony/var-dumper,Provides mechanisms for walking through any arbitrary PHP variable,,,symfony,symfony,var-dumper
