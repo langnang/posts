@@ -1,0 +1,521 @@
+npm_packages:
+  - name: axios
+    description: Promise based HTTP client for the browser and node.js
+    homepage: https://axios-http.com/
+    storageIco:
+    ico: https://axios-http.com/assets/favicon.ico
+    github:
+      user: axios
+      repo: axios
+
+  - name: bootstrap
+    description: Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+    homepage: https://www.bootcss.com/
+    storageIco:
+    ico: https://www.bootcss.com/assets/favicons/favicon.ico
+    github:
+      user: twbs
+      repo: bootstrap
+
+  - name: bootstrap-icons
+    description: Official open source SVG icon library for Bootstrap with over 2,000 icons.
+    homepage: https://icons.getbootstrap.com/
+    storageIco:
+    ico: https://icons.getbootstrap.com/assets/img/favicons/favicon.ico
+    github:
+      user: twbs
+      repo: icons
+
+  - name: jquery
+    description: a fast, small, and feature-rich JavaScript library.
+    homepage: https://jquery.com/
+    storageIco:
+    ico: https://jquery.com/favicon.ico
+    github:
+      user: jquery
+      repo: jquery
+
+  - name: masonry-layout
+    description: Cascading grid layout library
+    homepage: https://masonry.desandro.com/
+    storageIco:
+    ico: https://masonry.desandro.com/favicon.ico
+    github:
+      user: desandro
+      repo: masonry
+
+  - name: react
+    description: a JavaScript library for creating user interfaces.
+    homepage: https://react.docschina.org/
+    storageIco:
+    ico: https://react.docschina.org/favicon.ico
+    github:
+      user: facebook
+      repo: react
+
+  - name: simple-icons
+    description: Over 3100 Free SVG icons for popular brands.
+    homepage: https://simpleicons.org/
+    storageIco:
+    ico: https://simpleicons.org/images/favicon.ico
+    github:
+      user: simple-icons
+      repo: simple-icons
+
+  - name: vue
+    description: a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+    homepage: https://cn.vuejs.org/
+    storageIco: vuejs.ico
+    ico:
+    github:
+      user: vuejs
+      repo: vue
+
+  - name:
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+
+composer_packages:
+  - name: laravel/laravel
+    description: The skeleton application for the Laravel framework.
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user: laravel
+      repo: laravel
+  - name: laravel/lumen
+    description: The Laravel Lumen Framework.
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user: laravel
+      repo: lumen
+  - name: owner888/phpspider
+    description: The PHPSpider Framework.
+    homepage: https://doc.phpspider.org/
+    storageIco: gitbook.ico
+    ico:
+    github:
+      user: owner888
+      repo: phpspider
+
+  - name:
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+
+ruby_packages:
+  - name: jekyll
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: github-pages-health-check
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: github-pages
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: html-pipeline
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-avatar
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-coffeescript
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-commonmark-ghpages
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-default-layout
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-feed
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-gist
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-github-metadata
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-include-cache
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-mentions
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-optional-front-matter
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-paginate
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-readme-index
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-redirect-from
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-relative-links
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-remote-theme
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-sass-converter
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-seo-tag
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-sitemap
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-swiss
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-architect
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-cayman
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-dinky
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-hacker
+    description: Hacker is a Jekyll theme for GitHub Pages
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user: pages-themes
+      repo: hacker
+  - name: jekyll-theme-leap-day
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-merlot
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-midnight
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-minimal
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-modernist
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-primer
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-slate
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-tactile
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-theme-time-machine
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-titles-from-headings
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jemoji
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: kramdown-parser-gfm
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: kramdown
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: liquid
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: minima
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: nokogiri
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: rouge
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: ruby
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: safe_yaml
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: sass
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+  - name: jekyll-get-json
+    description: Import remote JSON data into the data for a Jekyll site
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+
+  - name:
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:
+
+pypi_packages:
+  - name:
+    description:
+    homepage:
+    storageIco:
+    ico:
+    github:
+      user:
+      repo:

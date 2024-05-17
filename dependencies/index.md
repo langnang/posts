@@ -25,6 +25,24 @@ npm_cdns:
     homepage: https://unpkg.com/
     storageIco: /unpkg.ico
     packageUrl: https://unpkg.com/
+
+composer_cdns:
+  - name: packagist
+    homepage: https://packagist.org/
+    storageIco: /packagist.ico
+    packageUrl: https://packagist.org/packages
+
+ruby_cnds:
+  - name: rubygems
+    homepage: https://rubygems.org/
+    storageIco: /rubygems.ico
+    packageUrl: https://rubygems.org/gems/
+
+pypi_cdns:
+  - name: pypi
+    homepage: https://pypi.org/
+    storageIco: /pypi.ico
+    packageUrl: https://pypi.org/project/
 ---
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
@@ -77,38 +95,41 @@ npm_cdns:
 
 ```
 
-{% if site.data.dependencies.npm_packages %}
+{% if site.data.dependencies_index.npm_packages %}
+{% assign npm_packages = site.data.dependencies_index.npm_packages %}
 <ul>
-  {% for package in site.data.dependencies.npm_packages %}
-    <li>
-      {% if package.github and package.github.user and package.github.repo %}
-        <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
-          <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
-        </a>
-      {% endif %}
-      {% for cdn in page.npm_cdns %}
-        <a href="{{cdn.packageUrl}}/{{package.name}}">
-          {% if cdn.storageIco %}
-            <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
-          {% else if cdn.ico %}
-            <img src="{{cdn.ico}}" alt=""/>
-          {% endif %}
-        </a>
-      {% endfor %}
-      {% if package.storageIco or package.ico and package.homepage %}
-        <a href="{{package.homepage}}">
-          {% if package.storageIco %}
-            <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
-          {% else if package.ico %}
-            <img src="{{package.ico}}" alt=""/>
-          {% endif %}
-        </a>
-      {% endif %}
-      <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
-      {% if package.description %}
-        <span>{{package.description}}</span>
-      {% endif %}
-    </li>
+  {% for package in npm_packages %}
+    {% if package.name %}
+      <li>
+        {% if package.github and package.github.user and package.github.repo %}
+          <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
+            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
+          </a>
+        {% endif %}
+        {% for cdn in page.npm_cdns %}
+          <a href="{{cdn.packageUrl}}/{{package.name}}">
+            {% if cdn.storageIco %}
+              <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
+            {% else if cdn.ico %}
+              <img src="{{cdn.ico}}" alt=""/>
+            {% endif %}
+          </a>
+        {% endfor %}
+        {% if package.storageIco or package.ico and package.homepage %}
+          <a href="{{package.homepage}}">
+            {% if package.storageIco %}
+              <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
+            {% else if package.ico %}
+              <img src="{{package.ico}}" alt=""/>
+            {% endif %}
+          </a>
+        {% endif %}
+        <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
+        {% if package.description %}
+          <span>{{package.description}}</span>
+        {% endif %}
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 {% endif %}
@@ -116,21 +137,77 @@ npm_cdns:
 ## Composer
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
-    <a class="d-inline-flex" href="https://packagist.org/"><img src="{{site.storageUrl.favicon}}/packagist.ico"/></a>
+  {% for cdn in page.composer_cdns %}
+    <a class="d-inline-flex" href="{{cdn.homepage}}">
+      {% if cdn.storageIco %}
+        <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}"/>
+      {% else if cdn.ico %}
+        <img src="{{cdn.ico}}"/>
+      {% endif %}
+    </a>
+  {% endfor %}
 </div>
+
+**intall**
 
 ```bash
 composer require {package}
+
+# 更新 autoload
+composer dump-autoload
 ```
 
-- `laravel/laravel`
-- `laravel/lumen`
-- `phpspider`
+{% if site.data.dependencies_index.composer_packages %}
+{% assign composer_packages = site.data.dependencies_index.composer_packages %}
+<ul>
+  {% for package in composer_packages %}
+    {% if package.name %}
+      <li>
+        {% if package.github and package.github.user and package.github.repo %}
+          <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
+            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
+          </a>
+        {% endif %}
+        {% for cdn in page.composer_cdns %}
+          <a href="{{cdn.packageUrl}}/{{package.name}}">
+            {% if cdn.storageIco %}
+              <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
+            {% else if cdn.ico %}
+              <img src="{{cdn.ico}}" alt=""/>
+            {% endif %}
+          </a>
+        {% endfor %}
+        {% if package.storageIco or package.ico and package.homepage %}
+          <a href="{{package.homepage}}">
+            {% if package.storageIco %}
+              <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
+            {% else if package.ico %}
+              <img src="{{package.ico}}" alt=""/>
+            {% endif %}
+          </a>
+        {% endif %}
+        <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
+        {% if package.description %}
+          <span>{{package.description}}</span>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
 
-## RubyGems
+## Ruby
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
-    <a class="d-inline-flex" href="https://rubygems.org/"><img src="{{site.storageUrl.favicon}}/rubygems.ico"/></a>
+  {% for cdn in page.ruby_cnds %}
+    <a class="d-inline-flex" href="{{cdn.homepage}}">
+      {% if cdn.storageIco %}
+        <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}"/>
+      {% else if cdn.ico %}
+        <img src="{{cdn.ico}}"/>
+      {% endif %}
+    </a>
+  {% endfor %}
 </div>
 
 **Gemfile**
@@ -145,57 +222,100 @@ gem '{package}', '~>{version}'
 gem install {package}
 ```
 
-- jekyll  3.9.5
-- github-pages-health-check  1.18.2
-- github-pages  231
-- html-pipeline  2.14.3
-- jekyll-avatar  0.8.0
-- jekyll-coffeescript  1.2.2
-- jekyll-commonmark-ghpages  0.4.0
-- jekyll-default-layout  0.1.5
-- jekyll-feed  0.17.0
-- jekyll-gist  1.5.0
-- jekyll-github-metadata  2.16.1
-- jekyll-include-cache  0.2.1
-- jekyll-mentions  1.6.0
-- jekyll-optional-front-matter  0.3.2
-- jekyll-paginate  1.1.0
-- jekyll-readme-index  0.3.0
-- jekyll-redirect-from  0.16.0
-- jekyll-relative-links  0.6.1
-- jekyll-remote-theme  0.4.3
-- jekyll-sass-converter  1.5.2
-- jekyll-seo-tag  2.8.0
-- jekyll-sitemap  1.4.0
-- jekyll-swiss  1.0.0
-- jekyll-theme-architect  0.2.0
-- jekyll-theme-cayman  0.2.0
-- jekyll-theme-dinky  0.2.0
-- jekyll-theme-hacker  0.2.0
-- jekyll-theme-leap-day  0.2.0
-- jekyll-theme-merlot  0.2.0
-- jekyll-theme-midnight  0.2.0
-- jekyll-theme-minimal  0.2.0
-- jekyll-theme-modernist  0.2.0
-- jekyll-theme-primer  0.6.0
-- jekyll-theme-slate  0.2.0
-- jekyll-theme-tactile  0.2.0
-- jekyll-theme-time-machine  0.2.0
-- jekyll-titles-from-headings  0.5.3
-- jemoji  0.13.0
-- kramdown-parser-gfm  1.1.0
-- kramdown  2.4.0
-- liquid  4.0.4
-- minima  2.5.1
-- nokogiri  1.15.5
-- rouge  3.30.0
-- ruby  2.7.4
-- safe_yaml  1.0.5
-- sass  3.7.4
-- jekyll-get-json: Import remote JSON data into the data for a Jekyll site
+{% if site.data.dependencies_index.ruby_packages %}
+{% assign ruby_packages = site.data.dependencies_index.ruby_packages %}
+<ul>
+  {% for package in ruby_packages %}
+    {% if package.name %}
+      <li>
+        {% if package.github and package.github.user and package.github.repo %}
+          <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
+            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
+          </a>
+        {% endif %}
+        {% for cdn in page.ruby_cnds %}
+          <a href="{{cdn.packageUrl}}/{{package.name}}">
+            {% if cdn.storageIco %}
+              <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
+            {% else if cdn.ico %}
+              <img src="{{cdn.ico}}" alt=""/>
+            {% endif %}
+          </a>
+        {% endfor %}
+        {% if package.storageIco or package.ico and package.homepage %}
+          <a href="{{package.homepage}}">
+            {% if package.storageIco %}
+              <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
+            {% else if package.ico %}
+              <img src="{{package.ico}}" alt=""/>
+            {% endif %}
+          </a>
+        {% endif %}
+        <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
+        {% if package.description %}
+          <span>{{package.description}}</span>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
 
-## Pipy
+## PyPI
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
-    <a class="d-inline-flex" href="https://pypi.org/"><img src="{{site.storageUrl.favicon}}/pypi.ico"/></a>
+  {% for cdn in page.pypi_cdns %}
+    <a class="d-inline-flex" href="{{cdn.homepage}}">
+      {% if cdn.storageIco %}
+        <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}"/>
+      {% else if cdn.ico %}
+        <img src="{{cdn.ico}}"/>
+      {% endif %}
+    </a>
+  {% endfor %}
 </div>
+
+**intall**
+
+```bash
+pip install {package}
+```
+
+{% if site.data.dependencies_index.pypi_packages %}
+{% assign pypi_packages = site.data.dependencies_index.pypi_packages %}
+<ul>
+  {% for package in pypi_packages %}
+    {% if package.name %}
+      <li>
+        {% if package.github and package.github.user and package.github.repo %}
+          <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
+            <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
+          </a>
+        {% endif %}
+        {% for cdn in page.pypi_cdns %}
+          <a href="{{cdn.packageUrl}}/{{package.name}}">
+            {% if cdn.storageIco %}
+              <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
+            {% else if cdn.ico %}
+              <img src="{{cdn.ico}}" alt=""/>
+            {% endif %}
+          </a>
+        {% endfor %}
+        {% if package.storageIco or package.ico and package.homepage %}
+          <a href="{{package.homepage}}">
+            {% if package.storageIco %}
+              <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
+            {% else if package.ico %}
+              <img src="{{package.ico}}" alt=""/>
+            {% endif %}
+          </a>
+        {% endif %}
+        <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
+        {% if package.description %}
+          <span>{{package.description}}</span>
+        {% endif %}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}
