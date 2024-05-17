@@ -49,6 +49,10 @@ packageUrl:
   rubygems: https://rubygems.org/gems/
   cndjs: https://cdnjs.com/libraries/
 
+badgeUrl:
+  shields: https://shields.io/badges/
+  fury: https://badge.fury.io/
+
 # description: >- # this means to ignore newlines until "baseurl:"
 #  Write an awesome description for your new site here. You can edit this
 #  line in _config.yml. It will appear in your document head meta (for
@@ -64,6 +68,7 @@ theme: jekyll-theme-primer
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-feed
+  - jekyll-get-json
   - jekyll-seo-tag
   - jekyll-readme-index
   - jekyll-relative-links
@@ -103,3 +108,9 @@ include:
 
 emoji:
   src: "/assets/images/emoji"
+
+jekyll_get_json:
+  - data: svgs
+    json: "https://cdn.jsdelivr.net/gh/langnang/storage/json/svg.json"
+  - data: websites
+    json: "https://cdn.jsdelivr.net/gh/langnang/storage/json/websites.json"

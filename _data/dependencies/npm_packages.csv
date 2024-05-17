@@ -1,0 +1,9 @@
+name,description,storageIco,ico,homepage,github_user,github_repo
+axios,Promise based HTTP client for the browser and node.js,,https://axios-http.com/assets/favicon.ico,https://axios-http.com/,axios,axios
+bootstrap,"Sleek, intuitive, and powerful front-end framework for faster and easier web development.",,https://www.bootcss.com/assets/favicons/favicon.ico,https://www.bootcss.com/,twbs,bootstrap
+bootstrap-icons,"Official open source SVG icon library for Bootstrap with over 2,000 icons.",,https://icons.getbootstrap.com/assets/img/favicons/favicon.ico,https://icons.getbootstrap.com/,twbs,icons
+jquery,"a fast, small, and feature-rich JavaScript library.",,https://jquery.com/favicon.ico,https://jquery.com/,jquery,jquery
+masonry-layout,Cascading grid layout library,,https://masonry.desandro.com/favicon.ico,https://masonry.desandro.com/,desandro,masonry
+react,a JavaScript library for creating user interfaces.,,https://react.docschina.org/favicon.ico,https://react.docschina.org/,facebook,react
+simple-icons,Over 3100 Free SVG icons for popular brands.,,https://simpleicons.org/images/favicon.ico,https://simpleicons.org/,simple-icons,simple-icons
+vue,"a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",vuejs.ico,,https://cn.vuejs.org/,vuejs,vue

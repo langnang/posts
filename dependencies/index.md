@@ -6,65 +6,84 @@ baseNpmUrl: https://www.npmjs.com/package
 cdns:
   - name: github
     homepage: https://github.com/
-    storageIco: /github.ico
+    storageIco: github.ico
+    ico: 
+  - name: gitlab
+    homepage: https://gitlab.com/
+    storageIco: gitlab.ico
+  - name: gitee
+    homepage: https://gitee.com/
+    storageIco: gitee.ico
+  - name: bitbucket
+    homepage: https://bitbucket.org/
+    storageIco: bitbucket.ico
+  - name: sourceforge  
+    homepage: https://sourceforge.net/  
+    storageIco: sourceforge.ico
+  - name: coding
+    homepage: https://coding.net/
+    storageIco: coding.ico
 
 npm_cdns:
   - name: npmjs
     homepage: https://npmjs.com/
-    storageIco: /npmjs.ico
+    storageIco: npmjs.ico
     packageUrl: https://npmjs.com/
   - name: cdnjs
     homepage: https://cdnjs.com/
-    storageIco: /cdnjs.ico
+    storageIco: cdnjs.ico
     packageUrl: https://cdnjs.com/
   - name: jsdelivr
     homepage: https://jsdelivr.com/
-    storageIco: /jsdelivr.ico
+    storageIco: jsdelivr.ico
     packageUrl: https://jsdelivr.com/
   - name: unpkg 
     homepage: https://unpkg.com/
-    storageIco: /unpkg.ico
+    storageIco: unpkg.ico
     packageUrl: https://unpkg.com/
+  - name: bootcdn 
+    homepage: https://bootcdn.cn/
+    storageIco: bootcdn.ico
+    packageUrl: https://bootcdn.cn/  
 
 composer_cdns:
   - name: packagist
     homepage: https://packagist.org/
-    storageIco: /packagist.ico
+    storageIco: packagist.ico
     packageUrl: https://packagist.org/packages
 
 ruby_cnds:
   - name: rubygems
     homepage: https://rubygems.org/
-    storageIco: /rubygems.ico
+    storageIco: rubygems.ico
     packageUrl: https://rubygems.org/gems/
 
 pypi_cdns:
   - name: pypi
     homepage: https://pypi.org/
-    storageIco: /pypi.ico
+    storageIco: pypi.ico
     packageUrl: https://pypi.org/project/
 ---
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
   {% for cdn in page.cdns %}
-    <a class="d-inline-flex" href="{{cdn.homepage}}">
+    <a target="_blank" class="d-inline-flex" href="{{cdn.homepage}}">
       {% if cdn.storageIco %}
-        <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}"/>
+        <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}"/>
       {% else if cdn.ico %}
         <img src="{{cdn.ico}}"/>
       {% endif %}
     </a>
   {% endfor %}
-    <a class="d-inline-flex" href="https://github.com/"><img src="{{site.storageUrl.favicon}}/github.ico"/></a>
 </div>
 
 ## NPM
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
   {% for cdn in page.npm_cdns %}
-    <a class="d-inline-flex" href="{{cdn.homepage}}">
+    <a target="_blank" class="d-inline-flex" href="{{cdn.homepage}}">
       {% if cdn.storageIco %}
-        <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}"/>
+        <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}"/>
       {% else if cdn.ico %}
         <img src="{{cdn.ico}}"/>
       {% endif %}
@@ -95,30 +114,30 @@ pypi_cdns:
 
 ```
 
-{% if site.data.dependencies_index.npm_packages %}
-{% assign npm_packages = site.data.dependencies_index.npm_packages %}
+{% if site.data.dependencies.npm_packages %}
+{% assign npm_packages = site.data.dependencies.npm_packages %}
 <ul>
   {% for package in npm_packages %}
     {% if package.name %}
       <li>
-        {% if package.github and package.github.user and package.github.repo %}
-          <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
+        {% if package.github_user and package.github_repo %}
+          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
             <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
           </a>
         {% endif %}
         {% for cdn in page.npm_cdns %}
-          <a href="{{cdn.packageUrl}}/{{package.name}}">
+          <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
-              <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
+              <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}" alt=""/>
             {% else if cdn.ico %}
               <img src="{{cdn.ico}}" alt=""/>
             {% endif %}
           </a>
         {% endfor %}
         {% if package.storageIco or package.ico and package.homepage %}
-          <a href="{{package.homepage}}">
+          <a target="_blank" href="{{package.homepage}}">
             {% if package.storageIco %}
-              <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
+              <img src="{{site.storageUrl.favicon}}/{{package.storageIco}}" alt=""/>
             {% else if package.ico %}
               <img src="{{package.ico}}" alt=""/>
             {% endif %}
@@ -138,9 +157,9 @@ pypi_cdns:
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
   {% for cdn in page.composer_cdns %}
-    <a class="d-inline-flex" href="{{cdn.homepage}}">
+    <a target="_blank" class="d-inline-flex" href="{{cdn.homepage}}">
       {% if cdn.storageIco %}
-        <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}"/>
+        <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}"/>
       {% else if cdn.ico %}
         <img src="{{cdn.ico}}"/>
       {% endif %}
@@ -157,30 +176,30 @@ composer require {package}
 composer dump-autoload
 ```
 
-{% if site.data.dependencies_index.composer_packages %}
-{% assign composer_packages = site.data.dependencies_index.composer_packages %}
+{% if site.data.dependencies.composer_packages %}
+{% assign composer_packages = site.data.dependencies.composer_packages %}
 <ul>
   {% for package in composer_packages %}
     {% if package.name %}
       <li>
-        {% if package.github and package.github.user and package.github.repo %}
-          <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
+        {% if package.github_user and package.github_repo %}
+          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
             <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
           </a>
         {% endif %}
         {% for cdn in page.composer_cdns %}
-          <a href="{{cdn.packageUrl}}/{{package.name}}">
+          <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
-              <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
+              <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}" alt=""/>
             {% else if cdn.ico %}
               <img src="{{cdn.ico}}" alt=""/>
             {% endif %}
           </a>
         {% endfor %}
         {% if package.storageIco or package.ico and package.homepage %}
-          <a href="{{package.homepage}}">
+          <a target="_blank" href="{{package.homepage}}">
             {% if package.storageIco %}
-              <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
+              <img src="{{site.storageUrl.favicon}}/{{package.storageIco}}" alt=""/>
             {% else if package.ico %}
               <img src="{{package.ico}}" alt=""/>
             {% endif %}
@@ -200,9 +219,9 @@ composer dump-autoload
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
   {% for cdn in page.ruby_cnds %}
-    <a class="d-inline-flex" href="{{cdn.homepage}}">
+    <a target="_blank" class="d-inline-flex" href="{{cdn.homepage}}">
       {% if cdn.storageIco %}
-        <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}"/>
+        <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}"/>
       {% else if cdn.ico %}
         <img src="{{cdn.ico}}"/>
       {% endif %}
@@ -222,30 +241,30 @@ gem '{package}', '~>{version}'
 gem install {package}
 ```
 
-{% if site.data.dependencies_index.ruby_packages %}
-{% assign ruby_packages = site.data.dependencies_index.ruby_packages %}
+{% if site.data.dependencies.ruby_packages %}
+{% assign ruby_packages = site.data.dependencies.ruby_packages %}
 <ul>
   {% for package in ruby_packages %}
     {% if package.name %}
       <li>
-        {% if package.github and package.github.user and package.github.repo %}
-          <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
+        {% if package.github_user and package.github_repo %}
+          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
             <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
           </a>
         {% endif %}
         {% for cdn in page.ruby_cnds %}
-          <a href="{{cdn.packageUrl}}/{{package.name}}">
+          <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
-              <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
+              <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}" alt=""/>
             {% else if cdn.ico %}
               <img src="{{cdn.ico}}" alt=""/>
             {% endif %}
           </a>
         {% endfor %}
         {% if package.storageIco or package.ico and package.homepage %}
-          <a href="{{package.homepage}}">
+          <a target="_blank" href="{{package.homepage}}">
             {% if package.storageIco %}
-              <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
+              <img src="{{site.storageUrl.favicon}}/{{package.storageIco}}" alt=""/>
             {% else if package.ico %}
               <img src="{{package.ico}}" alt=""/>
             {% endif %}
@@ -265,9 +284,9 @@ gem install {package}
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
   {% for cdn in page.pypi_cdns %}
-    <a class="d-inline-flex" href="{{cdn.homepage}}">
+    <a target="_blank" class="d-inline-flex" href="{{cdn.homepage}}">
       {% if cdn.storageIco %}
-        <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}"/>
+        <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}"/>
       {% else if cdn.ico %}
         <img src="{{cdn.ico}}"/>
       {% endif %}
@@ -281,30 +300,30 @@ gem install {package}
 pip install {package}
 ```
 
-{% if site.data.dependencies_index.pypi_packages %}
-{% assign pypi_packages = site.data.dependencies_index.pypi_packages %}
+{% if site.data.dependencies.pypi_packages %}
+{% assign pypi_packages = site.data.dependencies.pypi_packages %}
 <ul>
   {% for package in pypi_packages %}
     {% if package.name %}
       <li>
-        {% if package.github and package.github.user and package.github.repo %}
-          <a href="https://github.com/{{package.github.user}}/{{package.github.repo}}">
+        {% if package.github_user and package.github_repo %}
+          <a target="_blank" href="https://github.com/{{package.github_user}}/{{package.github_repo}}">
             <img src="{{site.storageUrl.favicon}}/github.ico" alt="">
           </a>
         {% endif %}
         {% for cdn in page.pypi_cdns %}
-          <a href="{{cdn.packageUrl}}/{{package.name}}">
+          <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
-              <img src="{{site.storageUrl.favicon}}{{cdn.storageIco}}" alt=""/>
+              <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}" alt=""/>
             {% else if cdn.ico %}
               <img src="{{cdn.ico}}" alt=""/>
             {% endif %}
           </a>
         {% endfor %}
         {% if package.storageIco or package.ico and package.homepage %}
-          <a href="{{package.homepage}}">
+          <a target="_blank" href="{{package.homepage}}">
             {% if package.storageIco %}
-              <img src="{{site.storageUrl.favicon}}{{package.storageIco}}" alt=""/>
+              <img src="{{site.storageUrl.favicon}}/{{package.storageIco}}" alt=""/>
             {% else if package.ico %}
               <img src="{{package.ico}}" alt=""/>
             {% endif %}
