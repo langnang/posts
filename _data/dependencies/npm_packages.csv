@@ -47,3 +47,8 @@ video.js,,,,,,
 vue,"a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",vuejs.ico,,https://cn.vuejs.org/,vuejs,vue
 vue-router,Vue Router is part of the Vue Ecosystem and is an MIT-licensed open source project with its ongoing development made possible entirely by the support of Sponsors.,,,,,
 vuex,state management for Vue.js,,,,,
+v-contextmenu,,,,,,
+typescript,,,,,,
+codemirror,,,,https://codemirror.net/5/,,
+gulp,,,,,,
+mermaid,,,,https://mermaid.js.org/syntax/flowchart.html,,
