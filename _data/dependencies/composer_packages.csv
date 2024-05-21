@@ -1,17 +1,26 @@
 name,description,storageIco,ico,homepage,github_user,github_repo
+"doctrine/dbal ",Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.,,,https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/,,
+doctrine/sql-formatter,a PHP SQL highlighting library,,,,,
+"fakerphp/faker ",Faker is a PHP library that generates fake data for you.,,,https://fakerphp.github.io/,,
+guzzlehttp/guzzle,Guzzle is a PHP HTTP client library,,,,,
+jaeger/querylist,"Simple, elegant, extensible PHP Web Scraper (crawler/spider),Use the css3 dom selector,Based on phpQuery! 简洁、优雅、可扩展的PHP采集工具(爬虫)，基于phpQuery。",,,http://querylist.cc/docs/guide/v4/overview,,
+laravel/framework,The Laravel Framework.,,,,,
 laravel/laravel,The skeleton application for the Laravel framework.,,,,laravel,laravel
 laravel/lumen,The Laravel Lumen Framework.,,,,laravel,lumen
-owner888/phpspider,The PHPSpider Framework.,gitbook.ico,,https://doc.phpspider.org/,owner888,phpspider
-symfony/var-dumper,Provides mechanisms for walking through any arbitrary PHP variable,,,symfony,symfony,var-dumper
-"symfony/filesystem ",Provides basic utilities for the filesystem,,,,symfony,"filesystem "
-nikic/fast-route,Fast request router for PHP,,,,,
-"monolog/monolog ","Sends your logs to files, sockets, inboxes, databases and various web services",,,,,
-"wazaari/monolog-mysql ",A handler for Monolog that sends messages to MySQL,,,,,
-"doctrine/dbal ",Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.,,,https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/,,
-"rmccue/requests ","A HTTP library written in PHP, for human beings.",,,,,
-"zircote/swagger-php ",Generate interactive documentation for your RESTful API using phpdoc annotations,,,,,
+laravel/ui,Laravel UI utilities and presets.,,,,,
 "league/flysystem ",File storage abstraction for PHP,,,https://flysystem.thephpleague.com/docs/,,
-"fakerphp/faker ",Faker is a PHP library that generates fake data for you.,,,https://fakerphp.github.io/,,
+"monolog/monolog ","Sends your logs to files, sockets, inboxes, databases and various web services",,,,,
+nikic/fast-route,Fast request router for PHP,,,,,
+nwidart/laravel-modules,Laravel Module management,,https://laravelmodules.com/favicon.ico,https://laravelmodules.com/,,
+owner888/phpspider,The PHPSpider Framework.,gitbook.ico,,https://doc.phpspider.org/,owner888,phpspider
 phpoffice/phpspreadsheet,"Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",,,https://phpspreadsheet.readthedocs.io/en/latest/,,
-jaeger/querylist,"Simple, elegant, extensible PHP Web Scraper (crawler/spider),Use the css3 dom selector,Based on phpQuery! 简洁、优雅、可扩展的PHP采集工具(爬虫)，基于phpQuery。",,,http://querylist.cc/docs/guide/v4/overview,,
+"rmccue/requests ","A HTTP library written in PHP, for human beings.",,,,,
+"symfony/filesystem ",Provides basic utilities for the filesystem,,,,symfony,"filesystem "
+symfony/var-dumper,Provides mechanisms for walking through any arbitrary PHP variable,,,symfony,symfony,var-dumper
 "twig/twig ","Twig, the flexible, fast, and secure template language for PHP",,,https://twig.symfony.com/,,
+wapmorgan/unified-archive,"an archive manager with unified interface of working with all popular archive formats (zip/7z/rar/gz/bz2/xz/cab/tar/tar.gz/tar.bz2/tar.x/tar.Z/...) for PHP with ability for listing, reading, extracting and creation + built-in console archive manager.",,,,,
+"wazaari/monolog-mysql ",A handler for Monolog that sends messages to MySQL,,,,,
+"zircote/swagger-php ",Generate interactive documentation for your RESTful API using phpdoc annotations,,,,,
+phpmyadmin/sql-parser,A validating SQL lexer and parser with a focus on MySQL dialect.,,,,,
+laravel/tinker,Powerful REPL for the Laravel framework.,,,,,
+intervention/image,PHP image manipulation,,,,,

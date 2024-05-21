@@ -205,6 +205,7 @@ composer dump-autoload
             {% endif %}
           </a>
         {% endif %}
+        <img src="https://img.shields.io/packagist/dt/{{package.name}}" />
         <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
         {% if package.description %}
           <span>{{package.description}}</span>

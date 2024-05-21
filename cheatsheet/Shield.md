@@ -3,6 +3,12 @@ title: Shield
 layout: cheatsheet
 ---
 
+<div class="d-flex justify-content-around mb-3" style="height: 3rem;">
+    <a target="_blank" class="d-inline-flex" href="https://shields.io/docs">
+        <img src="{{site.storageUrl.favicon}}/shields.ico"/>
+    </a>
+</div>
+
 ```yml
 baseUrl: {{site.siteUrl.shields}}
 ```
@@ -1304,13 +1310,24 @@ baseUrl: {{site.siteUrl.shields}}
 ### NPM Downloads
 
 ```yml
-[GET] /
+[GET] /npm/:interval/:packageName
+
+interval:
+  - dw
+  - dm
+  - dy
+  - d18m
 ```
 
 ### NPM Downloads by package author
 
 ```yml
-[GET] /
+[GET] /npm-stat/:interval/:author
+
+interval:
+  - dw
+  - dm
+  - dy
 ```
 
 ### NuGet Downloads
@@ -1346,7 +1363,12 @@ baseUrl: {{site.siteUrl.shields}}
 ### Packagist Downloads
 
 ```yml
-[GET] /
+[GET] /packagist/:interval/:user/:repo
+
+interval:
+  - dd 
+  - dm
+  - dt
 ```
 
 ### Pepy Total Downlods
@@ -1772,7 +1794,7 @@ baseUrl: {{site.siteUrl.shields}}
 ### Packagist License
 
 ```yml
-[GET] /
+[GET] /packagist/l/:user/:repo
 ```
 
 ### PyPI - License
@@ -2288,7 +2310,10 @@ baseUrl: {{site.siteUrl.shields}}
 ### Packagist Dependency Version
 
 ```yml
-[GET] /
+[GET] /packagist/dependency-v/:user/:repo/:dependency
+
+dependency:
+  example: php
 ```
 
 ### PowerShell Gallery Platform Support
@@ -2470,7 +2495,7 @@ baseUrl: {{site.siteUrl.shields}}
 ### Packagist Stars
 
 ```yml
-[GET] /
+[GET] /packagist/stars/:user/:repo
 ```
 
 ### Polymart Rating
@@ -3396,7 +3421,7 @@ baseUrl: {{site.siteUrl.shields}}
 ### Packagist Version
 
 ```yml
-[GET] /
+[GET] /packagist/v/:user/:repo
 ```
 
 ### PiWheels Version
