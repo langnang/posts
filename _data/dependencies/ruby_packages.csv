@@ -12,7 +12,7 @@ jekyll-get-json,Import remote JSON data into the data for a Jekyll site,rubydoc.
 jekyll-gist,Liquid tag for displaying GitHub Gists in Jekyll sites.,,,,,
 jekyll-github-metadata,,,,,,
 jekyll-include-cache,A Jekyll plugin to cache the rendering of Liquid includes,,,,,
-jekyll-mentions,,,,,,
+jekyll-mentions,@mention support for your Jekyll site,,,,,
 jekyll-optional-front-matter,,,,,,
 jekyll-paginate,Built-in Pagination Generator for Jekyll,,,,,
 jekyll-readme-index,,,,,,

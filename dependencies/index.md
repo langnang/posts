@@ -143,6 +143,7 @@ pypi_cdns:
             {% endif %}
           </a>
         {% endif %}
+        <img src="https://img.shields.io/npm/dt/{{package.name}}" />
         <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
         {% if package.description %}
           <span>{{package.description}}</span>
