@@ -1,7 +1,7 @@
 name,description,storageIco,ico,homepage,github_user,github_repo
 @fortawesome/fontawesome-free,"The iconic font, CSS, and SVG framework",,,,,
 ace-builds,Ace (Ajax.org Cloud9 Editor),,,,,
-admin-lte,"a fully responsive administration template. Based on Bootstrap 4.6 framework and also the JS/jQuery plugin. Highly customizable and easy to use.",,,,,
+admin-lte,a fully responsive administration template. Based on Bootstrap 4.6 framework and also the JS/jQuery plugin. Highly customizable and easy to use.,,,,,
 animate.css,Just-add-water CSS animation,,,,,
 animejs,JavaScript animation engine,,,,,
 autosize,"Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",,,,,
@@ -28,7 +28,7 @@ ionicons,"completely open-source icon set with 1,300 icons crafted for web, iOS,
 jquery,"a fast, small, and feature-rich JavaScript library.",,https://jquery.com/favicon.ico,https://jquery.com/,jquery,jquery
 less,Leaner CSS,,,,,
 lodash,,,,,,
-lozad,,,,,,
+lazyload,,,,,,
 markdown-it,,,,,,
 masonry-layout,Cascading grid layout library,,https://masonry.desandro.com/favicon.ico,https://masonry.desandro.com/,desandro,masonry
 mathjax,,,,,,

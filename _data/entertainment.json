@@ -1,0 +1,119 @@
+{
+  "novel": {
+    "serial": [
+      {
+        "title": ""
+      },
+      { "title": "宇智波余孽被迫拯救世界", "qidian_slug": "1035459742" },
+      { "title": "轮回乐园：遍地是马甲", "qidian_slug": "1030148290" },
+      { "title": "轮回乐园：熔炉", "qidian_slug": "1031725106" },
+      { "title": "轮回乐园之旅", "qidian_slug": "1034110030" },
+      { "title": "我的诡异人生", "qidian_slug": "1033290458" },
+      { "title": "人族镇守使", "qidian_slug": "1026225232" },
+      { "title": "", "qidian_slug": "" }
+    ],
+    "finished": [
+      {
+        "title": ""
+      },
+      { "title": "杀神永生", "qidian_slug": "1004939100" },
+      { "title": "圣墟", "qidian_slug": "1004608738" },
+      { "title": "", "qidian_slug": "" },
+      { "title": "", "qidian_slug": "" },
+      { "title": "", "qidian_slug": "" },
+      { "title": "", "qidian_slug": "" },
+      { "title": "", "qidian_slug": "" }
+    ],
+
+    "suspend": [
+      {
+        "title": ""
+      },
+      { "title": "轮回乐园", "qidian_slug": "1009817672" },
+      { "title": "一个都别想跑出新手村", "qidian_slug": "1032995998" },
+      { "title": "", "qidian_slug": "" },
+      { "title": "", "qidian_slug": "" },
+      { "title": "", "qidian_slug": "" },
+      { "title": "", "qidian_slug": "" }
+    ],
+    "websites": {
+      "original": [
+        {
+          "title": ""
+        },
+        { "title": "起点中文网", "slug": "qidian", "url": "https://www.qidian.com/", "ico": "https://qdfepccdn.qidian.com/www.qidian.com/favicon/qd_icon.ico", "keywords": "", "description": "", "novel_url": "https://www.qidian.com/book/{$qidian_slug}/", "novel_poster_url": "https://bookcover.yuewen.com/qdbimg/349573/{$qidian_slug}/150.webp" },
+        { "title": "", "slug": "", "url": "", "ico": "", "keywords": "", "description": "" }
+      ],
+      "other": [
+        {
+          "title": ""
+        },
+        { "title": "", "slug": "", "url": "", "ico": "", "keywords": "", "description": "" }
+      ]
+    }
+  },
+  "comic": {
+    "websites": []
+  },
+  "audio": {
+    "websites": []
+  },
+  "video": {
+    "movie": [
+      {
+        "title": ""
+      },
+      { "title": "El hoyo", "titleCn": "饥饿站台", "movie_douban_slug": "34805219", "movie_douban_ico": "p2566870171" },
+      { "title": "Starship Troopers", "titleCn": "星河战队", "movie_douban_slug": "1295384", "movie_douban_ico": "p2512733819" },
+      { "title": "Starship Troopers 2: Hero of the Federation", "titleCn": "星河战队2：联邦英雄", "movie_douban_slug": "1422938", "movie_douban_ico": "" },
+      { "title": "Starship Troopers 3: Marauder", "titleCn": "星河战队3：掠夺者", "movie_douban_slug": "3006123", "movie_douban_ico": "" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" }
+    ],
+    "teleplay": [
+      {
+        "title": ""
+      },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" }
+    ],
+    "anime": [
+      {
+        "title": ""
+      },
+      { "title": "命运石之门", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "东京食尸鬼", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "鬼灭之刃 鬼滅の刃", "titleCn": "", "movie_douban_slug": "30210221", "movie_douban_ico": "p2551222097" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" }
+    ],
+
+    "tokusatsu": [
+      {
+        "title": ""
+      },
+      { "title": "奥特曼", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "铠甲勇士", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "超级战队", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "假面骑士极狐外传 万事屋！？阿道老板的一天 仮面ライダーギーツ スピンオフ よろずや!?ミッチー親方の一日", "titleCn": "", "movie_douban_slug": "36529964", "movie_douban_ico": "p2897248712" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" },
+      { "title": "", "titleCn": "", "movie_douban_slug": "", "movie_douban_ico": "" }
+    ],
+    "websites": {
+      "original": [
+        {
+          "title": ""
+        },
+        { "title": "豆瓣电影", "slug": "movie_douban", "url": "https://movie.douban.com/", "ico": "https://img1.doubanio.com/favicon.ico", "keywords": "", "description": "", "movie_douban_url": "https://movie.douban.com/subject/{$movie_douban_slug}/", "movie_douban_poster_url": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/{$movie_douban_ico}.webp" },
+        { "title": "爱奇艺", "slug": "iqiyi", "url": "https://www.iqiyi.com/", "ico": "https://www.iqiyipic.com/common/images/logo.ico", "keywords": "", "description": "" },
+        { "title": "腾讯视频", "slug": "v_qq", "url": "https://v.qq.com/", "ico": "https://v.qq.com/favicon.ico", "keywords": "", "description": "" },
+        { "title": "优酷", "slug": "youku", "url": "https://www.youku.com/", "ico": "https://img.alicdn.com/imgextra/i2/O1CN01BeAcgL1ywY0G5nSn8_!!6000000006643-2-tps-195-195.png", "keywords": "", "description": "" },
+        { "title": "BiliBili", "slug": "bilibili", "url": "https://www.bilibili.com/", "ico": "https://i0.hdslb.com/bfs/static/jinkela/long/images/512.png", "keywords": "", "description": "" },
+        { "title": "", "slug": "", "url": "", "ico": "", "keywords": "", "description": "" }
+      ],
+      "other": []
+    }
+  }
+}
