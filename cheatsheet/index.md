@@ -10,6 +10,9 @@ _data: cheatsheet_list
 - [jQuery](./jQuery.md)
 - [PHP](./PHP.md)
 - [Shield](./Shield.md)
+- [Laravel 10.x](./Laravel-10.md)
+  - [Laravel 8.x](./Laravel-08.md)
+  - [Laravel 9.x](./Laravel-09.md)
 
 ## References
 

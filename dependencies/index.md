@@ -65,6 +65,8 @@ pypi_cdns:
     packageUrl: https://pypi.org/project/
 ---
 
+
+
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
   {% for cdn in page.cdns %}
     <a target="_blank" class="d-inline-flex" href="{{cdn.homepage}}">
