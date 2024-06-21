@@ -1,5 +1,5 @@
 ---
-title: Laravel 9.x
+title: Laravel 9.x CheatSheet
 layout: cheatsheet
 created: 2024-06-21T11:49:46 (UTC +08:00)
 tags: [laravel,laravel论坛,laravel社区,laravel教程,laravel视频,laravel开源,laravel新手,laravel5]

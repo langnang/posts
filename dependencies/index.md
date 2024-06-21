@@ -43,7 +43,7 @@ cdns:
   {% endfor %}
 </div>
 
-- [NPM](./npm.md)
+- [NPM](./npm/)
 - [Composer](./composer.md)
 - [Ruby](./ruby.md)
 - [PyPI](./pipy.md)

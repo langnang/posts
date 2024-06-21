@@ -5,6 +5,7 @@ _data: cheatsheet_list
 
 > 速查表
 
+- [CryptoJs](./crypto-js.md)
 - [CSS](./CSS.md)
 - [Git](./Git.md)
 - [faker/faker](./fakerphp.md)

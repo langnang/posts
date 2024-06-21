@@ -1,5 +1,5 @@
 ---
-title: Laravel 8.x
+title: Laravel 8.x CheatSheet
 layout: cheatsheet
 tags: [laravel,laravel论坛,laravel社区,laravel教程,laravel视频,laravel开源,laravel新手,laravel5]
 source: https://learnku.com/docs/laravel-cheatsheet/8.x

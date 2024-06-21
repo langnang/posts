@@ -91,7 +91,11 @@ npm_cdns:
           </a>
         {% endif %}
         <img src="https://img.shields.io/npm/dt/{{package.name}}" />
-        <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
+        {% if package.localpage %}
+          <a href="{{package.localpage}}"><code class="language-plaintext highlighter-rouge">{{package.name}}</code></a>:
+        {% else %}
+          <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
+        {% endif %}
         {% if package.description %}
           <span>{{package.description}}</span>
         {% endif %}
