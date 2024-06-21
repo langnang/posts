@@ -1,4 +1,7 @@
-# Awesome Sysadmin
+---
+title: Awesome Sysadmin
+---
+
 
 A curated list of amazingly awesome open source sysadmin resources.
 

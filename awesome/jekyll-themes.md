@@ -1,4 +1,5 @@
 ---
+title: Awesome (Gem-Packaged) Jekyll Themes
 github: 
 ---
 
@@ -9,10 +10,6 @@ Awesome Series @ Planet Jekyll
 [Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins) •
 [Jekyll Editors](https://github.com/planetjekyll/awesome-jekyll-editors)
 
-
-
-# Awesome (Gem-Packaged) Jekyll Themes
-
 A collection of awesome (gem-packaged) Jekyll themes
 
 ---
@@ -22,16 +19,13 @@ directory / listing.
 
 ---
 
-
 #### _Contributions welcome. Anything missing? Send in a pull request. Thanks._
-
 
 ## Documentation
 
 > Note: Starting with Jekyll 3.2+ Themes can get packaged up into Ruby gems.
 
 See the [(Gem-Packaged) Themes Page @ Jekyll Docs](http://jekyllrb.com/docs/themes) ».
-
 
 ### Intro / Disclaimer
 
@@ -63,7 +57,6 @@ For some "classic" starter themes you may try some of Henry's themes:
 For the "state-of-the-art" what a "classic" theme can do - see the incredible beautiful and
 extremely well-documented (incl. a getting started guide and much much more) [Minimal Mistakes (MM) theme](https://github.com/mmistakes/minimal-mistakes) by Michael Rose. Happy Jekylling.
 
-
 ## Official Themes
 
 **Minima** ★112
@@ -80,7 +73,6 @@ extremely well-documented (incl. a getting started guide and much much more) [Mi
 (gem: [jekyll-athena](https://rubygems.org/gems/jekyll-athena),
  github: [broccolini/athena](https://github.com/broccolini/athena))
  by Diana Mounter -- a simple and elegant theme
-
 
 ## More Themes
 
@@ -132,17 +124,16 @@ a simple starter theme with an ITCSS sass files organisation, a flexbox grid and
 **Moonwalk** ★23 (gem: [moonwalk](https://rubygems.org/gems/moonwalk), github: [moonwalk](https://github.com/abhinavs/moonwalk)) by Abhinav Saxena -- A fast and minimal Jekyll blog theme with clean dark mode
 
 **brutalist-blog** ★2 (github: [andrewhwanpark/brutalist-blog](https://github.com/andrewhwanpark/brutalist-blog)) by Andrew Park -- a no frills, fully-responsive, hyper-minimalistic dark/light theme
+
 ## GitHub Pages
 
 Use the `theme` property in your `_config.yml` to specify a theme that comes packaged with GitHub Pages. See [`pages.github.com/themes`](https://pages.github.com/themes) for valid values. Use the `remote_theme` property to specify any public, gem-packaged theme on GitHub.
 
 See the docs for [adding a Jekyll theme to your GitHub Pages site](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site) for more information.
 
-
 ## Find More
 
 Search BestGems.org for [`jekyll+theme`](http://bestgems.org/search?q=jekyll+theme) to find more themes.
-
 
 ## Meta
 

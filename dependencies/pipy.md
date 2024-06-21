@@ -1,16 +1,15 @@
 ---
-title: Composer - Dependencies
+title: PyPI - Dependencies
 
-composer_cdns:
-  - name: packagist
-    homepage: https://packagist.org/
-    storageIco: packagist.ico
-    packageUrl: https://packagist.org/packages
-
+pypi_cdns:
+  - name: pypi
+    homepage: https://pypi.org/
+    storageIco: pypi.ico
+    packageUrl: https://pypi.org/project/
 ---
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
-  {% for cdn in page.composer_cdns %}
+  {% for cdn in page.pypi_cdns %}
     <a target="_blank" class="d-inline-flex" href="{{cdn.homepage}}">
       {% if cdn.storageIco %}
         <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}"/>
@@ -24,19 +23,16 @@ composer_cdns:
 **intall**
 
 ```bash
-composer require {package}
-
-# 更新 autoload
-composer dump-autoload
+pip install {package}
 ```
 
-{% if site.data.dependencies.composer_packages %}
-{% assign composer_packages = site.data.dependencies.composer_packages %}
+{% if site.data.dependencies.pypi_packages %}
+{% assign pypi_packages = site.data.dependencies.pypi_packages %}
 <ul>
-  {% for package in composer_packages %}
+  {% for package in pypi_packages %}
     {% if package.name %}
       <li>
-        {% for cdn in page.composer_cdns %}
+        {% for cdn in page.pypi_cdns %}
           <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
               <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}" alt=""/>
@@ -59,7 +55,6 @@ composer dump-autoload
             {% endif %}
           </a>
         {% endif %}
-        <img src="https://img.shields.io/packagist/dt/{{package.name}}" />
         <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
         {% if package.description %}
           <span>{{package.description}}</span>

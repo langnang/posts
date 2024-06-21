@@ -3,16 +3,20 @@ title: CheatSheet
 _data: cheatsheet_list
 ---
 
+> 速查表
+
 - [CSS](./CSS.md)
 - [Git](./Git.md)
+- [faker/faker](./fakerphp.md)
 - [HTML-DOM](./HTML-DOM.md)
 - [JavaScript](./JavaScript.md)
 - [jQuery](./jQuery.md)
-- [PHP](./PHP.md)
-- [Shield](./Shield.md)
 - [Laravel 10.x](./Laravel-10.md)
   - [Laravel 8.x](./Laravel-08.md)
   - [Laravel 9.x](./Laravel-09.md)
+- [Mock.js](./Mock.md)
+- [PHP](./PHP.md)
+- [Shield](./Shield.md)
 
 ## References
 

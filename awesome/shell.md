@@ -1,4 +1,7 @@
-# Awesome Shell [![Awesome][awesome-badge]][awesome-link]
+---
+title: Awesome Shell
+---
+
 
 这是一份非常棒的命令行框架、工具包、指南、以及小玩意儿组织清单。由 awesome-php 获得灵感。该 awesome 收集在 [Unix-Shell.ZEEF.com](https://unix-shell.zeef.com/caleb.xu) 上也可用。
 
@@ -269,6 +272,3 @@
 # 其它 Awesome 清单
 
 其它很棒的 awesome 清单可在 [awesome-awesome](https://github.com/emijrp/awesome-awesome) 和 [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) 找到。
-
-[awesome-link]: https://github.com/sindresorhus/awesome
-[awesome-badge]: https://raw.githubusercontent.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg

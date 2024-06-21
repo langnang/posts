@@ -1,13 +1,18 @@
 ---
 layout: fluid
 ---
-
+<style>
+  [data-wrapper="cheatsheet"] h3 {
+    margin-top: 1rem;
+    margin-top: 1rem;
+  }
+</style>
 <div class="container-fluid" id="app" data-wrapper="cheatsheet">
   <div class="row row-cols-1">
     <div class="col px-2" v-html="articlePre"></div>
   </div>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4" data-masonry='{ "itemSelector": ".col"}'>
-    <div class="col my-1 px-1" v-for="item in articleText" :key="item">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3" data-masonry='{ "itemSelector": ".col"}'>
+    <div class="col my-2 px-2" v-for="item in articleText" :key="item">
       <div class="card">
         <div class="card">
           <div class="card-body px-2 py-2" v-html="'<h2'+item">

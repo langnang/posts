@@ -1,6 +1,7 @@
 ---
 title: Shield
 layout: cheatsheet
+brand: https://shields.io/img/favicon.ico
 ---
 
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">

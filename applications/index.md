@@ -6,12 +6,15 @@ layout: default
 title: Applications
 ---
 
+> 应用（Application），一般指直接运行于操作系统（Windows,MacOS,Linux,Android,iOS等）上的应用。
+
 - Adobe
   - Adobe PhotoShop
   - Adobe Premiere Pro  
   - Adobe XD
 - Anaconda
 - Android Studio
+- Apache
 - Apifox
 - BtSoft
 - Git

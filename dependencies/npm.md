@@ -1,16 +1,33 @@
 ---
-title: Composer - Dependencies
+title: NPM - Dependencies
 
-composer_cdns:
-  - name: packagist
-    homepage: https://packagist.org/
-    storageIco: packagist.ico
-    packageUrl: https://packagist.org/packages
-
+npm_cdns:
+  - name: npmjs
+    homepage: https://npmjs.com/
+    storageIco: npmjs.ico
+    packageUrl: https://npmjs.com/
+  - name: cdnjs
+    homepage: https://cdnjs.com/
+    storageIco: cdnjs.ico
+    packageUrl: https://cdnjs.com/
+  - name: jsdelivr
+    homepage: https://jsdelivr.com/
+    storageIco: jsdelivr.ico
+    packageUrl: https://jsdelivr.com/
+  - name: unpkg 
+    homepage: https://unpkg.com/
+    storageIco: unpkg.ico
+    packageUrl: https://unpkg.com/
+  - name: bootcdn 
+    homepage: https://bootcdn.cn/
+    storageIco: bootcdn.ico
+    packageUrl: https://bootcdn.cn/  
 ---
 
+
+
 <div class="d-flex justify-content-around mb-3" style="height: 3rem;">
-  {% for cdn in page.composer_cdns %}
+  {% for cdn in page.npm_cdns %}
     <a target="_blank" class="d-inline-flex" href="{{cdn.homepage}}">
       {% if cdn.storageIco %}
         <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}"/>
@@ -21,22 +38,36 @@ composer_cdns:
   {% endfor %}
 </div>
 
-**intall**
+<!-- UNPKG -->
+<!-- <link rel="stylesheet" href="" /> -->
+<!-- <script src=""></script> -->
 
-```bash
-composer require {package}
+```html
+<!-- UNPKG -->
+<!--  -->
+<link rel="stylesheet" href="https://www.unpkg.com/{package}" />
+<script src="https://www.unpkg.com/{package}"></script>
+<!-- OR -->
+<!-- https://www.unpkg.com/{package}@{version} -->
+<link rel="stylesheet" href="https://www.unpkg.com/{package}@{version}" />
+<script src="https://www.unpkg.com/{package}@{version}"></script>
+<!-- OR -->
+<!-- https://www.unpkg.com/{package}@{version}/{file} -->
+<script src="https://www.unpkg.com/{package}@{version}"></script>
 
-# 更新 autoload
-composer dump-autoload
+<!-- NPM -->
+
+<!-- jsDelivr -->
+
 ```
 
-{% if site.data.dependencies.composer_packages %}
-{% assign composer_packages = site.data.dependencies.composer_packages %}
+{% if site.data.dependencies.npm_packages %}
+{% assign npm_packages = site.data.dependencies.npm_packages %}
 <ul>
-  {% for package in composer_packages %}
+  {% for package in npm_packages %}
     {% if package.name %}
       <li>
-        {% for cdn in page.composer_cdns %}
+        {% for cdn in page.npm_cdns %}
           <a target="_blank" href="{{cdn.packageUrl}}/{{package.name}}">
             {% if cdn.storageIco %}
               <img src="{{site.storageUrl.favicon}}/{{cdn.storageIco}}" alt=""/>
@@ -59,7 +90,7 @@ composer dump-autoload
             {% endif %}
           </a>
         {% endif %}
-        <img src="https://img.shields.io/packagist/dt/{{package.name}}" />
+        <img src="https://img.shields.io/npm/dt/{{package.name}}" />
         <code class="language-plaintext highlighter-rouge">{{package.name}}</code>:
         {% if package.description %}
           <span>{{package.description}}</span>

@@ -38,6 +38,13 @@ links:
  - name: Standards
    nameCn: 标准规范
    url: ./standards/
+ - name: Roadmap
+   nameCn: 路线规划
+   url: ./roadmap/
+ - name: Operating System
+   nameCn: 操作系统
+   url: ./operating-system/
+   visible: false
  - name: Frameworks
    nameCn: 框架
    url: ./../frameworks/
@@ -74,6 +81,7 @@ links:
    target: _blank
    visible: false
 
+
  - name: 
    nameCn: 
    url: 
@@ -102,7 +110,7 @@ links:
           <a class="card" href="{{link.url}}" target="{{link.target}}">
               <div class="card-body p-3">
                   <div class="media">
-                      <img src="holder.js/60x60" class="align-self-center mr-2" alt="...">
+                      <!-- <img src="holder.js/60x60" class="align-self-center mr-2" alt="..."> -->
                       <div class="media-body">
                           <h3 class="card-title mt-0">{{link.name}}</h3>
                           <p class="card-text mb-0">{{link.nameCn}}</p>

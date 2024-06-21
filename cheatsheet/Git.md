@@ -4,11 +4,9 @@ tags: []
 source: https://overapi.com/git
 author: OverAPI
 layout: cheatsheet
+title: Git
 ---
 
-# Git Cheat Sheet | OverAPI.com
-
----
 
 ## Create Git
 

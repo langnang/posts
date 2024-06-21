@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Awesome Jekyll
 
 reprint:
     url:
@@ -13,36 +13,29 @@ Awesome Series @ Planet Jekyll
 [Jekyll Plugins](https://github.com/planetjekyll/awesome-jekyll-plugins) •
 [Jekyll Editors](https://github.com/planetjekyll/awesome-jekyll-editors)
 
-
 # Awesome Jekyll
 
 A collection of awesome Jekyll goodies (tools, templates, themes, plugins, guides, etc.)
 
 **Contributions welcome. Anything missing? Send in a pull request. Thanks.**
 
-
-
 ## Jekyll Headquarters (HQ)
 
 _Simple, blog-aware static website generator - the world's most popular website compiler - publish blogs, books, radio talk shows, talk slides and much more_
 
-
 - **Jekyll** (web: [jekyllrb.com](http://jekyllrb.com), github: [jekyll](https://github.com/jekyll), gem: [jekyll](https://rubygems.org/gems/jekyll))
-   - [Official News & Updates](http://jekyllrb.com/news) - what's news?
-      - Follow Core Developers
-         - Ben Balter @ GitHub Inc. (github: [benbalter](https://github.com/benbalter), web: [ben.balter.com](http://ben.balter.com), twitter: [benbalter](https://twitter.com/benbalter))
-         - Parker Moore @ GitHub Inc. (github: [parkr](https://github.com/parkr), web: [byparker.com](https://byparker.com), twitter: [parkr](https://twitter.com/parkr))
-         - Jordon Bedwell (github: [envygeeks](https://github.com/envygeeks), web: [envygeeks.io](https://envygeeks.io), twitter: [envygeeks](https://twitter.com/envygeeks))
-   - [Official Talk Forum](https://talk.jekyllrb.com) - discuss all things Jekyll
-
-
+  - [Official News & Updates](http://jekyllrb.com/news) - what's news?
+    - Follow Core Developers
+      - Ben Balter @ GitHub Inc. (github: [benbalter](https://github.com/benbalter), web: [ben.balter.com](http://ben.balter.com), twitter: [benbalter](https://twitter.com/benbalter))
+      - Parker Moore @ GitHub Inc. (github: [parkr](https://github.com/parkr), web: [byparker.com](https://byparker.com), twitter: [parkr](https://twitter.com/parkr))
+      - Jordon Bedwell (github: [envygeeks](https://github.com/envygeeks), web: [envygeeks.io](https://envygeeks.io), twitter: [envygeeks](https://twitter.com/envygeeks))
+  - [Official Talk Forum](https://talk.jekyllrb.com) - discuss all things Jekyll
 
 ## News
 
 - **Planet Jekyll** (twitter: [planetjekyll](https://twitter.com/planetjekyll)) -- For news about Jekyll 'n' friends (e.g. new themes, new plugins, new conferences 'n' meetups, etc.) follow [@planetjekyll](https://twitter.com/planetjekyll) on Twitter
 
-- **Jekyll Weekly Newsletter** (web: [jekyllweekly.com](http://jekyllweekly.com), github: [jekyllweekly](https://github.com/jekyllweekly)) by Brad West   
-
+- **Jekyll Weekly Newsletter** (web: [jekyllweekly.com](http://jekyllweekly.com), github: [jekyllweekly](https://github.com/jekyllweekly)) by Brad West
 
 ## Showcase
 
@@ -50,11 +43,9 @@ _The world's greatest static websites_
 
 - **Jekyll Static Site Showcase @ Planet Jekyll** (web: [planetjekyll.github.io/showcase](http://planetjekyll.github.io/showcase)) - Bootstrap, Polymer, The Open Data Handbook, Stack Exchange Blog, and many more; all sites with sources
 
-
 ## F.A.Q.s
 
 - **Jekyll F.A.Q.s @ Planet Jekyll** (github: [planetjekyll/quickrefs/FAQ.md](https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md)) -- Frequently Asked Questions & Answers
-
 
 ## Quick References / Cheat Sheets
 
@@ -62,14 +53,12 @@ _The world's greatest static websites_
 - **Jekyll Cheat Sheet @ Jekyll Tips** (web: [cheat.jekyll.tips](http://cheat.jekyll.tips))
 - **Jekyll Cheat Sheet @ Devhints.io** (web: [devhints.io/jekyll](https://devhints.io/jekyll), github: [rstacruz/cheatsheets/jekyll.md](https://github.com/rstacruz/cheatsheets/blob/master/jekyll.md)) - by Rico Sta. Cruz
 
-
 ## Books
 
 - **Hyde Press Bookshelf** (web: [hydepress.github.io](http://hydepress.github.io), twitter: [hydepress](https://twitter.com/hydepress)) -- Free (Online) Books about Jekyll and friends
-   - [**The Free Jekyll Book**](http://hydepress.github.io/jekyll) - the (Official) Jekyll doc reformatted as a single-page black-n-white online book (work-in-progress)
-   - [**The Free Jekyll Plugins & Tools Book**](http://hydepress.github.io/jekyll-plugins) - READMEs for Jekyll plugins & tools reformatted as a single-page black-n-white online book (work-in-progress)
-   - and many more
-
+  - [**The Free Jekyll Book**](http://hydepress.github.io/jekyll) - the (Official) Jekyll doc reformatted as a single-page black-n-white online book (work-in-progress)
+  - [**The Free Jekyll Plugins & Tools Book**](http://hydepress.github.io/jekyll-plugins) - READMEs for Jekyll plugins & tools reformatted as a single-page black-n-white online book (work-in-progress)
+  - and many more
 
 ## Conferences
 
@@ -78,7 +67,6 @@ Online - World Wide - Intertubes
 - JekyllConf (web: [`jekyllconf.com`](http://jekyllconf.com), twitter: [jekyllconf](https://twitter.com/jekyllconf)) -- online global conference for all things Jekyll; best practices, case studies, the future of jekyll and more
   - 2016 @ Intertubes; Saturday May/7th (FREE) - #2
   - 2015 @ Intertubes; Saturday May/2nd (FREE) - #1
-
 
 ## Articles
 
@@ -108,7 +96,6 @@ Online - World Wide - Intertubes
 - [Making Jekyll
 multilingual](https://www.sylvaindurand.org/making-jekyll-multilingual/) by @sylvaindurand, Oct 2016
 
-
 **SitePoint**
 
 - [Set Up a Jekyll Blog in 5 Minutes with Poole](http://www.sitepoint.com/set-jekyll-blog-5-minutes-poole/) by Vikas Lalwani; June 2015
@@ -126,7 +113,6 @@ multilingual](https://www.sylvaindurand.org/making-jekyll-multilingual/) by @syl
 - [Extending Jekyll](http://pixelcog.com/blog/2013/jekyll-from-scratch-extending-jekyll/); Jul 2013
 - [PixelCog.com Site](http://pixelcog.com) (github: [pixelcog/pixelcog.github.io](https://github.com/pixelcog/pixelcog.github.io))
 
-
 ## Screencasts
 
 - [**Jekyll Casts**](https://learn.cloudcannon.com/) by Mike Neumegen (CloudCannon); FREE
@@ -140,11 +126,9 @@ multilingual](https://www.sylvaindurand.org/making-jekyll-multilingual/) by @syl
   - #8 - String Filters in Liquid -- Modify string variables in liquid
   - and many more
 
-
 ## Bookmarks
 
 - [**Jekyll Bookmarks @ The New Dynamic**](http://www.thenewdynamic.org/tool/jekyll) by Bud Parr
-
 
 ## Themes / Templates
 
@@ -159,7 +143,6 @@ More:
 - [**The Zen of Page Designs**](https://github.com/pagedesigns) -- One Page, Many Designs
 - [**Slide Show (S9) Templates**](https://github.com/slideshow-templates) -- Slide Show / Presentation Templates e.g. S6 Blank, deck.js, impress.js, etc.
 
-
 ## Theme Package Manager and Wizards
 
 - **drj / drjekyll** (github: [drjekyllthemes/drjekyll](https://github.com/drjekyllthemes/drjekyll), gem: [drjekyll](https://rubygems.org/gems/drjekyll)) -- the missing static site theme package manager
@@ -167,14 +150,12 @@ More:
   - [mrhyde wizard scripts](https://github.com/mrhydescripts/scripts) -- automate, automate, automate
 - **slush gh-pages / GitHub Pages Generator** (github: [ronik-design/slush-gh-pages](https://github.com/ronik-design/slush-gh-pages), npm: [slush-gh-pages](https://npmjs.com/slush-gh-pages)) -- boilerplate wizard with CSS framework selection and extensive Node.js-based tooling. Specifically intended for use with GitHub Pages.
 
-
 ## Applications
 
 - **JKAN - Light-Weight Open Data Catalog (CKAN Clone)** (web: [`jkan.io`](https://jkan.io), github: [`timwis/jkan`](https://github.com/timwis/jkan)) by Tim Wisniewski et al; incl. w/ admin pages w/ auth (logins)
   - [Q&A w/ Tim Wisniewski](http://usopendata.org/2016/03/28/jkan) (U.S. Open Data); March 2016
 
 - **Federalist** (web: [federalist.18f.gov](https://federalist.18f.gov), github: [18F/federalist](https://github.com/18F/federalist)) by 18F (a US government agency part of General Services Administration);  a web app for publishing static government websites (w/ Jekyll)
-
 
 ## Plugins / Extensions
 
@@ -188,35 +169,32 @@ See the **Awesome Jekyll Plugins List** (github: [planetjekyll/awesome-jekyll-pl
 - [**Jekyll Snippets @ Planet Jekyll**](http://planetjekyll.github.io/snippets) (github:  [planetjekyll/snippets](https://github.com/planetjekyll/snippets))
 - [**Jekyll Snippets/CheatSheet Page @ CloudCannon Academy _(formally Jekyll Tips)_**](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 
-
 ## Tips / Tricks
 
 **Articles**
 
 - [Jekyll and AngularJS](https://github.com/JesseHerrick/jekyll-angular) by Jesse Herrick; May 2015
 
-
 ## Liquid Template Language
 
 - **Liquid** (github: [Shopify/liquid](https://github.com/Shopify/liquid), gem: [liquid](https://rubygems.org/gems/liquid))
-    - [Version History / Change Log](https://github.com/Shopify/liquid/blob/master/History.md)
+  - [Version History / Change Log](https://github.com/Shopify/liquid/blob/master/History.md)
 
 **Docs @ Liquid Wiki**
 
 - [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
-    - Output (`{\{ }\}`)
-       - Advanced output: Filters • Standard Filters
-    - Tags (`\{\% \%\}`)
-       - Comments • Raw • If / Else • Case Statement • Cycle • For loops • Variable Assignment
+  - Output (`{\{ }\}`)
+    - Advanced output: Filters • Standard Filters
+  - Tags (`\{\% \%\}`)
+    - Comments • Raw • If / Else • Case Statement • Cycle • For loops • Variable Assignment
 - [Liquid for Programmers](https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers)
-    - Create your own filters
-    - Create your own tags
-    - Create your own tag blocks
+  - Create your own filters
+  - Create your own tags
+  - Create your own tag blocks
 
 **Docs @ Shopify**
 
 - [Liquid Basics](http://docs.shopify.com/themes/liquid-basics)
-
 
 ## Markdown
 
@@ -229,7 +207,6 @@ See the **Awesome Markdown List @ Write Kit** (github: [writekit/awesome-markdow
 - **Manuscripts News** (twitter: [manuscriptsnews](https://twitter.com/manuscriptsnews)) -- For news about writing in Markdown 'n' friends (e.g. tools, tips & trips, etc.) follow
 [@manuscriptsnews](https://twitter.com/manuscriptsnews) on Twitter.
 
-
 ## Command Line Tools
 
 - ~~[`jcli.sh`](http://www.skrauth.de/blog/2015/jekyll-bash-ui) (github: [StefanKrauth/shell-scripts/jcli.sh](https://github.com/StefanKrauth/shell-scripts/blob/master/jcli.sh)) by Stefan Krauth - Jekyll Bash Command Line Interface~~
@@ -239,11 +216,9 @@ See the **Awesome Markdown List @ Write Kit** (github: [writekit/awesome-markdow
 - [Generator Jekyll Plugin](https://github.com/jamrizzi/generator-jekyll-plugin) by [Jam Risser](https://jam.jamrizzi.com) - 💎 Yeoman generator for jekyll plugins
 - [attranslate](https://github.com/fkirc/attranslate) by fkirc - A tool for synchronizing translation-files.
 
-
 ## "Visual" Editors n Tools
 
 See the **Awesome Jekyll Editors List** (github: [planetjekyll/awesome-jekyll-editors](https://github.com/planetjekyll/awesome-jekyll-editors)) ».
-
 
 ## Octopress Headquarters (HQ)
 
@@ -251,45 +226,42 @@ _Jekyll's Ferrari - obsessively designed toolkit for writing and deploying jekyl
 
 - **Octopress** (web: [octopress.org](http://octopress.org), github: [octopress](https://github.com/octopress), gem: [octopress](https://rubygems.org/gems/octopress)) -  by Brandon Mathis et al
 
-
 ## Publish / Upload / Deploy / Sync
 
 **Articles**
 
 - [How to automatically deploy static web site to the hosting](http://vrepin.org/vr/JekyllDeploy)  by Vitaly Repin; Jul 2015
-    - Step 1: Install rrsync to your home folder (server-side)
-    - Step 2: Setup certificate-based ssh access (server side)
-    - Step 3: Rsync! (client-side)
-    - Optional step 4: exclude transfer.sh from being copied to the output folder by Jekyll
+  - Step 1: Install rrsync to your home folder (server-side)
+  - Step 2: Setup certificate-based ssh access (server side)
+  - Step 3: Rsync! (client-side)
+  - Optional step 4: exclude transfer.sh from being copied to the output folder by Jekyll
 - [Deploy Jekyll sites to S3 using Travis CI](http://cloudcannon.com/tutorial/2016/01/21/deploy-jekyll-sites-to-s3-using-travis-ci/)
 - [Deploy Jekyll sites anywhere using jekyll-hook](http://cloudcannon.com/tutorial/2016/01/26/deploy-jekyll-sites-anywhere-with-jekyll-hook/)
 - [Building and publishing a Jekyll site using Buddy CI/CD](https://buddy.works/docs/quickstart/jekyll)
-
 
 ## GitHub Pages Headquarters (HQ)
 
 _Websites for you and your projects_
 
 - **GitHub Pages** (web: [pages.github.com](https://pages.github.com), github: [github/pages-gem](https://github.com/github/pages-gem), gem: [github-pages](https://rubygems.org/gems/github-pages))
-    - [Dependency Versions](https://pages.github.com/versions) ([`version.json`](https://pages.github.com/versions.json)) - shows current versions (e.g. jekyll, liquid, kramdown, etc.) in use for GitHub Pages
+  - [Dependency Versions](https://pages.github.com/versions) ([`version.json`](https://pages.github.com/versions.json)) - shows current versions (e.g. jekyll, liquid, kramdown, etc.) in use for GitHub Pages
 - [GitHub Pages Starter Pack: Extended Resources](https://web-work.tools/jamstack/github-pages-starter-pack/)
 
 **Official Doc / Help Pages**
 
 - [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics)
-    - [Using Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages)
-    - and many more
+  - [Using Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages)
+  - and many more
 - [Customizing GitHub Pages](https://help.github.com/categories/customizing-github-pages/)
-    - [Using Jekyll as a static site generator with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
-    - [Troubleshooting Jekyll builds](https://help.github.com/articles/troubleshooting-jekyll-builds/)
-    - [Adding Jekyll plugins to a GitHub Pages site](https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/)
-    - [Using a custom domain with GitHub pages](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
-    - [Additional customizations for GitHub Pages](https://help.github.com/articles/additional-customizations-for-github-pages/)
-    - and many more
+  - [Using Jekyll as a static site generator with GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)
+  - [Troubleshooting Jekyll builds](https://help.github.com/articles/troubleshooting-jekyll-builds/)
+  - [Adding Jekyll plugins to a GitHub Pages site](https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/)
+  - [Using a custom domain with GitHub pages](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
+  - [Additional customizations for GitHub Pages](https://help.github.com/articles/additional-customizations-for-github-pages/)
+  - and many more
 - [GitHub Pages Troubleshooting](https://help.github.com/categories/github-pages-troubleshooting)
-    - [Unpublishing a Project Pages site](https://help.github.com/articles/unpublishing-a-project-pages-site/)
-    - and many more
-
+  - [Unpublishing a Project Pages site](https://help.github.com/articles/unpublishing-a-project-pages-site/)
+  - and many more
 
 **Milestones / History**
 
@@ -334,7 +306,6 @@ _Websites for you and your projects_
 
 - Dec 2008 +++ [GitHub Pages](https://github.com/blog/272-github-pages)
 
-
 ## GitLab Pages Headquarters (HQ)
 
 _Websites for you and your projects_
@@ -343,7 +314,6 @@ _Websites for you and your projects_
   - [**Official Documentation**](http://doc.gitlab.com/ee/pages/README.html)
   - **Example Jekyll Site** (gitlab: [pages/jekyll](https://gitlab.com/pages/jekyll)) -- example jekyll site using GitLab Pages
 
-
 ## WordPress Migration / Import / Export / Templates
 
 - **WordPress Jekyll Exporter** (wordpress: [plugins/jekyll-exporter](https://wordpress.org/plugins/jekyll-exporter), github: [benbalter/wordpress-to-jekyll-exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter)) by Ben Balter -- export your WordPress blog to jekyll with one click
@@ -351,13 +321,11 @@ _Websites for you and your projects_
 - **WordPress Theme <=> Jekyll Template Cheat Sheet @ Planet Jekyll** (github: [planetjekyll/quickrefs/WORDPRESS.md](https://github.com/planetjekyll/quickrefs/blob/master/WORDPRESS.md))
 - **Wordpress2Jekyll** (wordpress: [plugins/wp2jekyll](https://wordpress.org/plugins/wp2jekyll)) -- a Wordpress plugin that allows you to use Wordpress as your editor and (automatically) export content in to Jekyll. WordPress2Jekyll attempts to marry these two systems together in order to make a site that can be easily managed from all devices.
 
-
 ## Alternatives
 
 _More static site generators_
 
 See the **Awesome Static List @ Static Times** (github: [statictimes/awesome-static](https://github.com/statictimes/awesome-static)) ».
-
 
 ## Meta
 
