@@ -26,7 +26,9 @@ roadmap.shhttps ://
 Go
 Python
 C#
-Data Structures
+
+## Data Structures
+
 Array
 Rust
 Linked List
@@ -43,7 +45,9 @@ Balanced Tree
 Unbalanced Tree
 Directed Graph
 Undirected Graph
-Asymptotic Notation
+
+## Asymptotic Notation
+
 Big O Notation
 Big-θ Notation
 Big-Ω Notation
@@ -53,7 +57,9 @@ Linear
 Polynomial
 Exponential
 Factorial
-Common Algorithms
+
+## FCommon Algorithms
+
 Searching
 Linear Search
 Binary Search
@@ -95,7 +101,9 @@ Finding Hamiltonian Paths
 Maze Solving Problem
 The Knight's Tour Problem
 Rabin-Karp Algorithm
-String Search & Manipulations
+
+## String Search & Manipulations
+
 Su#x Arrays
 Search Pattern in Text
 Substring Search

@@ -15,7 +15,7 @@ _data: cheatsheet_list
 - [Laravel 10.x](./Laravel-10.md)
   - [Laravel 8.x](./Laravel-08.md)
   - [Laravel 9.x](./Laravel-09.md)
-- [Mock.js](./Mock.md)
+- [Mock.js](./mockjs.md)
 - [PHP](./PHP.md)
 - [Shield](./Shield.md)
 

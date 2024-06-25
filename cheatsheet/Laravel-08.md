@@ -10,6 +10,8 @@ created: 2024-06-21T11:12:20 (UTC +08:00)
 
 ## Artisan
 
+### available
+
 ```php
 // 针对命令显示帮助信息 
 php artisan --help OR -h 
@@ -58,24 +60,49 @@ php artisan serve --port 8080
 php artisan serve --host 0.0.0.0
 // 更改应用命名空间
 php artisan app:name namespace
+```
+
+### auth
+
+```php
 // 清除过期的密码重置令牌
 php artisan auth:clear-resets
+```
+
+### cache
+
+```php
 // 清空应用缓存
 php artisan cache:clear
 // 移除 key_name 对应的缓存
 php artisan cache:forget key_name [<store>]
 // 创建缓存数据库表 migration
 php artisan cache:table
+```
+
+### config
+
+```php
 // 合并所有的配置信息为一个，提高加载速度
 php artisan config:cache
 // 移除配置缓存文件
 php artisan config:clear
+```
+
+### db
+
+```php
 // 程序内部调用 Artisan 命令 $exitCode = Artisan::call('config:cache');
 // 运行所有的 seed 假数据生成类
 // --class 可以指定运行的类，默认是: "DatabaseSeeder"
 // --database 可以指定数据库
 // --force 当处于生产环境时强制执行操作
 php artisan db:seed [--class[="..."]] [--database[="..."]] [--force]
+```
+
+### event
+
+```php
 // 基于注册的信息，生成遗漏的 events 和 handlers
 php artisan event:generate
 // 罗列所有事件和监听器
@@ -84,6 +111,11 @@ php artisan event:list
 php artisan event:cache
 // 清除事件和监听器缓存
 php artisan event:clear
+```
+
+### handler
+
+```php
 // 生成新的处理器类
 // --command 需要处理器处理的命令类名字
 php artisan handler:command [--command="..."] name
@@ -91,11 +123,26 @@ php artisan handler:command [--command="..."] name
 // --event 需要处理器处理的事件类名字
 // --queued 需要处理器使用队列话处理的事件类名字
 php artisan handler:event [--event="..."] [--queued] name
+```
+
+### key
+
+```php
 // 生成应用的 key（会覆盖）
 php artisan key:generate
+```
+
+### lang
+
+```php
 // 发布本地化翻译文件到 resources 文件下
 // locales: 逗号分隔，如 zh_CN,tk,th [默认是: "all"]
 php artisan lang:publish [options] [--] [<locales>]
+```
+
+### make
+
+```php
 // 创建用户认证脚手架
 php artisan make:auth
 // 创建 Channel 类
@@ -158,6 +205,11 @@ php artisan make:scaffold [options] [--] <name>
 php artisan make:seeder
 // 生成测试类
 php artisan make:test
+```
+
+### migrate
+
+```php
 // 数据库迁移
 // --database 指定数据库连接（下同）
 // --force 当处于生产环境时强制执行，不询问（下同）
@@ -178,14 +230,34 @@ php artisan migrate:reset [--database[="..."]] [--force] [--pretend]
 php artisan migrate:rollback [--database[="..."]] [--force] [--pretend]
 // migrations 数据库表信息
 php artisan migrate:status
+```
+
+### notifications
+
+```php
 // 为数据库消息通知创建一个表迁移类
 php artisan notifications:table
+```
+
+### optimize
+
+```php
 // 清除缓存的 bootstrap 文件
 php artisan optimize:clear
+```
+
+### package
+
+```php
 // 扩展包自动发现
 php artisan package:discover
+```
+
+### route
+
+```php
 // 为队列数据库表创建一个新的迁移
-php artisan queue:table
+php artisan route:table
 // 监听指定的队列
 // --queue 被监听的队列
 // --delay 给执行失败的任务设置延时时间 (默认为零: 0)
@@ -220,24 +292,59 @@ php artisan queue:subscribe [--type[="..."]] queue url
 // --sleep 当没有任务处于有效状态时, 设置其进入休眠的秒数 (默认为: 3)
 // --tries 任务记录失败重试次数 (默认为: 0)
 php artisan queue:work [--queue[="..."]] [--daemon] [--delay[="..."]] [--force] [--memory[="..."]] [--sleep[="..."]] [--tries[="..."]] [connection]
+```
+
+### route
+
+```php
 // 生成路由缓存文件来提升路由效率
 php artisan route:cache
 // 移除路由缓存文件
 php artisan route:clear
 // 显示已注册过的路由
 php artisan route:list
+```
+
+### schedule
+
+```php
 // 运行计划命令
 php artisan schedule:run
+```
+
+### session
+
+```php
 // 为 session 数据表生成迁移文件
 php artisan session:table
+```
+
+### storage
+
+```php
 // 创建 "public/storage" 到 "storage/app/public" 的软链接
 php artisan storage:link
+```
+
+### vendor
+
+```php
 // 从 vendor 的扩展包中发布任何可发布的资源
 // --force 重写所有已存在的文件
 // --provider 指定你想要发布资源文件的服务提供者
 // --tag 指定你想要发布标记资源.
 php artisan vendor:publish [--force] [--provider[="..."]] [--tag[="..."]]
+```
+
+### tail
+
+```php
 php artisan tail [--path[="..."]] [--lines[="..."]] [connection]
+```
+
+### view
+
+```php
 // 缓存视图文件以提高效率
 php artisan view:cache
 // 清除视图文件缓存
@@ -254,31 +361,52 @@ Model::where('cars', 2)->paginate(15);
 Model::where('cars', 2)->simplePaginate(15);
 // 手动分页
 Paginator::make($items, $totalItems, $perPage);
-// 在页面打印分页导航栏 $variable->links();
-// 获取当前页数据数量。 $results->count()
-// 获取当前页页码。 $results->currentPage()
-// 获取结果集中第一条数据的结果编号。 $results->firstItem()
-// 获取分页器选项。 $results->getOptions()
-// 创建分页 URL 范围。 $results->getUrlRange($start, $end)
-// 是否有多页。 $results->hasMorePages()
-// 获取结果集中最后一条数据的结果编号。 $results->lastItem()
-// 获取最后一页的页码（在 simplePaginate 中无效）。 $results->lastPage()
-// 获取下一页的 URL 。 $results->nextPageUrl()
-// 当前而是否为第一页。 $results->onFirstPage()
-// 每页的数据条数。 $results->perPage()
-// 获取前一页的 URL。 $results->previousPageUrl()
-// 数据总数（在 simplePaginate 无效）。 $results->total()
-// 获取指定页的 URL。 $results->url($page)
+// 在页面打印分页导航栏 
+$variable->links();
+// 获取当前页数据数量。 
+$results->count()
+// 获取当前页页码。 
+$results->currentPage()
+// 获取结果集中第一条数据的结果编号。 
+$results->firstItem()
+// 获取分页器选项。
+$results->getOptions()
+// 创建分页 URL 范围。
+$results->getUrlRange($start, $end)
+// 是否有多页。
+$results->hasMorePages()
+// 获取结果集中最后一条数据的结果编号。
+$results->lastItem()
+// 获取最后一页的页码（在 simplePaginate 中无效）。
+$results->lastPage()
+// 获取下一页的 URL 。
+$results->nextPageUrl()
+// 当前而是否为第一页。
+$results->onFirstPage()
+// 每页的数据条数。
+$results->perPage()
+// 获取前一页的 URL。
+$results->previousPageUrl()
+// 数据总数（在 simplePaginate 无效）。
+$results->total()
+// 获取指定页的 URL。
+$results->url($page)
 ```
 
 ## Lang
 
 ```php
-
-App::setLocale('en'); Lang::get('messages.welcome'); Lang::get('messages.welcome', array('foo' => 'Bar')); Lang::has('messages.welcome'); Lang::choice('messages.apples', 10);
-// Lang::get 的别名 trans('messages.welcome');
-// Lang::choice 的别名 trans_choice('messages.apples', 10)
-// 辅助函数 __('messages.welcome')
+App::setLocale('en'); 
+Lang::get('messages.welcome'); 
+Lang::get('messages.welcome', array('foo' => 'Bar')); 
+Lang::has('messages.welcome'); 
+Lang::choice('messages.apples', 10);
+// Lang::get 的别名 
+trans('messages.welcome');
+// Lang::choice 的别名 
+trans_choice('messages.apples', 10)
+// 辅助函数 
+__('messages.welcome')
 ```
 
 ## File
@@ -362,7 +490,8 @@ File::cleanDirectory($directory);
 
 ```php
 // 创建指定数据表
-Schema::create('table', function($table) { $table->increments('id'); });
+Schema::create('table', function($table) {
+$table->increments('id'); });
 // 指定一个连接
 Schema::connection('foo')->create('table', function($table){});
 // 通过给定的名称来重命名数据表
@@ -379,40 +508,94 @@ Schema::hasColumn('table', 'column');
 Schema::getColumnListing('table');
 // 更新一个已存在的数据表
 Schema::table('table', function($table){});
-// 重命名数据表的列 $table->renameColumn('from', 'to');
-// 移除指定的数据表列 $table->dropColumn(string|array);
-// 指定数据表使用的存储引擎 $table->engine = 'InnoDB';
-// 字段顺序，只能在 MySQL 中才能用 $table->string('name')->after('email');
+// 重命名数据表的列 
+$table->renameColumn('from', 'to');
+// 移除指定的数据表列 
+$table->dropColumn(string|array);
+// 指定数据表使用的存储引擎 
+$table->engine = 'InnoDB';
+// 字段顺序，只能在 MySQL 中才能用 
+$table->string('name')->after('email');
 ```
 
 ### 索引
 
 ```php
-$table->string('column')->unique(); $table->primary('column');
-// 创建一个双主键 $table->primary(array('first', 'last')); $table->unique('column'); $table->unique('column', 'key_name');
-// 创建一个双唯一性索引 $table->unique(array('first', 'last')); $table->unique(array('first', 'last'), 'key_name'); $table->index('column'); $table->index('column', 'key_name');
-// 创建一个双索引 $table->index(array('first', 'last')); $table->index(array('first', 'last'), 'key_name'); $table->dropPrimary(array('column')); $table->dropPrimary('table_column_primary'); $table->dropUnique(array('column')); $table->dropUnique('table_column_unique'); $table->dropIndex(array('column')); $table->dropIndex('table_column_index');
+$table->string('column')->unique(); 
+$table->primary('column');
+// 创建一个双主键 
+$table->primary(array('first', 'last'));
+
+$table->unique('column'); 
+
+$table->unique('column', 'key_name');
+// 创建一个双唯一性索引 
+$table->unique(array('first', 'last')); 
+$table->unique(array('first', 'last'), 'key_name'); 
+$table->index('column'); 
+$table->index('column', 'key_name');
+// 创建一个双索引 
+$table->index(array('first', 'last')); 
+$table->index(array('first', 'last'), 'key_name'); 
+$table->dropPrimary(array('column')); 
+$table->dropPrimary('table_column_primary');
+$table->dropUnique(array('column')); 
+$table->dropUnique('table_column_unique'); 
+$table->dropIndex(array('column')); 
+$table->dropIndex('table_column_index');
 ```
 
 ### 外键
 
 ```php
-$table->foreign('user_id')->references('id')->on('users'); $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade'|'restrict'|'set null'|'no action'); $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade'|'restrict'|'set null'|'no action'); $table->dropForeign(array('user_id')); $table->dropForeign('posts_user_id_foreign');
+$table->foreign('user_id')->references('id')->on('users');
+$table->foreign('user_id')->references('id')->on('users')->onDelete('cascade'|'restrict'|'set null'|'no action');
+$table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade'|'restrict'|'set null'|'no action');
+$table->dropForeign(array('user_id'));
+$table->dropForeign('posts_user_id_foreign');
 ```
 
 ### 字段类型
 
 ```php
-// 自增 $table->increments('id'); $table->bigIncrements('id');
-// 数字 $table->integer('votes'); $table->tinyInteger('votes'); $table->smallInteger('votes'); $table->mediumInteger('votes'); $table->bigInteger('votes'); $table->float('amount'); $table->double('column', 15, 8); $table->decimal('amount', 5, 2);
-// 字符串和文本 $table->char('name', 4); $table->string('email'); $table->string('name', 100); $table->text('description'); $table->mediumText('description'); $table->longText('description');
-// 日期和时间 $table->date('created_at'); $table->dateTime('created_at'); $table->time('sunrise'); $table->timestamp('added_on');
+// 自增
+$table->increments('id');
+$table->bigIncrements('id');
+// 数字
+$table->integer('votes');
+$table->tinyInteger('votes');
+$table->smallInteger('votes');
+$table->mediumInteger('votes');
+$table->bigInteger('votes');
+$table->float('amount');
+$table->double('column', 15, 8);
+$table->decimal('amount', 5, 2);
+// 字符串和文本
+$table->char('name', 4);
+$table->string('email');
+$table->string('name', 100);
+$table->text('description');
+$table->mediumText('description');
+$table->longText('description');
+// 日期和时间
+$table->date('created_at');
+$table->dateTime('created_at');
+$table->time('sunrise');
+$table->timestamp('added_on');
 // Adds created_at and updated_at columns
-// 添加 created_at 和 updated_at 行 $table->timestamps(); $table->nullableTimestamps();
-// 其它类型 $table->binary('data'); $table->boolean('confirmed');
-// 为软删除添加 deleted_at 字段 $table->softDeletes(); $table->enum('choices', array('foo', 'bar'));
-// 添加 remember_token 为 VARCHAR(100) NULL $table->rememberToken();
-// 添加整型的 parent_id 和字符串类型的 parent_type $table->morphs('parent'); ->nullable() ->default($value) ->unsigned() ->comment()
+// 添加 created_at 和 updated_at 行
+$table->timestamps();
+$table->nullableTimestamps();
+// 其它类型
+$table->binary('data');
+$table->boolean('confirmed');
+// 为软删除添加 deleted_at 字段
+$table->softDeletes();
+$table->enum('choices', array('foo', 'bar'));
+// 添加 remember_token 为 VARCHAR(100) NULL
+$table->rememberToken();
+// 添加整型的 parent_id 和字符串类型的 parent_type
+$table->morphs('parent'); ->nullable() ->default($value) ->unsigned() ->comment()
 ```
 
 ## Auth
@@ -458,7 +641,8 @@ Auth::validate($credentials);
 Auth::basic('username');
 // 执行「HTTP Basic」登录尝试，只认证一次
 Auth::onceBasic();
-// 发送密码重置提示给用户 Password::remind($credentials, function($message, $user){});
+// 发送密码重置提示给用户 
+Password::remind($credentials, function($message, $user){});
 ```
 
 ### 用户授权
@@ -569,13 +753,20 @@ Arr::wrap($array);
 ### 路径
 
 ```php
-// 取得 app 文件夹的完整路径 app_path();
-// 取得项目根目录的完整路径 base_path();
-// 取得应用配置目录的完整路径 config_path();
-// 取得应用数据库目录的完整路径 database_path();
-// 取得加上版本号的 Elixir 文件路径 elixir();
-// 取得 public 目录的完整路径 public_path();
-// 取得 storage 目录的完整路径 storage_path();
+// 取得 app 文件夹的完整路径 
+app_path();
+// 取得项目根目录的完整路径 
+base_path();
+// 取得应用配置目录的完整路径 
+config_path();
+// 取得应用数据库目录的完整路径 
+database_path();
+// 取得加上版本号的 Elixir 文件路径 
+elixir();
+// 取得 public 目录的完整路径 
+public_path();
+// 取得 storage 目录的完整路径 
+storage_path();
 ```
 
 ### 字符串
@@ -583,8 +774,11 @@ Arr::wrap($array);
 ```php
 // 将给定的字符串转换成 驼峰式命名
 Str::camel($value);
-// 返回不包含命名空间的类名称 class_basename($class); class_basename($object);
-// 对给定字符串运行 htmlentities e('<html>');
+// 返回不包含命名空间的类名称 
+class_basename($class); 
+class_basename($object);
+// 对给定字符串运行 htmlentities 
+e('<html>');
 // 判断字符串开头是否为给定内容
 Str::startsWith('Foo bar.', 'Foo');
 // 判断给定字符串结尾是否为指定内容
@@ -593,48 +787,78 @@ Str::endsWith('Foo bar.', 'bar.');
 Str::snake('fooBar');
 // 将给定字符串转换成「首字大写命名」: FooBar
 Str::studly('foo_bar');
-// 根据你的本地化文件翻译给定的语句 trans('foo.bar');
-// 根据后缀变化翻译给定的语句 trans_choice('foo.bar', $count);
+// 根据你的本地化文件翻译给定的语句 
+trans('foo.bar');
+// 根据后缀变化翻译给定的语句 
+trans_choice('foo.bar', $count);
 ```
 
 ### URLs and Links
 
 ```php
-// 产生给定控制器行为网址 action('FooController@method', $parameters);
-// 根据目前请求的协定（HTTP 或 HTTPS）产生资源文件网址 asset('img/photo.jpg', $title, $attributes);
-// 根据 HTTPS 产生资源文件网址 secure_asset('img/photo.jpg', $title, $attributes);
+// 产生给定控制器行为网址 
+action('FooController@method', $parameters);
+// 根据目前请求的协定（HTTP 或 HTTPS）产生资源文件网址 
+asset('img/photo.jpg', $title, $attributes);
+// 根据 HTTPS 产生资源文件网址 
+secure_asset('img/photo.jpg', $title, $attributes);
 // 产生给定路由名称网址
 Route($route, $parameters, $absolute = true);
-// 产生给定路径的完整网址 url('path', $parameters = array(), $secure = null);
+// 产生给定路径的完整网址 
+url('path', $parameters = array(), $secure = null);
 ```
 
 ### 其他
 
 ```php
-// 返回一个认证器实例。你可以使用它取代 Auth facade auth()->user();
-// 产生一个重定向回应让用户回到之前的位置 back();
-// 使用 Bcrypt 哈希给定的数值。你可以使用它替代 Hash facade bcrypt('my-secret-password');
-// 从给定的项目产生集合实例 collect(['taylor', 'abigail']);
-// 取得设置选项的设置值 config('app.timezone', $default);
-// 产生包含 CSRF 令牌内容的 HTML 表单隐藏字段 {!! csrf_field() !!}
+// 返回一个认证器实例。你可以使用它取代 Auth facade 
+auth()->user();
+// 产生一个重定向回应让用户回到之前的位置 
+back();
+// 使用 Bcrypt 哈希给定的数值。你可以使用它替代 Hash facade 
+bcrypt('my-secret-password');
+// 从给定的项目产生集合实例 
+collect(['taylor', 'abigail']);
+// 取得设置选项的设置值 
+config('app.timezone', $default);
+// 产生包含 CSRF 令牌内容的 HTML 表单隐藏字段 
+{!! csrf_field() !!}
 // 5.7+用这个 @csrf
-// 取得当前 CSRF 令牌的内容 $token = csrf_token();
-// 输出给定变量并结束脚本运行 dd($value);
-// var_dump缩写（如果用dump-server,var_dump可能无效） dump($value);
-// 取得环境变量值或返回默认值 $env = env('APP_ENV'); $env = env('APP_ENV', 'production');
-// 配送给定事件到所属的侦听器 event(new UserRegistered($user));
-// 根据给定类、名称以及总数产生模型工厂建构器 $user = factory(App\User::class)->make();
-// 产生拟造 HTTP 表单动作内容的 HTML 表单隐藏字段 {!! method_field('delete') !!}
+// 取得当前 CSRF 令牌的内容 
+$token = csrf_token();
+// 输出给定变量并结束脚本运行 
+dd($value);
+// var_dump缩写（如果用dump-server,var_dump可能无效） 
+dump($value);
+// 取得环境变量值或返回默认值 
+$env = env('APP_ENV'); 
+$env = env('APP_ENV', 'production');
+// 配送给定事件到所属的侦听器 
+event(new UserRegistered($user));
+// 根据给定类、名称以及总数产生模型工厂建构器 
+$user = factory(App\User::class)->make();
+// 产生拟造 HTTP 表单动作内容的 HTML 表单隐藏字段 
+{!! method_field('delete') !!}
 // 5.7+ @method('delete')
-// 取得快闪到 session 的旧有输入数值 $value = old('value'); $value = old('value', 'default');
-// 返回重定向器实例以进行 重定向 return redirect('/home');
-// 取得目前的请求实例或输入的项目 $value = request('key', $default = null)
-// 创建一个回应实例或获取一个回应工厂实例 return response('Hello World', 200, $headers);
-// 可被用于取得或设置单一 session 内容 $value = session('key');
-// 在没有传递参数时，将返回 session 实例 $value = session()->get('key'); session()->put('key', $value);
-// 返回给定数值 value(function(){ return 'bar'; });
-// 取得视图 实例 return view('auth.login');
-// 返回给定的数值 $value = with(new Foo)->work();
+// 取得快闪到 session 的旧有输入数值 
+$value = old('value'); $value = old('value', 'default');
+// 返回重定向器实例以进行 重定向 
+return redirect('/home');
+// 取得目前的请求实例或输入的项目 
+$value = request('key', $default = null)
+// 创建一个回应实例或获取一个回应工厂实例 
+return response('Hello World', 200, $headers);
+// 可被用于取得或设置单一 session 内容 
+$value = session('key');
+// 在没有传递参数时，将返回 session 实例 
+$value = session()->get('key'); 
+session()->put('key', $value);
+// 返回给定数值 
+value(function(){ return 'bar'; });
+// 取得视图 实例 
+return view('auth.login');
+// 返回给定的数值 
+$value = with(new Foo)->work();
 ```
 
 ## Composer

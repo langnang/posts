@@ -6,6 +6,16 @@ description: Step by step guide to learn Data Structures and Algorithms in 2024
 
 - https://roadmap.sh/datastructures-and-algorithms
 
+## Pick a Language
+
+### Programming Fundamentals
+
+Language Syntax
+Control Structures
+Functions
+OOP Basics
+Pseudo Code
+
 ## Data Structures
 
 ### Basic Data Structures
@@ -19,3 +29,14 @@ description: Step by step guide to learn Data Structures and Algorithms in 2024
 ## Algorithms
 
 ### Algorithmic Complexity
+
+### Sorting Algorithms
+
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
+- Heap Sort
+
+### Search Algorithms

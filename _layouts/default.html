@@ -22,9 +22,24 @@
       display: table;
     }
 
+    .markdown-body pre code,
+    .markdown-body pre tt {
+      /* white-space: normal; */
+    }
+
     #app {
       position: relative;
       height: 100vh;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 100;
+      padding: 73px 0 0;
+      box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
     }
   </style>
   <style>
@@ -87,6 +102,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
   <script>anchors.add();</script>
+  <script src="https://www.unpkg.com/bootstrap@4"></script>
   <script src="https://www.unpkg.com/holderjs"></script>
   <script src="https://www.unpkg.com/lazyload"></script>
   <script src=" https://cdn.jsdelivr.net/npm/perfect-scrollbar@1.5.5/dist/perfect-scrollbar.min.js "></script>
