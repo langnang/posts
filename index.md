@@ -21,7 +21,7 @@ links:
    url: ./../frameworks/
    target: _blank
  - name: Examples
-   nameCn: 示例
+   nameCn: 范例
    url: ./../examples/
    target: _blank
  - name: Websites
