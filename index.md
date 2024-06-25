@@ -16,6 +16,14 @@ links:
    nameCn: 程序
    url: ./../softwares/
    target: _blank
+ - name: Frameworks
+   nameCn: 框架
+   url: ./../frameworks/
+   target: _blank
+ - name: Examples
+   nameCn: 示例
+   url: ./../examples/
+   target: _blank
  - name: Websites
    nameCn: 网站
    url: ./websites/
@@ -45,19 +53,12 @@ links:
    nameCn: 操作系统
    url: ./operating-system/
    visible: false
- - name: Frameworks
-   nameCn: 框架
-   url: ./../frameworks/
-   target: _blank
-   visible: false
  - name: Templates
    nameCn: 模板
    url: ./../templates/
    target: _blank
    visible: false
- - name: Examples
-   nameCn: 示例
-   url: ./../examples/
+
    target: _blank
    visible: false 
  - name: Extensions
