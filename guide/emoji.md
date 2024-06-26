@@ -1,4 +1,6 @@
-# Emoji
+---
+title: Emoji
+---
 
 <style>
     table thead{
