@@ -3,44 +3,86 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Applications
+title: 应用（Application）
 ---
 
 > 应用（Application），一般指直接运行于操作系统（Windows,MacOS,Linux,Android,iOS等）上的应用。
 
-- Adobe
-  - Adobe PhotoShop
-  - Adobe Premiere Pro  
-  - Adobe XD
-- Anaconda
-- Android Studio
-- Apache
-- Apifox
-- BtSoft
-- Git
-- Google Chrome
-- HBuilder X
+- Adobe:
+  - Adobe PhotoShop: 图像处理软件
+  - Adobe Premiere Pro: 视频编辑软件
+  - Adobe XD:
+- Anaconda: Python 发行版本
+- Android Studio: 代码编辑器
+- Apache: Web 服务器软件
+- Apifox: 接口测试工具
+  - https://apifox.com/
+- Attribute Changer: 文件属性修改工具
+- Bandizip: 压缩软件
+- Blumind: 思维导图工具
+- BtSoft: 服务器运维管理工具
+- Charles: 网络抓包工具
+- ClickCharts: 图表流程图软件
+- Composer: PHP 依赖管理工具
+- DevEco Studio: 代码编辑器
+- ⭐ DiskGenius: 硬盘分区及数据恢复软件
+- FileZilla: FTP 软件
+- ⭐ Geek Uninstaller: 专业卸载软件
+- ⭐ Git: 分布式版本控制系统
+  - https://git-scm.com/
+  - ⭐ TortoiseGit
+- GitHub
+  - GitHub Desktop
+- Google Chrome: 网络浏览器
+- HBuilder X: 代码编辑器
+- Jenkins: 持续集成工具
 - JetBrains
-  - JetBrains DataGrip
-  - JetBrains Idea
-  - JetBrains PhpStorm
-  - JetBrains WebStorm
-- MediaInfo
+  - JetBrains DataGrip: 数据库管理工具
+  - JetBrains Idea: 专业代码编辑器
+  - JetBrains PhpStorm: 专业代码编辑器
+    - https://www.jetbrains.com/zh-cn/phpstorm/
+  - JetBrains WebStorm: 专业代码编辑器
+- MediaInfo: 视频参数检测工具
 - Microsoft
-  - Microsoft Office
+  - Microsoft Edge: 网络浏览器
+  - Microsoft Office: 办公软件套装
   - Microsoft OneDrive
   - Microsoft OneNote
-- Mozilla Firefox
-- Navicat
-- nodepad++
-- phpts
-- PicGo
-- Postman
-- PotPlayer
-- ScreenToGif
-- Snipaste
-- SVN
-- Typora
-- Visual Studio
-- Visual Studio Code
-- WPS Office
+- Mozilla Firefox: 网络浏览器
+- Navicat: 数据库管理工具
+- Nginx: Web 服务器软件
+- nodepad++: 代码编辑器
+- phpts: 计算服务器套件
+- PicGo: 用于快速上传图片并获取图片 URL 链接的工具.
+- Postman: 接口测试工具
+- PotPlayer: 影音视频播放器
+- ProcessOn: 专业在线作图工具
+  - https://www.processon.com/
+- R-Studio: 文件数据恢复软件
+- RaiDrive: 云盘挂载软件
+- Recuva: 文件数据恢复工具
+- ScreenToGif: 录频、GIF制作工具
+  - https://www.screentogif.com/
+- Shadowsocks: 网络代理工具
+- Snipaste: 截图工具
+- Steam: 电子游戏数字发行平台
+- Sublime Text: 代码编辑器
+- SumatraPDF: PDF 阅读器
+- SVN: 版本控制系统
+  - TortoiseSVN:
+- ⭐ Teleport Ultra: 网站离线浏览软件
+- Thunder Network: 资源下载工具
+- Typora: Markdown 文本编辑器
+  - https://www.typora.net/
+- Unity: 游戏制作软件
+- VeraCrypt: 磁盘加密软件
+- Visual Studio: 代码编辑器
+- ⭐ Visual Studio Code: 代码编辑器
+- VMware Workstation: 桌面虚拟计算机软件
+- WinMerge: 文件比较/合并工具
+- WinPcap: 公共的网络访问系统
+  - https://www.winpcap.org/
+- Wireshark: 网络封包分析软件
+- Worktile
+- WPS Office: 办公软件套装
+- Zotera: 文献管理工具

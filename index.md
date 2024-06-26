@@ -130,12 +130,16 @@ links:
 <!--
 ```sh
 docs
-  ├─ applications
-  ├─ frameworks
-  ├─ softwares
-  ├─ examples
-  ├─ templates
-  └─ projects
+  ├─ applications     # 应用
+  ├─ frameworks       # 框架
+  ├─ softwares        # 软件
+  ├─ extesions        # 拓展
+  ├─ examples         # 范例
+  ├─ templates        # 模板
+  ├─ packages         # 包裹
+  ├─ tools            # 工具
+  ├─ games            # 游戏
+  └─ projects         # 项目
     ├─ website
     ├─ cheatsheet
     ├─ awesome
