@@ -126,3 +126,19 @@ links:
 </div>
 
 <!-- {% gist ab8ce66b0cada4ecb75a20ec67d481a8 package.json %} -->
+
+<!--
+```sh
+docs
+  ├─ applications
+  ├─ frameworks
+  ├─ softwares
+  ├─ examples
+  ├─ templates
+  └─ projects
+    ├─ website
+    ├─ cheatsheet
+    ├─ awesome
+    └─ roadmap      
+```
+-->
