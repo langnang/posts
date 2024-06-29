@@ -114,11 +114,18 @@ links:
    target: _blank
    visible: false
    description: 指事物或方法所发挥的有利作用
- - name: 
+ - name: Planning
+   nameCn: 规划
+   url: ./../planning/
+   target: _blank
+   visible: false
+   description: 指个人或组织制定的比较全面长远的发展计划，是对未来整体性、长期性、基本性问题的思考和考量，设计未来整套行动的方案
+ - name: # 名称
    nameCn: 
-   url: 
-   target: 
-   visible: 
+   url: #
+   target: # 超链接打开方式 
+   visible: #
+   description: # 描述
 ---
 
 <!-- - [Applications](./applications/): 应用
