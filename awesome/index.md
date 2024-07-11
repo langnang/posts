@@ -1,6 +1,9 @@
 ---
 title: Awesome
 layout: default
+reprint:
+  source: github
+  github_url: https://github.com/sindresorhus/awesome/blob/main/readme.md
 ---
 
 - [badges](./badges.md)

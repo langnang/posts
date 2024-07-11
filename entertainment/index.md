@@ -1,7 +1,8 @@
 ---
-title: entertainment
+title: 娱乐（Entertainment）
 ---
 
-- [audio](./audio.md)
 - [novel](./novel.md)
+- [audio](./audio.md)
 - [video](./video.md)
+- [game](./game.md)
