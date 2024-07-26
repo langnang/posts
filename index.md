@@ -9,9 +9,9 @@ defaults:
  - values:
      ico: holder.js/60x60 
 links:
- - name: Application
+ - name: Applications
    nameCn: 应用
-   url: ./application
+   url: ./applications
    description: 指手机和电脑的应用。在面向对象上通常分为个人用户应用与企业级应用，在移动端系统分类上主要包括iOS、Android和windows phone的xap和appx。
  - name: Softwares
    nameCn: 程序
