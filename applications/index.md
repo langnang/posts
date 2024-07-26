@@ -14,6 +14,7 @@ title: 应用（Application）
   - Adobe XD:
 - Anaconda: Python 发行版本
 - Android Studio: 代码编辑器
+- AnyDesk: 快速远程桌面
 - Apache: Web 服务器软件
 - Apifox: 接口测试工具
   - https://apifox.com/
