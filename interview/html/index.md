@@ -2,7 +2,13 @@
 title: HTML Interview
 ---
 
-00001. 简述一下你对 HTML 语义化的理解？
+<details>
+<summary>00001. 简述一下你对 HTML 语义化的理解？</summary>
+
+## 123
+
+</details>
+
 00001. Label 的作用是什么？是怎么用的？
 00001. iframe 框架有哪些优缺点？
 00001. HTML 与 XHTML 二者有什么区别，你觉得应该使用哪一个并说出理由。
