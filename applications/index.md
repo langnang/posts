@@ -19,11 +19,14 @@ title: 应用（Application）
 - Apifox: 接口测试工具
   - https://apifox.com/
 - Attribute Changer: 文件属性修改工具
+- Baidu
+  - Baidu Naotu: 百度脑图
 - Bandizip: 压缩软件
 - Blumind: 思维导图工具
 - BtSoft: 服务器运维管理工具
 - Charles: 网络抓包工具
 - ClickCharts: 图表流程图软件
+- Cloudflare
 - Composer: PHP 依赖管理工具
 - DevEco Studio: 代码编辑器
 - ⭐ DiskGenius: 硬盘分区及数据恢复软件
@@ -43,6 +46,7 @@ title: 应用（Application）
   - JetBrains PhpStorm: 专业代码编辑器
     - https://www.jetbrains.com/zh-cn/phpstorm/
   - JetBrains WebStorm: 专业代码编辑器
+- Kali: 渗透测试工具包
 - MediaInfo: 视频参数检测工具
 - Microsoft
   - Microsoft Edge: 网络浏览器
@@ -69,6 +73,7 @@ title: 应用（Application）
 - Steam: 电子游戏数字发行平台
 - Sublime Text: 代码编辑器
 - SumatraPDF: PDF 阅读器
+- Supabase:
 - SVN: 版本控制系统
   - TortoiseSVN:
 - ⭐ Teleport Ultra: 网站离线浏览软件
