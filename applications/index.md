@@ -35,6 +35,8 @@ title: 应用（Application）
 - ⭐ Git: 分布式版本控制系统
   - https://git-scm.com/
   - ⭐ TortoiseGit
+- [Git](./Git/)
+  - https://git-scm.com/
 - GitHub
   - GitHub Desktop
 - Google Chrome: 网络浏览器
