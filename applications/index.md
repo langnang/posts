@@ -49,6 +49,7 @@ title: 应用（Application）
     - https://www.jetbrains.com/zh-cn/phpstorm/
   - JetBrains WebStorm: 专业代码编辑器
 - Kali: 渗透测试工具包
+- Lite XL: 代码编辑器
 - MediaInfo: 视频参数检测工具
 - Microsoft
   - Microsoft Edge: 网络浏览器
