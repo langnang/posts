@@ -44,7 +44,7 @@ links:
    nameCn: 指导
    url: ./guide/
    description: 
-  - name: Algorithm
+ - name: Algorithm
    nameCn: 算法
    url: ./../algorithm/
    description: 
