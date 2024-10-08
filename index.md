@@ -34,20 +34,23 @@ links:
    description: 
  - name: Awesome
    nameCn: 资源推荐
-   url: ./awesome/
+   url: ./../awesome/
    description: 
  - name: CheatSheet
    nameCn: 速查表
-   url: ./cheatsheet/
+   url: ./../cheatsheet/
    description: 指一种为特定领域提供快速查阅所需资料的工具
  - name: Guide
    nameCn: 指导
    url: ./guide/
    description: 
- - name: Question
+  - name: Algorithm
+   nameCn: 算法
+   url: ./../algorithm/
+   description: 
+ - name: Interview
    nameCn: 试题
-   url: ./question/
-   visible: false
+   url: ./../interview/
    description: 
  - name: Dependencies
    nameCn: 依赖
