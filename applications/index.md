@@ -58,9 +58,11 @@ title: 应用（Application）
   - Microsoft OneDrive
   - Microsoft OneNote
 - Mozilla Firefox: 网络浏览器
+- MSI Afterburner: 微星小飞机，一款倍受欢迎的显卡超频与监测软件
 - Navicat: 数据库管理工具
 - Nginx: Web 服务器软件
 - nodepad++: 代码编辑器
+- [OBS Studio](https://obsproject.com/): 免费和开源的视频录制和现场流媒体软件。
 - phpts: 计算服务器套件
 - PicGo: 用于快速上传图片并获取图片 URL 链接的工具.
 - Postman: 接口测试工具
@@ -75,6 +77,7 @@ title: 应用（Application）
 - Shadowsocks: 网络代理工具
 - Snipaste: 截图工具
 - Steam: 电子游戏数字发行平台
+- [Watt Toolkit(Steam++)](https://steampp.net/): 开源跨平台的多功能 Steam 工具箱
 - Sublime Text: 代码编辑器
 - SumatraPDF: PDF 阅读器
 - Supabase:
