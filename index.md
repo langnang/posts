@@ -125,6 +125,12 @@ links:
    target: _blank
    visible: false
    description: 指个人或组织制定的比较全面长远的发展计划，是对未来整体性、长期性、基本性问题的思考和考量，设计未来整套行动的方案
+ - name: Langnang
+   nameCn: Langnang
+   url: ./../langnang/
+   target: _blank
+   visible: false
+   description: 自研
  - name: # 名称
    nameCn: 
    url: #
