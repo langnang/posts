@@ -35,11 +35,13 @@ links:
  - name: Awesome
    nameCn: 资源推荐
    url: ./../awesome/
+   target: _blank
    description: 
  - name: CheatSheet
    nameCn: 速查表
    url: ./../cheatsheet/
    description: 指一种为特定领域提供快速查阅所需资料的工具
+   target: _blank
  - name: Guide
    nameCn: 指导
    url: ./guide/
@@ -47,10 +49,12 @@ links:
  - name: Algorithm
    nameCn: 算法
    url: ./../algorithm/
+   target: _blank
    description: 
  - name: Interview
    nameCn: 试题
    url: ./../interview/
+   target: _blank
    description: 
  - name: Dependencies
    nameCn: 依赖
