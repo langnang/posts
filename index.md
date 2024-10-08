@@ -77,7 +77,6 @@ links:
    nameCn: 模板
    url: ./../templates/
    target: _blank
-   visible: false 
    description: 指作图或设计方案的固定格式
  - name: Extensions
    nameCn: 拓展
@@ -89,7 +88,6 @@ links:
    nameCn: 项目
    url: ./../projects/
    target: _blank
-   visible: false   
    description: 指进行一项独立一次性或长期无限期的工作任务，以期达到由数量和质量指标所限定的目标
  - name: Packages
    nameCn: 依赖包
