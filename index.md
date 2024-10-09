@@ -119,6 +119,11 @@ links:
    target: _blank
    visible: false
    description: 指事物或方法所发挥的有利作用
+ - name: PublicAPIs
+   nameCn: 公共接口
+   url: ./../public-apis/
+   target: _blank
+   description: 
  - name: Planning
    nameCn: 规划
    url: ./../planning/
