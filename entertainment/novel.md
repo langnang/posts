@@ -13,8 +13,8 @@ title: "Novel - Entertainment"
       {% if novel.qidian_slug and novel.qidian_slug != '' %}
         <a class="card" target="_blank" href="https://www.qidian.com/book/{{novel.qidian_slug}}/">
           <img class="card-img-top lazyload" data-src="https://bookcover.yuewen.com/qdbimg/349573/{{novel.qidian_slug}}/150.webp" alt=""/>
-          <div class="card-body p-2">
-            <h5 class="card-title text-truncate my-2">{{ novel.title }}</h5>
+          <div class="card-body px-2 py-0">
+            <h5 class="card-title text-truncate my-1">{{ novel.title }}</h5>
           </div>
         </a>
       {% else %}
@@ -24,8 +24,8 @@ title: "Novel - Entertainment"
           {% else if novel.ico %}
             <img class="card-img-top lazyload" data-src="{{novel.ico}}" alt=""/>
           {% endif %}
-          <div class="card-body p-2">
-            <h5 class="card-title text-truncate my-2">{{ novel.title }}</h5>
+          <div class="card-body px-2 py-0">
+            <h5 class="card-title text-truncate my-1">{{ novel.title }}</h5>
           </div>
         </a>
       {% endif %}
@@ -46,8 +46,8 @@ title: "Novel - Entertainment"
       {% if novel.qidian_slug and novel.qidian_slug != '' %}
         <a class="card" target="_blank" href="https://www.qidian.com/book/{{novel.qidian_slug}}/">
           <img class="card-img-top lazyload" data-src="https://bookcover.yuewen.com/qdbimg/349573/{{novel.qidian_slug}}/150.webp" alt=""/>
-          <div class="card-body p-2">
-            <h5 class="card-title text-truncate my-2">{{ novel.title }}</h5>
+          <div class="card-body px-2 py-0">
+            <h5 class="card-title text-truncate my-1">{{ novel.title }}</h5>
           </div>
         </a>
       {% else %}
@@ -57,8 +57,8 @@ title: "Novel - Entertainment"
           {% else if novel.ico %}
             <img class="card-img-top lazyload" data-src="{{novel.ico}}" alt=""/>
           {% endif %}
-          <div class="card-body p-2">
-            <h5 class="card-title text-truncate my-2">{{ novel.title }}</h5>
+          <div class="card-body px-2 py-0">
+            <h5 class="card-title text-truncate my-1">{{ novel.title }}</h5>
           </div>
         </a>
       {% endif %}
@@ -79,8 +79,8 @@ title: "Novel - Entertainment"
       {% if novel.qidian_slug and novel.qidian_slug != '' %}
         <a class="card" target="_blank" href="https://www.qidian.com/book/{{novel.qidian_slug}}/">
           <img class="card-img-top lazyload" data-src="https://bookcover.yuewen.com/qdbimg/349573/{{novel.qidian_slug}}/150.webp" alt=""/>
-          <div class="card-body p-2">
-            <h5 class="card-title text-truncate my-2">{{ novel.title }}</h5>
+          <div class="card-body px-2 py-0">
+            <h5 class="card-title text-truncate my-1">{{ novel.title }}</h5>
           </div>
         </a>
       {% else %}
@@ -90,8 +90,8 @@ title: "Novel - Entertainment"
           {% else if novel.ico %}
             <img class="card-img-top lazyload" data-src="{{novel.ico}}" alt=""/>
           {% endif %}
-          <div class="card-body p-2">
-            <h5 class="card-title text-truncate my-2">{{ novel.title }}</h5>
+          <div class="card-body px-2 py-0">
+            <h5 class="card-title text-truncate my-1">{{ novel.title }}</h5>
           </div>
         </a>
       {% endif %}
