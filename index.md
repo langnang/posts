@@ -157,7 +157,19 @@ links:
         /* display:none; */
     }
 </style>
-<div class="container">
+
+- 应用·Application
+- 软件·Software
+- 框架·Framework
+- 模板·Template
+- 范例·Example
+- 推荐·Awesome
+- 规范·Standard
+- 算法·Algorithm
+- 试题·Question
+- 依赖·Dependency
+
+<div class="container d-none">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3" style="margin-left: -23px;margin-right: -23px">
     {% for link in page.links %}
       {% if link.name and link.visible != false %}
