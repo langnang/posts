@@ -43,7 +43,7 @@ links:
    description: 指一种为特定领域提供快速查阅所需资料的工具
    target: _blank
  - name: Guide
-   nameCn: 指导
+   nameCn: 指南
    url: ./guide/
    description: 
  - name: Algorithm
@@ -158,16 +158,17 @@ links:
     }
 </style>
 
-- 应用·Application
+- [应用·Application](./application/)
 - 软件·Software
 - 框架·Framework
 - 模板·Template
 - 范例·Example
 - 推荐·Awesome
 - 规范·Standard
-- 算法·Algorithm
+- [算法·Algorithm](./algorithm/)
 - 试题·Question
-- 依赖·Dependency
+- [依赖·Dependency](./dependency/)
+- [编程·Program](./program/)
 
 <div class="container d-none">
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3" style="margin-left: -23px;margin-right: -23px">

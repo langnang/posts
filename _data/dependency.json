@@ -1,6 +1,69 @@
 {
-  "npm": {},
-  "composer": {},
-  "ruby": {},
-  "pypi": {}
+  "metas": {},
+  "contents": {},
+  "composer": {
+    "": {
+      "name": "",
+      "ico": "",
+      "homepage": "",
+      "github": "",
+      "description": "",
+      "keywords": []
+    },
+    "laravel/laravel": {
+      "name": "",
+      "ico": "",
+      "homepage": "",
+      "github": "",
+      "description": "",
+      "keywords": []
+    },
+    "laravel/lumen": {
+      "name": "",
+      "ico": "",
+      "homepage": "",
+      "github": "",
+      "description": "",
+      "keywords": []
+    }
+  },
+  "npm": {
+    "": {
+      "name": "",
+      "ico": "",
+      "homepage": "",
+      "github": "",
+      "description": "",
+      "keywords": []
+    },
+    "animate.css": {},
+    "anime.js": {},
+    "bootstrap": {},
+    "jquery": {},
+    "less": {},
+    "normalize.css": {},
+    "react": {},
+    "sass": {},
+    "vue": {}
+  },
+  "pypi": {
+    "": {
+      "name": "",
+      "ico": "",
+      "homepage": "",
+      "github": "",
+      "description": "",
+      "keywords": []
+    }
+  },
+  "ruby": {
+    "": {
+      "name": "",
+      "ico": "",
+      "homepage": "",
+      "github": "",
+      "description": "",
+      "keywords": []
+    }
+  }
 }
