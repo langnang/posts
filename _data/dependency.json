@@ -1,69 +1,1021 @@
 {
-  "metas": {},
-  "contents": {},
   "composer": {
     "": {
-      "name": "",
-      "ico": "",
-      "homepage": "",
-      "github": "",
       "description": "",
-      "keywords": []
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "name": ""
+    },
+    "doctrine/dbal": {
+      "description": "Powerful PHP database abstraction layer (DBAL) with many features for database schema introspection and management.",
+      "homepage": "https://www.doctrine-project.org/projects/doctrine-dbal/en/latest/",
+      "ico": "",
+      "name": "doctrine/dbal"
+    },
+    "doctrine/sql-formatter": {
+      "description": "a PHP SQL highlighting library",
+      "homepage": "",
+      "ico": "",
+      "name": "doctrine/sql-formatter"
+    },
+    "facade/ignition": {
+      "description": "A beautiful error page for Laravel applications.",
+      "homepage": "",
+      "ico": "",
+      "name": "facade/ignition"
+    },
+    "fakerphp/faker": {
+      "description": "Faker is a PHP library that generates fake data for you.",
+      "homepage": "https://fakerphp.github.io/",
+      "ico": "http://fakerphp.org/images/favicon.ico",
+      "name": "fakerphp/faker"
+    },
+    "fruitcake/laravel-cors": {
+      "description": "Adds CORS (Cross-Origin Resource Sharing) headers support in your Laravel application",
+      "homepage": "",
+      "ico": "",
+      "name": "fruitcake/laravel-cors"
+    },
+    "guzzlehttp/guzzle": {
+      "description": "Guzzle is a PHP HTTP client library",
+      "homepage": "",
+      "ico": "",
+      "name": "guzzlehttp/guzzle"
+    },
+    "intervention/image": {
+      "description": "PHP image manipulation",
+      "homepage": "",
+      "ico": "",
+      "name": "intervention/image"
+    },
+    "jaeger/querylist": {
+      "description": "Simple, elegant, extensible PHP Web Scraper (crawler/spider),Use the css3 dom selector,Based on phpQuery! 简洁、优雅、可扩展的PHP采集工具(爬虫)，基于phpQuery。",
+      "homepage": "http://querylist.cc/docs/guide/v4/overview",
+      "ico": "",
+      "name": "jaeger/querylist"
+    },
+    "laravel/framework": {
+      "description": "The Laravel Framework.",
+      "homepage": "",
+      "ico": "",
+      "name": "laravel/framework"
     },
     "laravel/laravel": {
-      "name": "",
-      "ico": "",
+      "description": "The skeleton application for the Laravel framework.",
+      "github": "laravel/laravel",
       "homepage": "",
-      "github": "",
-      "description": "",
-      "keywords": []
+      "ico": "",
+      "name": "laravel/laravel"
     },
     "laravel/lumen": {
-      "name": "",
-      "ico": "",
+      "description": "The Laravel Lumen Framework.",
       "homepage": "",
-      "github": "",
-      "description": "",
-      "keywords": []
+      "ico": "",
+      "name": "laravel/lumen"
+    },
+    "laravel/sail": {
+      "description": "Docker files for running a basic Laravel application.",
+      "homepage": "",
+      "ico": "",
+      "name": "laravel/sail"
+    },
+    "laravel/sanctum": {
+      "description": "Laravel Sanctum provides a featherweight authentication system for SPAs and simple APIs.",
+      "homepage": "",
+      "ico": "",
+      "name": "laravel/sanctum"
+    },
+    "laravel/tinker": {
+      "description": "Powerful REPL for the Laravel framework.",
+      "homepage": "",
+      "ico": "",
+      "name": "laravel/tinker"
+    },
+    "laravel/ui": {
+      "description": "Laravel UI utilities and presets.",
+      "homepage": "",
+      "ico": "",
+      "name": "laravel/ui"
+    },
+    "league/flysystem": {
+      "description": "File storage abstraction for PHP",
+      "homepage": "https://flysystem.thephpleague.com/docs/",
+      "ico": "",
+      "name": "league/flysystem"
+    },
+    "livewire/livewire": {
+      "description": "A front-end framework for Laravel.",
+      "homepage": "",
+      "ico": "",
+      "name": "livewire/livewire"
+    },
+    "mockery/mockery": {
+      "description": "Mockery is a simple yet flexible PHP mock object framework",
+      "homepage": "",
+      "ico": "",
+      "name": "mockery/mockery"
+    },
+    "monolog/monolog": {
+      "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+      "homepage": "",
+      "ico": "",
+      "name": "monolog/monolog"
+    },
+    "nikic/fast-route": {
+      "description": "Fast request router for PHP",
+      "homepage": "",
+      "ico": "",
+      "name": "nikic/fast-route"
+    },
+    "nunomaduro/collision": {
+      "description": "Cli error handling for console/command-line PHP applications.",
+      "homepage": "",
+      "ico": "",
+      "name": "nunomaduro/collision"
+    },
+    "nwidart/laravel-modules": {
+      "description": "Laravel Module management",
+      "homepage": "https://laravelmodules.com/",
+      "ico": "https://laravelmodules.com/favicon.ico",
+      "name": "nwidart/laravel-modules"
+    },
+    "owner888/phpspider": {
+      "description": "The PHPSpider Framework.",
+      "github": "owner888/phpspider",
+      "homepage": "https://doc.phpspider.org/",
+      "ico": "",
+      "name": "owner888/phpspider",
+      "storageIco": "gitbook.ico"
+    },
+    "phpmyadmin/sql-parser": {
+      "description": "A validating SQL lexer and parser with a focus on MySQL dialect.",
+      "homepage": "",
+      "ico": "",
+      "name": "phpmyadmin/sql-parser"
+    },
+    "phpoffice/phpspreadsheet": {
+      "description": "Read, Create and Write Spreadsheet documents in PHP - Spreadsheet engine",
+      "homepage": "https://phpspreadsheet.readthedocs.io/en/latest/",
+      "ico": "",
+      "name": "phpoffice/phpspreadsheet"
+    },
+    "phpunit/phpunit": {
+      "description": "The PHP Unit Testing framework.",
+      "homepage": "",
+      "ico": "",
+      "name": "phpunit/phpunit"
+    },
+    "ramsey/uuid": {
+      "description": "A PHP library for generating and working with universally unique identifiers (UUIDs).",
+      "homepage": "",
+      "ico": "",
+      "name": "ramsey/uuid"
+    },
+    "rmccue/requests": {
+      "description": "A HTTP library written in PHP, for human beings.",
+      "homepage": "",
+      "ico": "",
+      "name": "rmccue/requests"
+    },
+    "sebastian/environment": {
+      "description": "Provides functionality to handle HHVM/PHP environments",
+      "homepage": "",
+      "ico": "",
+      "name": "sebastian/environment"
+    },
+    "symfony/filesystem": {
+      "description": "Provides basic utilities for the filesystem",
+      "homepage": "",
+      "ico": "",
+      "name": "symfony/filesystem"
+    },
+    "symfony/var-dumper": {
+      "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+      "homepage": "symfony",
+      "ico": "",
+      "name": "symfony/var-dumper"
+    },
+    "twig/twig": {
+      "description": "Twig, the flexible, fast, and secure template language for PHP",
+      "homepage": "https://twig.symfony.com/",
+      "ico": "",
+      "name": "twig/twig"
+    },
+    "vlucas/phpdotenv": {
+      "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+      "homepage": "",
+      "ico": "",
+      "name": "vlucas/phpdotenv"
+    },
+    "wapmorgan/unified-archive": {
+      "description": "an archive manager with unified interface of working with all popular archive formats (zip/7z/rar/gz/bz2/xz/cab/tar/tar.gz/tar.bz2/tar.x/tar.Z/...) for PHP with ability for listing, reading, extracting and creation + built-in console archive manager.",
+      "homepage": "",
+      "ico": "",
+      "name": "wapmorgan/unified-archive"
+    },
+    "wazaari/monolog-mysql": {
+      "description": "A handler for Monolog that sends messages to MySQL",
+      "homepage": "",
+      "ico": "",
+      "name": "wazaari/monolog-mysql"
+    },
+    "zircote/swagger-php": {
+      "description": "Generate interactive documentation for your RESTful API using phpdoc annotations",
+      "homepage": "",
+      "ico": "",
+      "name": "zircote/swagger-php"
     }
   },
+  "contents": {},
+  "metas": {},
   "npm": {
     "": {
-      "name": "",
-      "ico": "",
-      "homepage": "",
-      "github": "",
       "description": "",
-      "keywords": []
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "main": "",
+      "module": "",
+      "name": ""
     },
-    "animate.css": {},
+    "npm-api": {
+      "description": "Node.js library for getting info from NPM’s API",
+      "github": "",
+      "homepage": "https://github.com/doowb/npm-api",
+      "ico": "",
+      "keywords": [
+        "api",
+        "base",
+        "downloads",
+        "maintainer",
+        "maintainers",
+        "npm",
+        "npm-api",
+        "package",
+        "repo",
+        "repos",
+        "repositories",
+        "repository"
+      ],
+      "main": "",
+      "module": "",
+      "name": ""
+    },
+    "express": {
+      "description": "Fast, unopinionated, minimalist web framework",
+      "github": "",
+      "homepage": "http://expressjs.com/",
+      "ico": "",
+      "keywords": [
+        "express",
+        "framework",
+        "sinatra",
+        "web",
+        "http",
+        "rest",
+        "restful",
+        "router",
+        "app",
+        "api"
+      ],
+      "main": "",
+      "module": "",
+      "name": ""
+    },
+    "@fortawesome/fontawesome-common-types": {
+      "description": "The iconic font, CSS, and SVG framework",
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "main": "",
+      "module": "",
+      "name": ""
+    },
+    "@fortawesome/fontawesome-free": {
+      "description": "The iconic font, CSS, and SVG framework",
+      "homepage": "",
+      "ico": "",
+      "name": "@fortawesome/fontawesome-free"
+    },
+    "@fortawesome/fontawesome-svg-core": {
+      "description": "The iconic font, CSS, and SVG framework",
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "main": "",
+      "module": "",
+      "name": ""
+    },
+    "@fortawesome/free-brands-svg-icons": {
+      "description": "The iconic font, CSS, and SVG framework",
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "main": "",
+      "module": "",
+      "name": ""
+    },
+    "@fortawesome/free-regular-svg-icons": {
+      "description": "The iconic font, CSS, and SVG framework",
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "main": "",
+      "module": "",
+      "name": ""
+    },
+    "@fortawesome/free-solid-svg-icons": {
+      "description": "The iconic font, CSS, and SVG framework",
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "main": "",
+      "module": "",
+      "name": ""
+    },
+    "ace-builds": {
+      "description": "Ace (Ajax.org Cloud9 Editor)",
+      "homepage": "",
+      "ico": "",
+      "name": "ace-builds"
+    },
+    "admin-lte": {
+      "description": "a fully responsive administration template. Based on Bootstrap 4.6 framework and also the JS/jQuery plugin. Highly customizable and easy to use.",
+      "homepage": "",
+      "ico": "",
+      "name": "admin-lte"
+    },
+    "animate.css": {
+      "description": "Just-add-water CSS animation",
+      "homepage": "",
+      "ico": "",
+      "name": "animate.css"
+    },
     "anime.js": {},
-    "bootstrap": {},
-    "jquery": {},
-    "less": {},
-    "normalize.css": {},
-    "react": {},
-    "sass": {},
-    "vue": {}
+    "animejs": {
+      "description": "JavaScript animation engine",
+      "homepage": "",
+      "ico": "",
+      "name": "animejs"
+    },
+    "autosize": {
+      "description": "Autosize is a small, stand-alone script to automatically adjust textarea height to fit text.",
+      "homepage": "",
+      "ico": "",
+      "name": "autosize"
+    },
+    "axios": {
+      "description": "Promise based HTTP client for the browser and node.js",
+      "homepage": "https://axios-http.com/",
+      "ico": "https://axios-http.com/assets/favicon.ico",
+      "name": "axios"
+    },
+    "bootstrap": {
+      "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
+      "github": "twbs/bootstrap",
+      "homepage": "https://www.bootcss.com/",
+      "ico": "https://www.bootcss.com/assets/favicons/favicon.ico",
+      "name": "bootstrap"
+    },
+    "bootstrap-icons": {
+      "description": "Official open source SVG icon library for Bootstrap with over 2,000 icons.",
+      "github": "twbs/icons",
+      "homepage": "https://icons.getbootstrap.com/",
+      "ico": "https://icons.getbootstrap.com/assets/img/favicons/favicon.ico",
+      "name": "bootstrap-icons"
+    },
+    "bootstrap-vue": {
+      "description": "With more than 85 components, over 45 available plugins, several directives, and 1000+ icons, BootstrapVue provides one of the most comprehensive implementations of the Bootstrap v4 component and grid system available for Vue.js v2.6, complete with extens",
+      "homepage": "",
+      "ico": "",
+      "name": "bootstrap-vue"
+    },
+    "chart.js": {
+      "description": "Simple HTML5 charts using the canvas element.",
+      "homepage": "",
+      "ico": "",
+      "name": "chart.js"
+    },
+    "codemirror": {
+      "description": "Basic configuration for the CodeMirror code editor",
+      "homepage": "https://codemirror.net/5/",
+      "ico": "",
+      "name": "codemirror"
+    },
+    "crypto-js": {
+      "description": "JavaScript library of crypto standards.",
+      "homepage": "",
+      "ico": "",
+      "name": "crypto-js"
+    },
+    "d3": {
+      "description": "a free, open-source JavaScript library for visualizing data.",
+      "homepage": "",
+      "ico": "",
+      "name": "d3"
+    },
+    "dplayer": {
+      "description": "a lovely HTML5 danmaku video player to help people build video and danmaku easily.",
+      "homepage": "",
+      "ico": "",
+      "name": "dplayer"
+    },
+    "echarts": {
+      "description": "Apache ECharts is a free, powerful charting and visualization library offering easy ways to add intuitive, interactive, and highly customizable charts to your commercial products.",
+      "homepage": "",
+      "ico": "",
+      "name": "echarts"
+    },
+    "element-ui": {
+      "description": "A Component Library for Vue.js.",
+      "homepage": "",
+      "ico": "",
+      "name": "element-ui"
+    },
+    "fancybox": {
+      "description": "a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages.",
+      "homepage": "",
+      "ico": "",
+      "name": "fancybox"
+    },
+    "font-awesome": {
+      "description": "The iconic font and CSS framework",
+      "homepage": "",
+      "ico": "",
+      "name": "font-awesome"
+    },
+    "fork-awesome": {
+      "description": "A fork of the iconic font and CSS framework",
+      "homepage": "",
+      "ico": "",
+      "name": "fork-awesome"
+    },
+    "gsap": {
+      "description": "a framework-agnostic JavaScript animation library that turns developers into animation superheroes. ",
+      "homepage": "",
+      "ico": "",
+      "name": "gsap"
+    },
+    "gulp": {
+      "description": "The streaming build system.",
+      "homepage": "",
+      "ico": "",
+      "name": "gulp"
+    },
+    "highlight.js": {
+      "description": "Syntax highlighting with language autodetection.",
+      "homepage": "",
+      "ico": "",
+      "name": "highlight.js"
+    },
+    "highlightjs-copy": {
+      "description": "A simple, accessible highlightjs plugin to add a copy button to your codeblocks.",
+      "homepage": "",
+      "ico": "",
+      "name": "highlightjs-copy"
+    },
+    "holderjs": {
+      "description": "Holder uses SVG to render image placeholders entirely in browser.",
+      "homepage": "",
+      "ico": "",
+      "name": "holderjs"
+    },
+    "iframe-resizer": {
+      "description": "This project has now been split into two separate packages. Please use '@iframe-resizer/parent' and '@iframe-resizer/child'. See https://iframe-resizer.com/upgrade for more details.",
+      "github": "",
+      "homepage": "https://iframe-resizer.com",
+      "ico": "",
+      "keywords": [
+        "iframe",
+        "Resizing",
+        "Resizer",
+        "resize",
+        "cross",
+        "same",
+        "domain",
+        "width",
+        "height",
+        "postMessage",
+        "mutationObserver",
+        "resizeObserver",
+        "RWD",
+        "CrossDomain",
+        "responsive",
+        "legacy"
+      ],
+      "main": "index.cjs.js",
+      "module": "index.esm.js",
+      "name": "iframe-resizer"
+    },
+    "ionicons": {
+      "description": "completely open-source icon set with 1,300 icons crafted for web, iOS, Android, and desktop apps.",
+      "homepage": "",
+      "ico": "",
+      "name": "ionicons"
+    },
+    "jquery": {
+      "description": "a fast, small, and feature-rich JavaScript library.",
+      "github": "jquery/jquery",
+      "homepage": "https://jquery.com/",
+      "ico": "https://jquery.com/favicon.ico",
+      "name": "jquery"
+    },
+    "lazyload": {
+      "description": "Vanilla JavaScript plugin for lazyloading images",
+      "homepage": "",
+      "ico": "",
+      "name": "lazyload"
+    },
+    "less": {
+      "description": "Leaner CSS",
+      "homepage": "",
+      "ico": "",
+      "name": "less"
+    },
+    "lodash": {
+      "description": "Lodash modular utilities.",
+      "homepage": "",
+      "ico": "",
+      "name": "lodash"
+    },
+    "markdown-it": {
+      "description": "Markdown-it - modern pluggable markdown parser.",
+      "homepage": "",
+      "ico": "",
+      "name": "markdown-it"
+    },
+    "masonry-layout": {
+      "description": "Cascading grid layout library",
+      "github": "desandro/masonry",
+      "homepage": "https://masonry.desandro.com/",
+      "ico": "https://masonry.desandro.com/favicon.ico",
+      "name": "masonry-layout"
+    },
+    "mathjax": {
+      "description": "Beautiful and accessible math in all browsers. MathJax is an open-source JavaScript display engine for LaTeX, MathML, and AsciiMath notation that works in all browsers. This package includes the packaged components (install mathjax-full to get the source",
+      "homepage": "",
+      "ico": "",
+      "name": "mathjax"
+    },
+    "mermaid": {
+      "description": "Markdown-ish syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs.",
+      "homepage": "https://mermaid.js.org/syntax/flowchart.html",
+      "ico": "",
+      "name": "mermaid"
+    },
+    "mockjs": {
+      "description": "生成随机数据 & 拦截 Ajax 请求",
+      "homepage": "",
+      "ico": "",
+      "name": "mockjs"
+    },
+    "moment": {
+      "description": "Parse, validate, manipulate, and display dates",
+      "homepage": "",
+      "ico": "",
+      "name": "moment"
+    },
+    "monaco-editor": {
+      "description": "A browser based code editor",
+      "homepage": "",
+      "ico": "",
+      "name": "monaco-editor"
+    },
+    "normalize.css": {
+      "description": "A modern alternative to CSS resets",
+      "homepage": "",
+      "ico": "",
+      "name": "normalize.css"
+    },
+    "perfect-scrollbar": {
+      "description": "Minimalistic but perfect custom scrollbar plugin",
+      "github": "mdbootstrap/perfect-scrollbar",
+      "homepage": "https://perfectscrollbar.com/",
+      "ico": "https://mdbootstrap.com/favicon.ico",
+      "localpage": "./perfect-scrollbar.html",
+      "name": "perfect-scrollbar"
+    },
+    "popper.js": {
+      "description": "Realtime Cross-Browser Automation",
+      "homepage": "",
+      "ico": "",
+      "name": "popper.js"
+    },
+    "react": {
+      "description": "a JavaScript library for creating user interfaces.",
+      "github": "facebook/react",
+      "homepage": "https://react.docschina.org/",
+      "ico": "https://react.docschina.org/favicon.ico",
+      "name": "react"
+    },
+    "react-bootstrap": {
+      "description": "Bootstrap 5 components built with React",
+      "homepage": "",
+      "ico": "",
+      "name": "react-bootstrap"
+    },
+    "requirejs": {
+      "description": "Node adapter for RequireJS, for loading AMD modules. Includes RequireJS optimizer",
+      "homepage": "",
+      "ico": "",
+      "name": "requirejs"
+    },
+    "rollup": {},
+    "sass": {
+      "description": "A pure JavaScript implementation of Sass.",
+      "homepage": "",
+      "ico": "",
+      "name": "sass"
+    },
+    "simple-icons": {
+      "description": "Over 3100 Free SVG icons for popular brands.",
+      "github": "simple-icons/simple-icons",
+      "homepage": "https://simpleicons.org/",
+      "ico": "https://simpleicons.org/images/favicon.ico",
+      "name": "simple-icons"
+    },
+    "simple-line-icons": {
+      "description": "Simple and elegant line icons.",
+      "homepage": "",
+      "ico": "",
+      "name": "simple-line-icons"
+    },
+    "three": {
+      "description": "JavaScript 3D library",
+      "homepage": "",
+      "ico": "",
+      "name": "three"
+    },
+    "typescript": {
+      "description": "TypeScript is a language for application scale JavaScript development",
+      "homepage": "",
+      "ico": "",
+      "name": "typescript"
+    },
+    "v-contextmenu": {
+      "description": "ContextMenu based on Vue 2.0",
+      "homepage": "",
+      "ico": "",
+      "name": "v-contextmenu"
+    },
+    "vanilla-lazyload": {
+      "description": "LazyLoad is a lightweight (2.4 kB) and flexible script that speeds up your web application by deferring the loading of your below-the-fold images, videos and iframes to when they will enter the viewport. It's written in plain \"vanilla\" JavaScript, it leve",
+      "homepage": "",
+      "ico": "",
+      "name": "vanilla-lazyload"
+    },
+    "vant": {
+      "description": "A lightweight, customizable Vue UI library for mobile web apps.",
+      "homepage": "",
+      "ico": "",
+      "name": "vant"
+    },
+    "video.js": {
+      "description": "An HTML5 video player that supports HLS and DASH with a common API and skin.",
+      "homepage": "",
+      "ico": "",
+      "name": "video.js"
+    },
+    "vue": {
+      "description": "a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
+      "github": "vuejs/vue",
+      "homepage": "https://cn.vuejs.org/",
+      "ico": "",
+      "name": "vue",
+      "storageIco": "vuejs.ico"
+    },
+    "vue-router": {
+      "description": "Vue Router is part of the Vue Ecosystem and is an MIT-licensed open source project with its ongoing development made possible entirely by the support of Sponsors.",
+      "homepage": "",
+      "ico": "",
+      "name": "vue-router"
+    },
+    "vuex": {
+      "description": "state management for Vue.js",
+      "homepage": "",
+      "ico": "",
+      "name": "vuex"
+    },
+    "webpack": {}
   },
   "pypi": {
     "": {
-      "name": "",
-      "ico": "",
-      "homepage": "",
-      "github": "",
       "description": "",
-      "keywords": []
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "name": ""
     }
   },
   "ruby": {
     "": {
-      "name": "",
-      "ico": "",
-      "homepage": "",
-      "github": "",
       "description": "",
-      "keywords": []
+      "github": "",
+      "homepage": "",
+      "ico": "",
+      "keywords": [],
+      "name": ""
+    },
+    "github-pages": {
+      "description": "Bootstrap the GitHub Pages Jekyll environment locally.",
+      "homepage": "",
+      "ico": "",
+      "name": "github-pages"
+    },
+    "github-pages-health-check": {
+      "description": "Checks your GitHub Pages site for commons DNS configuration issues.",
+      "homepage": "",
+      "ico": "",
+      "name": "github-pages-health-check"
+    },
+    "html-pipeline": {
+      "description": "HTML processing filters and utilities",
+      "homepage": "",
+      "ico": "",
+      "name": "html-pipeline"
+    },
+    "jekyll": {
+      "description": "a simple, blog aware, static site generator.",
+      "homepage": "http://jekyllcn.com/",
+      "ico": "",
+      "name": "jekyll"
+    },
+    "jekyll-avatar": {
+      "description": "A Jekyll plugin for rendering GitHub avatars",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-avatar"
+    },
+    "jekyll-coffeescript": {
+      "description": "A CoffeeScript converter for Jekyll.",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-coffeescript"
+    },
+    "jekyll-commonmark-ghpages": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-commonmark-ghpages"
+    },
+    "jekyll-default-layout": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-default-layout"
+    },
+    "jekyll-feed": {
+      "description": "A Jekyll plugin to generate an Atom feed of your Jekyll posts",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-feed"
+    },
+    "jekyll-get-json": {
+      "description": "Import remote JSON data into the data for a Jekyll site",
+      "github": "brockfanning/jekyll-get-json",
+      "homepage": "https://www.rubydoc.info/gems/jekyll-get-json",
+      "ico": "",
+      "name": "jekyll-get-json",
+      "storageIco": "rubydoc.ico"
+    },
+    "jekyll-gist": {
+      "description": "Liquid tag for displaying GitHub Gists in Jekyll sites.",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-gist"
+    },
+    "jekyll-github-metadata": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-github-metadata"
+    },
+    "jekyll-include-cache": {
+      "description": "A Jekyll plugin to cache the rendering of Liquid includes",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-include-cache"
+    },
+    "jekyll-mentions": {
+      "description": "@mention support for your Jekyll site",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-mentions"
+    },
+    "jekyll-optional-front-matter": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-optional-front-matter"
+    },
+    "jekyll-paginate": {
+      "description": "Built-in Pagination Generator for Jekyll",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-paginate"
+    },
+    "jekyll-readme-index": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-readme-index"
+    },
+    "jekyll-redirect-from": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-redirect-from"
+    },
+    "jekyll-relative-links": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-relative-links"
+    },
+    "jekyll-remote-theme": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-remote-theme"
+    },
+    "jekyll-sass-converter": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-sass-converter"
+    },
+    "jekyll-seo-tag": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-seo-tag"
+    },
+    "jekyll-sitemap": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-sitemap"
+    },
+    "jekyll-swiss": {
+      "description": "A bold typographic theme for Jekyll, inspired by Swiss design.",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-swiss"
+    },
+    "jekyll-theme-architect": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-architect"
+    },
+    "jekyll-theme-cayman": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-cayman"
+    },
+    "jekyll-theme-dinky": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-dinky"
+    },
+    "jekyll-theme-hacker": {
+      "description": "Hacker is a Jekyll theme for GitHub Pages",
+      "github_repo": "hacker",
+      "github_user": "pages-themes",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-hacker"
+    },
+    "jekyll-theme-leap-day": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-leap-day"
+    },
+    "jekyll-theme-merlot": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-merlot"
+    },
+    "jekyll-theme-midnight": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-midnight"
+    },
+    "jekyll-theme-minimal": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-minimal"
+    },
+    "jekyll-theme-modernist": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-modernist"
+    },
+    "jekyll-theme-primer": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-primer"
+    },
+    "jekyll-theme-slate": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-slate"
+    },
+    "jekyll-theme-tactile": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-tactile"
+    },
+    "jekyll-theme-time-machine": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-theme-time-machine"
+    },
+    "jekyll-titles-from-headings": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jekyll-titles-from-headings"
+    },
+    "jemoji": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "jemoji"
+    },
+    "kramdown": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "kramdown"
+    },
+    "kramdown-parser-gfm": {
+      "description": "kramdown-parser-gfm provides a kramdown parser for the GFM dialect of Markdown",
+      "homepage": "",
+      "ico": "",
+      "name": "kramdown-parser-gfm"
+    },
+    "liquid": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "liquid"
+    },
+    "minima": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "minima"
+    },
+    "nokogiri": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "nokogiri"
+    },
+    "rouge": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "rouge"
+    },
+    "ruby": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "ruby"
+    },
+    "safe_yaml": {
+      "description": "Parse YAML safely",
+      "homepage": "",
+      "ico": "",
+      "name": "safe_yaml"
+    },
+    "sass": {
+      "description": "",
+      "homepage": "",
+      "ico": "",
+      "name": "sass"
     }
   }
 }
